@@ -15,8 +15,8 @@ posting comments or questions as GitHub issues. General questions can
 go to this repo, and issues specific to parts of the specification can
 go to the [Specification repo].
 
-[oneAPI Specification]:[https://spec.oneapi.io]
-[Specification repo]:[https://github.com/oneapi-src/oneapi-spec]
+[oneAPI Specification](https://spec.oneapi.io)
+[Specification repo](https://github.com/oneapi-src/oneapi-spec)
 
 Special Interest Groups (SIGs)
 ------------------------------
@@ -46,7 +46,7 @@ The SIGS were previously running under the oneAPI Community
 Forum and previous meeting notes can be found on the [archived 
 repository].
 
-[archived repository]:[https://github.com/oneapi-src/oneAPI-tab]
+[archived repository](https://github.com/oneapi-src/oneAPI-tab)
 
 Upcoming Meetings
 -----------------
@@ -59,4 +59,4 @@ Upcoming Meetings
 | 20 September 2023, 9am-10am US Central Time | Math SIG | Virtual | [Contact] |
 | 21 September 2023, 10am-11am US Central Time | Image SIG | Virtual | [Contact] |
 
-[Contact]:[mailto:membership@uxlfoundation.com]
+[Contact](mailto:membership@uxlfoundation.com)
