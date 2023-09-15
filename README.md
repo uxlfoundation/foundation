@@ -55,4 +55,4 @@ Upcoming Meetings
 | 20 September 2023, 9am-10am US Central Time | Math SIG | Virtual |
 | 21 September 2023, 10am-11am US Central Time | Image SIG | Virtual |
 
-[Contact us to join the SIGs]:(mailto:membership@uxlfoundation.com)
+[Contact us to join the SIGs](mailto:membership@uxlfoundation.com)
