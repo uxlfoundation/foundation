@@ -16,6 +16,9 @@ issues. General questions can go to this repo, and issues specific
 to parts of the specification can go to the 
 [Specification repo](https://github.com/oneapi-src/oneapi-spec).
 
+The public calendar of UXL Foundation meetings is available using 
+[Google Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_4ac0186e0f9fc4e7243574437efd3e3383420e2318ce77aee1e0343706f5c936@group.calendar.google.com&ctz=America/New_York).
+
 Special Interest Groups (SIGs)
 ------------------------------
 
