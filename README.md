@@ -19,6 +19,9 @@ to parts of the specification can go to the
 The public calendar of UXL Foundation meetings is available using 
 [Google Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_4ac0186e0f9fc4e7243574437efd3e3383420e2318ce77aee1e0343706f5c936@group.calendar.google.com&ctz=America/New_York).
 
+Anyone can sign up to the mailing lists for the Working Groups 
+and Special Interest Groups [here](https://lists.uxlfoundation.org/groups).
+
 Special Interest Groups (SIGs)
 ------------------------------
 
@@ -50,6 +53,9 @@ repository](https://github.com/oneapi-src/oneAPI-tab).
 Upcoming Meetings
 -----------------
 
+The public calendar of UXL Foundation meetings is available using 
+[Google Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_4ac0186e0f9fc4e7243574437efd3e3383420e2318ce77aee1e0343706f5c936@group.calendar.google.com&ctz=America/New_York).
+
 | Date | Meeting Type | Location |
 |------|--------------|----------|
 | 19 September 2023, 10am-11am US Central Time | Language SIG | Virtual |
@@ -58,4 +64,5 @@ Upcoming Meetings
 | 20 September 2023, 9am-10am US Central Time | Math SIG | Virtual |
 | 21 September 2023, 10am-11am US Central Time | Image SIG | Virtual |
 
-[Contact us to join the SIGs](mailto:membership@uxlfoundation.com)
+[Join the mailing lists for details of how to join the SIGs](https://lists.uxlfoundation.org/groups)
+[Contact us](mailto:membership@uxlfoundation.com) with any questions about membership.
