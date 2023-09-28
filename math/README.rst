@@ -13,3 +13,6 @@ overall design features like the execution model, memory model,
 or error handling.
 
 The Math SIG is led by Sarah Knepper (Intel).
+
+Archived meeting notes from meetings held under the oneAPI 
+Community Forum can be found [here](https://github.com/oneapi-src/oneAPI-tab/tree/main/math)

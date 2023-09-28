@@ -10,3 +10,6 @@ implementations can contribute to the ISO C++ and SYCL
 specifications managed by ISO and Khronos.
 
 The language TAB is led by Ruyman Reyes Castro <ruyman@codeplay.com>
+
+Archived meeting notes from meetings held under the oneAPI 
+Community Forum can be found [here](https://github.com/oneapi-src/oneAPI-tab/tree/main/language)
