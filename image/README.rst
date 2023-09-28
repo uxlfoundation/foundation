@@ -98,5 +98,7 @@ Upcoming Meetings
 The next Image SIG will be held on December 14, 2023, from 10am to 11am CST.
 
 Archived meeting notes from meetings held under the oneAPI 
-Community Forum can be found [here](https://github.com/oneapi-src/oneAPI-tab/tree/main/image)
+Community Forum can be found `here`_
+
+.. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/image
 
