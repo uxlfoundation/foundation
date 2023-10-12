@@ -58,7 +58,7 @@ The public calendar of UXL Foundation meetings is available using
 
 | Date | Meeting Type | Location |
 |------|--------------|----------|
-| 19 September 2023, 10am-11am US Central Time | Language SIG | Virtual |
+| 7 November 2023, 10am-11am US Central Time | Language SIG | Virtual |
 | TBD, 9am-10am Central Time | Hardware SIG | Virtual |
 | TBD, 8am-9:30am US Central Time | AI SIG | Virtual |
 | 20 September 2023, 9am-10am US Central Time | Math SIG | Virtual |
