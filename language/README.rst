@@ -7,7 +7,9 @@ how to integrate a broad range of languages to support oneAPI.
 The languages at the heart of oneAPI are C++ and SYCL. This
 group discusses how work done within the oneAPI open source
 implementations can contribute to the ISO C++ and SYCL
-specifications managed by ISO and Khronos.
+specifications managed by ISO and Khronos respectively.
+
+The SIG does not discuss the design of SYCL APIs, just general feedback.
 
 The language SIG is led by Ruyman Reyes Castro <ruyman@codeplay.com>
 
@@ -15,6 +17,79 @@ Archived meeting notes from meetings held under the oneAPI
 Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/language
+
+2023-11-07 SYCL-Graphs
+=======================
+
+`Slides <presentation/2023-09-19-EC-sycl-graph.pdf>`
+`Demo video <presentation/2023-09-19-EC-sycl-graph-demo.mp4>`
+
+
+* SYCL Graph extension has been ongoing for a year
+* Started as two separate implementations from Codeplay and Intel
+* Merged onto one after intense collaboration
+* Link to document and status
+* There is a new command graph object that can be on two states
+* The state goes from modifable to complete
+* Presents a Saxpy example init and compute nodes
+* you can record and reply a queue as they execute
+* you can also use an explicit API
+* Presented in IWOCL
+* Since then evolving, discovered an issue with buffer lifetime
+* New property that forces uses to accept buffer - not ideal
+* Extend buffer lifetimes (not implemented)
+* Need to take a copy of the host buffer to ensure is not lost
+* Working on implementation and feedback
+* Implementation status, shows overall graph architecture
+* There is a command buffer extension API to Unified Runtime
+* Loosely based on OpenCL extension
+* Implemented to CUDA and Level Zero backends
+* CUDA merged November 2023 on intel/llvm repo
+* OpenCL backend in progress
+* HIP implementation has not started
+* Describes implementation details
+* Some features are not supported, e.g. host task
+* It is complicated to figure out how extensions interact with each other
+* Potentially any extension can be used
+* In practise only enqueue barrier is supported
+* oneDNN demo based on 3.3 release with a modified example of a cnn
+* Shows recorded demo with minimal modification
+* Runs on level zero
+* Future work: Still work to complete the current speciciation
+* Profiling is still missing, needs more work
+* As more users stress the implementation there will be bugs and corner cases
+* CUDA-Graph differences: transitive stream/queue capture
+* Update arguments to graph nodes: modify an argument without re-creating
+* Not supported on LZ
+* Graph owned memory allocation
+* Device Model: Can we have a graph object with multiple devices?
+* Can this work across backends even? 
+* Currently submission is driven by queues, associated to single device
+* Opposite direction: Create a graph without a device
+* SYCL-specific features: buffer lifetimes, scheduling, multiple graph
+* Graph fusion which combines the SYCL Kernel fusion proposal
+* Still implementation pending
+
+QA: transitive stream, 
+when we record it has not happened - 
+
+QA: Graph memory allocation
+
+
+RonanK:  Buffer lifetime - there is some UB on the buffer, 
+collaboration opportunity. Discuss with Greg Lueck
+
+RonanK: Start and End recording is very stateful and does
+not fully represent the spirit of C++
+On SYCL SC we have proposals using tokens for that
+Recording token when the token is destructed then you stop recording
+If you have an exception is not safe when using being/end recording
+so is not very C++ safe.
+EC: Will link internally this was discussed before but we may have to
+repeat
+Pablo: We are actively working on the interface with customers and
+we are always open to have more feedback.
+
 
 2023-09-19
 =============
