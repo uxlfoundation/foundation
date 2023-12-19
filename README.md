@@ -68,6 +68,6 @@ The public calendar of UXL Foundation meetings is available using
 | Jan 31 2024, 9am-10am US Central Time | Math SIG | Virtual |
 | 28 February 2024, 9am-10am Central Time | Safety Critical SIG | Virtual |
 
-[Join the mailing lists for details of how to join the SIGs](https://lists.uxlfoundation.org/groups)
+[Join the relevant mailing list to receive an invite for the SIGs](https://lists.uxlfoundation.org/groups)
 
 [Contact us](mailto:membership@uxlfoundation.com) with any questions about membership.
