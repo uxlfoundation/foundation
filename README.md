@@ -46,6 +46,9 @@ the oneAPI specification.
   integration of hardware and how this is defined in the oneAPI
   specification.
 
+* `Safety Critical` - This group covers topics related to the
+  use of UXL Foundation projects in safety critical applications.
+
 The SIGS were previously running under the oneAPI Community 
 Forum and previous meeting notes can be found on the [archived 
 repository](https://github.com/oneapi-src/oneAPI-tab).
@@ -58,11 +61,12 @@ The public calendar of UXL Foundation meetings is available using
 
 | Date | Meeting Type | Location |
 |------|--------------|----------|
-| 7 November 2023, 10am-11am US Central Time | Language SIG | Virtual |
-| 30th November 2023, 9am-10am Central Time | Hardware SIG | Virtual |
-| 25 October 2023, 9am-10am US Central Time | AI SIG | Virtual |
-| 25 October 2023, 9am-10am US Central Time | Math SIG | Virtual |
-| 14 December 2023, 09am-10am US Central Time | Image SIG | Virtual |
+| 14 March 2024, 9am-10am US Central Time | AI SIG | Virtual |
+| 15 February 2024, 9am-10am Central Time | Hardware SIG | Virtual |
+| 20 March 2024, 9am-10am US Central Time | Image SIG | Virtual |
+| 6 February 2024, 10am-11am US Central Time | Language SIG | Virtual |
+| Jan 31 2024, 9am-10am US Central Time | Math SIG | Virtual |
+| 28 February 2024, 9am-10am Central Time | Safety Critical SIG | Virtual |
 
 [Join the mailing lists for details of how to join the SIGs](https://lists.uxlfoundation.org/groups)
 
