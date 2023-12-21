@@ -22,6 +22,15 @@ The public calendar of UXL Foundation meetings is available using
 Sign up to the mailing lists for the Working Groups and Special 
 Interest Groups (SIGs) [here](https://lists.uxlfoundation.org/groups).
 
+Steering Committee
+------------------
+
+Steering Members can be represented at the Steering Committee meetings.
+The minutes for these meetings are stored [here](/steering-committee).
+
+When relevant a monthly status update for the foundation is published 
+[here](/monthly-status).
+
 Special Interest Groups (SIGs)
 ------------------------------
 
