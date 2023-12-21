@@ -37,9 +37,6 @@ the oneAPI specification.
 * `Math` - This groups covers topics related to math
   operations.
 
-* `Image` - This groups covers topics related to image
-  processing operations.
-
 * `AI` - This group covers topics related to AI operations.
 
 * `Hardware` - This group covers topics related to the
@@ -63,7 +60,6 @@ The public calendar of UXL Foundation meetings is available using
 |------|--------------|----------|
 | 14 March 2024, 9am-10am US Central Time | AI SIG | Virtual |
 | 15 February 2024, 9am-10am Central Time | Hardware SIG | Virtual |
-| 20 March 2024, 9am-10am US Central Time | Image SIG | Virtual |
 | 6 February 2024, 10am-11am US Central Time | Language SIG | Virtual |
 | Jan 31 2024, 9am-10am US Central Time | Math SIG | Virtual |
 | 28 February 2024, 9am-10am Central Time | Safety Critical SIG | Virtual |
