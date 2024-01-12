@@ -53,7 +53,7 @@ the oneAPI specification.
   specification.
 
 * `Safety Critical` - This group covers topics related to the
-  use of UXL Foundation projects in safety critical applications.
+  use of UXL Foundation projects in safety critical systems.
 
 The SIGS were previously running under the oneAPI Community 
 Forum and previous meeting notes can be found on the [archived 
