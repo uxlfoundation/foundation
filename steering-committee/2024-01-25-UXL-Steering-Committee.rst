@@ -3,6 +3,7 @@ UXL Foundation Steering Committee Meeting 11th Jan 2024
 =======================================================
 
 Attendees
+
 * Rod Burns (Codeplay) Chairperson
 * Robert Cohn (Intel)
 * Vinesh Sukumar (Qualcomm)
@@ -15,6 +16,7 @@ Attendees
 * Alison Richards (Intel)
 
 Agenda
+
 * Google Summer of Code
 * Foundation Goals and Metrics for 2024
 * Marketing goals and metrics for 2024
@@ -87,12 +89,13 @@ engaging on project RFCs
 Metric: A health checklist for the foundation would be used
 
 Comments from the committee:
+
 * Would like to see something that measures the number of samples or 
-applications available for the UXL projects.
+  applications available for the UXL projects.
 * To measure adoption we could track mentions/articles/applications
 * Would like to track individual projects mentioned and used
 * Can we track the number of supercomputers and clusters using the 
-UXL projects and DPC++?
+  UXL projects and DPC++?
 
 Aim to share an updated version for offline discussion and approve 
 at the next Steering Committee meeting for publication in full.
@@ -105,11 +108,11 @@ Alison Richards presented the marketing goals for 2024.
 At a high level these focus on:
 
 * Building awareness of the foundation projects and activities 
-through events, papers and online activities
+  through events, papers and online activities
 * Collaborating with key organisations, projects and communities 
-to expand the UXL Foundation community
+  to expand the UXL Foundation community
 * Getting the community to advocate and tell the world about the 
-UXL Foundation
+  UXL Foundation
 
 Members of the Steering Committee were asked for their commitment to 
 activities throughout the year including speaking and articles such 
