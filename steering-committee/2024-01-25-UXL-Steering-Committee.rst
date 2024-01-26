@@ -5,7 +5,6 @@ UXL Foundation Steering Committee Meeting 11th Jan 2024
 Attendees
 
 * Rod Burns (Codeplay) Chairperson
-* Robert Cohn (Intel)
 * Vinesh Sukumar (Qualcomm)
 * Andrew Wafaa (Arm)
 * Dave Murray (Imagination Technologies)
