@@ -76,4 +76,4 @@ The public calendar of UXL Foundation meetings is available using
 
 [Join the relevant mailing list to receive an invite for the SIGs](https://lists.uxlfoundation.org/groups)
 
-[Contact us](mailto:membership@uxlfoundation.com) with any questions about membership.
+[Contact us](mailto:membership@uxlfoundation.org) with any questions about membership.
