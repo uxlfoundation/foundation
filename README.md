@@ -10,10 +10,10 @@ More information can be found at http://www.uxlfoundation.org.
 
 The community is invited to join the meetings, review the [oneAPI
 Specification](https://spec.oneapi.io), and read the information 
-in this repo. Contributions can be made by joining the Special 
-Interest Groups (SIGs) or posting comments or questions as GitHub 
-issues. General questions can go to this repo, and issues specific 
-to parts of the specification can go to the 
+in this repo. Contributions can be made by joining the Working Groups, 
+Special Interest Groups (SIGs) or posting comments or questions as 
+GitHub issues. General questions can go to this repo, and issues 
+specific to parts of the specification can go to the 
 [Specification repo](https://github.com/oneapi-src/oneapi-spec).
 
 The public calendar of UXL Foundation meetings is available using 
@@ -31,18 +31,36 @@ The minutes for these meetings are stored [here](/steering-committee).
 When relevant a monthly status update for the foundation is published 
 [here](/monthly-status).
 
+Working Groups
+--------------
+
+Working Groups meet regularly to organize community proposals and
+contributions to the specification and open source projects. These 
+groups will define work packages for areas of development and 
+collaboration.
+
+* `Specification` - This group focuses on development of the 
+  specification.
+  
+* `Open Source` - This group focuses on development of the open 
+  source projects that form part of the foundation.
+
+Meeting minutes can be found in the relevant folder in this 
+repository.
+
 Special Interest Groups (SIGs)
 ------------------------------
 
 SIGs host regular meetings to organize community proposals and
 contributions to the oneAPI specification. They also act as a bridge
 between the community and developers working on implementations of
-the oneAPI specification.
+the oneAPI specification. Meeting minutes can be found in the 
+relevant folder in this repository.
 
 * `Language` - This group covers topics related to
   language implementations that integrate with the oneAPI
   specification.
-
+  
 * `Math` - This groups covers topics related to math
   operations.
 
@@ -67,13 +85,14 @@ The public calendar of UXL Foundation meetings is available using
 
 | Date | Meeting Type | Location |
 |------|--------------|----------|
+| 27 Feb 2024, 9am-10am US Central Time | Open Source Working Group | Virtual |
+| 28 Feb 2024, 9am-10am US Central Time | Safety Critical SIG | Virtual |
+| 13 March 2024, 9am-10am US Central Time | Marketing Committee | Virtual |
 | 14 March 2024, 9am-10am US Central Time | AI SIG | Virtual |
-| 15 February 2024, 9am-10am US Central Time | Hardware SIG | Virtual |
-| 6 February 2024, 10am-11am US Central Time | Language SIG | Virtual |
-| Jan 31 2024, 9am-10am US Central Time | Math SIG | Virtual |
-| 28 February 2024, 9am-10am US Central Time | Safety Critical SIG | Virtual |
-| 10 January 2024, 9am-10am US Central Time | Marketing Committee | Virtual |
+| 26 Mar 2024, 9am-10am US Central Time | Open Source Working Group | Virtual |
+| 24 Apr 2024, 9am-10am US Central Time | Math SIG | Virtual |
+| 7 May 2024, 9am-10am US Central Time | Language SIG | Virtual |
 
-[Join the relevant mailing list to receive an invite for the SIGs](https://lists.uxlfoundation.org/groups)
+[Join the relevant mailing list to receive an invite for the Working Groups and SIGs](https://lists.uxlfoundation.org/g/main)
 
 [Contact us](mailto:membership@uxlfoundation.org) with any questions about membership.
