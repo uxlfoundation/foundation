@@ -93,6 +93,6 @@ The public calendar of UXL Foundation meetings is available using
 | 24 Apr 2024, 9am-10am US Central Time | Math SIG | Virtual |
 | 7 May 2024, 9am-10am US Central Time | Language SIG | Virtual |
 
-[Join the relevant mailing list to receive an invite for the Working Groups and SIGs](https://lists.uxlfoundation.org/groups)
+[Join the relevant mailing list to receive an invite for the Working Groups and SIGs](https://lists.uxlfoundation.org/g/main)
 
 [Contact us](mailto:membership@uxlfoundation.org) with any questions about membership.
