@@ -27,29 +27,29 @@ The metrics will help to set a baseline.
    * - Number Steering Members
      - 8
      - 8
-	 - 
-	 - 
-	 - 
-	 - 
-	 - 
-	 - 
-	 - 
-	 - 
-	 - 
-	 - 
+	 - /
+	 - /
+	 - /
+	 - /
+	 - /
+	 - /
+	 - /
+	 - /
+	 - /
+	 - /
    * - Number of General Members
      - 0
      - 0
-	 - 
-	 - 
-	 - 
-	 - 
-	 - 
-	 - 
-	 - 
-	 - 
-	 - 
-	 - 
+	 - /
+	 - /
+	 - /
+	 - /
+	 - /
+	 - /
+	 - /
+	 - /
+	 - /
+	 - /
  
 
 	 
