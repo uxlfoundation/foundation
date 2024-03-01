@@ -21,7 +21,7 @@ Community Forum can be found `here`_
 2024-02-06 Numba-dpex
 =====================
 
-`Slides <presentation/2024-02-06-numba.pdf>`
+`Slides <presentations/2024-02-06-numba.pdf>`__
 
 Attendees:
 
@@ -54,18 +54,26 @@ Notes:
 * Python developers want to write python code
 * You can list platforms and select devices
 * Supports dpctl backend (but using custom build)
-Q: How is the memory allocation happening? is it per call?
-A: Memory is allocated (using USM) on the convert functions. Explicit copies.
+
+    Q: How is the memory allocation happening? is it per call?
+
+    A: Memory is allocated (using USM) on the convert functions. Explicit copies.
+
 * numba-dpex is a JIT compiler for a SYCL-like kernel programming API
 * extends the existing structure
 * Performance-wise, still numpy-dpex is not on par with dpcpp
 * Everything is Open source, and works on all Intel GPUs
 * Expected a Production grade kernel API on upcoming releases
 * Available on conda and pip, easily to use for python community
-Q: Any support for multiple gpus?
-A: No, exploring how that would work
-Q: Do we have performance comparisons for NVIDIA platforms?
-A: Numba.cuda exists but no SYCL on cuda support out of the box
+
+    Q: Any support for multiple gpus?
+
+    A: No, exploring how that would work
+
+    Q: Do we have performance comparisons for NVIDIA platforms?
+
+    A: Numba.cuda exists but no SYCL on cuda support out of the box
+
 * No comparisons so far between the two backends
 
 2023-11-07 SYCL-Graphs
