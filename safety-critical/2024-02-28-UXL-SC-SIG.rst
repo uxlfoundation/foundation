@@ -1,0 +1,52 @@
+========================================================
+UXL Foundation Safety Critital SIG Meeting 28th Feb 2024
+========================================================
+
+Attendees
+
+* Verena Beckham (Codeplay) Chairperson
+* Aharon Abramson (Mobileye)
+* Jory Burson (Linux Foundation)
+* David Higham (Codasip)
+* Ronan Keryell (AMD)
+* Peter Papadatos (CoreAVI)
+* Alex Pim (Imagination)
+* Erik Tomusk (Codeplay)
+* Daniel Tuchscherer (Bosch)
+* Michael Wong (Codeplay)
+* Roman Zhukov (Intel)
+
+Agenda
+
+* Introduction the UXL Foundation
+* Introduction to this SIG
+* Relationship to other groups
+* Round of introductions
+* Next steps for the SIG
+
+
+General
+-------
+
+Verena presented a slide deck (in the 'presentations' folder).
+
+Round of introductions
+----------------------
+
+Noted member interest in:
+
+* How to implement the specification in a certifiable way
+* Roadmap
+* Clear strategy for qualification/certification
+* Cost of qualification/certification
+* Cost of porting legacy code
+* Security, integrated with Safety
+* Consensus on out-of-context approach
+* Safety requirements
+* Safety analysis
+* Fragments of safety argumentation
+
+Next steps for the SIG
+----------------------
+
+Discussion to be continued on the mailing list.
