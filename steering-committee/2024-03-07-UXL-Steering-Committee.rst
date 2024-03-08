@@ -30,7 +30,7 @@ General
 * Open Source Working Group met last week
   * A new Security work package was kicked off
   * The results of the open source project health checklist were 
-    discussed and follow on work packages will be formed
+  discussed and follow on work packages will be formed
 * Project teams are aware of the Slack channels and are planning on 
   how best to use them for day to day discussions
 
