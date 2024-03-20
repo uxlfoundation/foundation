@@ -68,7 +68,7 @@ Attendees
 
 
 Agenda 
-Low precision computing for large language model (LLM) inference, Jiong Gong, Intel  (`slides <20231025-UXL-Low-precision-Optimization-for-LLM_JiongGong.pdf>`__)
+Low precision computing for large language model (LLM) inference, Jiong Gong, Intel  (`slides <presentations/20231025-UXL-Low-precision-Optimization-for-LLM_JiongGong.pdf>`__)
 
 Question: How UXL can help to accelerate Pytorch regarding the large language model inference?  
 
