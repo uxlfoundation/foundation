@@ -6,7 +6,7 @@ AI Special Interest Group Meeting Notes
 ==========
 Attendees
 
-*Chen, Chao	    (Intel) 
+* Chen, Chao	    (Intel) 
 *Jain, Abhishek	(Fujitsu)
 *G B, Rakshith	(Fujitsu)
 *Zhong, Ruijie	(Intel)
