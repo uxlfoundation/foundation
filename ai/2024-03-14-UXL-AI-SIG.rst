@@ -9,8 +9,8 @@ Attendees
 
 Agenda - 
  
-* Enabling oneDAL on ARM target    Chandan Sharma (slides <presentations/20240314-UXL-oneDAL-ARM-SVE-Enablement_ChandanSharma.pdf>)
-* oneDNN overview and update       Mourad Gouicem (slides <presentations/20240314-UXL-oneDNN-Overview-And-Developments_MouradGouicem.pptx>)
+* Enabling oneDAL on ARM target    Chandan Sharma (slides `<presentations/20240314-UXL-oneDAL-ARM-SVE-Enablement_ChandanSharma.pdf>`__)
+* oneDNN overview and update       Mourad Gouicem (slides `<presentations/20240314-UXL-oneDNN-Overview-And-Developments_MouradGouicem.pptx>`__)
 * Discussion (motivation, expectation, future topics) 
 
 Question: Fujitsu extended oneDAL to use OpenBLAS library to enable ARM target.  oneDAL uses private MKL interface.  Will oneDAL use public MKL interface? 
