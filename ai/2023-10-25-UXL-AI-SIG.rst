@@ -1,0 +1,75 @@
+=========================================
+AI Special Interest Group Meeting Notes
+=========================================
+
+2023-10-25
+==========
+Attendees
+
+Chen, Chao	Intel 
+Jain, Abhishek	Fujitsu
+G B, Rakshith	Fujitsu
+Zhong, Ruijie	Intel
+Tang, Kaihui	Intel
+Chang, Liangliang	Intel
+Gong, Jiong	Intel
+Razumovskiy, Sergey	Intel
+Liu, Yucheng	Intel
+Yu, Guanbao	Intel
+Lu, Teng	Intel
+Tsai, Louie	Intel
+Hajela, Ragesh	Fujitsu
+Kevan Ahmadi	Imgtec
+Nair, Abhishek	Fujitsu
+Sharma, Priyanka	Fujitsu
+Wang, Zhitao	Intel
+Safonov, Igor	Intel
+Richards, Alison L	Intel
+Frank Brill	Cadence
+Andrew Richards	Codeplay
+Zheng, Jiexin	Intel
+Yang, Qun	Intel
+Wang, Chuanqi	Intel
+Cheng H. Lee	
+Lesniak, Artur	Intel
+Soto Flores, Manuel	Intel
+Czeszun, Tomasz	Intel
+Liu, Yi4	Intel
+Lv, Tao A	Intel
+Rod Burns	Codeplay
+Penporn Koanantakool (Google)	
+Gabb, Henry A	Intel
+Sunita	
+Ean Mikale	
+Chang, Hanwen	Intel
+Shahneous Bari, Md Abdullah	Intel
+Mehdi Goli	Codeplay
+Lu, Yintong	Intel
+Manerikar, Ankit V	Intel
+Gu, Yonghao	Intel
+Goto, Kazushige	Intel
+Zhu, Yishan	Intel
+Patel, Ajay kumar	Fujitsu
+Cui, Yifeng	Intel
+R.Kumar, Abhishek	Fujitsu
+Huang, Tai	Intel
+Balas, DorotheeX Marie Clotilde	Intel
+Ye, Jason Y	Intel
+Saurabh Shandilya	Cadence
+K, Aruna	Fujitsu
+Sheng Zha (Guest)	
+Mao, Yunfei	Intel
+Guo, Yongliang	Intel
+Wang, Yiting	Intel
+Tamir, Guy	Intel
+Chen, Hao3	Intel
+Bhuiyan, Mohammad Ashraf	Intel
+Li, Jian Hui	Intel 
+
+Agenda 
+Low precision computing for large language model (LLM) inference, Jiong Gong, Intel  (`slides <presentations/20231025- UXL - Low-precision Optimization for LLM_JiongGong.pdf>`__
+
+Question: How UXL can help to accelerate Pytorch regarding the large language model inference?  
+
+Answer: As presented in the slides, we uses template lanauge to write fusion kernels, so fusion has been a very important optimization technique. oneDNN supports Graph API and can be used to support aggressive fusion.  
+
