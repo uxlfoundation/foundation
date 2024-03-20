@@ -9,25 +9,25 @@ Attendees
 
 Agenda - 
  
-Enabling oneDAL on ARM target    Chandan Sharma
-oneDNN overview and update       Mourad Gouicem
-Discussion (motivation, expectation, future topics) 
+* Enabling oneDAL on ARM target    Chandan Sharma (slides <presentations/20240314-UXL-oneDAL-ARM-SVE-Enablement_ChandanSharma.pdf>)
+* oneDNN overview and update       Mourad Gouicem (slides <presentations/20240314-UXL-oneDNN-Overview-And-Developments_MouradGouicem.pptx>)
+* Discussion (motivation, expectation, future topics) 
 
-Q: Fujitsu extended oneDAL to use OpenBLAS library to enable ARM target.  oneDAL uses private MKL interface.  Will oneDAL use public MKL interface? 
+Question: Fujitsu extended oneDAL to use OpenBLAS library to enable ARM target.  oneDAL uses private MKL interface.  Will oneDAL use public MKL interface? 
 Will MKL be open source?  
 
-A:  oneDAL uses MKL interface as it needs to use the SYCL interface.  oneDAL plans to use oneMKL interface and MKL can be its backend math library. There is no plan to open source MKL.  
+Answer:  oneDAL uses MKL interface as it needs to use the SYCL interface.  oneDAL plans to use oneMKL interface and MKL can be its backend math library. There is no plan to open source MKL.  
 
-Q: What is the reason of using OpenBlas, not ARM compute library (ACL)?  
+Question: What is the reason of using OpenBlas, not ARM compute library (ACL)?  
  
-A: Fujisu choose OpenBlas because OpenBlas is more “Open”. 
+Answer: Fujisu choose OpenBlas because OpenBlas is more “Open”. 
 
-A: I am Christopher Rumph and part of UXL steering committee as ARM representative.  ARM compute library is open source project, but not run as “open governance” model.  I can help discuss with ARM colleagues to enable you on what you try to achieve.  Potentially ACL could be oneMKL’s backend.  
+Answer: I am Christopher Rumph and part of UXL steering committee as ARM representative.  ARM compute library is open source project, but not run as “open governance” model.  I can help discuss with ARM colleagues to enable you on what you try to achieve.  Potentially ACL could be oneMKL’s backend.  
 
-Q: Is oneDNN Graph API stable and officially supported? 
+Question: Is oneDNN Graph API stable and officially supported? 
 
-A:  Yes. oneDNN Graph is an official feature of oneDNN. oneDNN Graph API is stable API, and there is an official backend using oneDNN primitives.  The oneDNN Graph compiler backend is an experimental feature. 
+Answer:  Yes. oneDNN Graph is an official feature of oneDNN. oneDNN Graph API is stable API, and there is an official backend using oneDNN primitives.  The oneDNN Graph compiler backend is an experimental feature. 
 
-Q:  What does it take to optimize oneDNN to other targets? 
+Question:  What does it take to optimize oneDNN to other targets? 
 
-A: There are three levels. The first approach is to map the API to external library (e.g. ARM backend relies on ACL, Nvidia backend relies on cuDNN/cuBLAS, ...), the second one is to add C++/SYCL implementations with targeted optimizations (e.g. RISC-V RVV optimized Matmul), and the third one is to add jitting capabilites and jit kernel generators (e.g. x64 support contributed by Intel and SVE support contributed by Fujitsu). 
+Answer: There are three levels. The first approach is to map the API to external library (e.g. ARM backend relies on ACL, Nvidia backend relies on cuDNN/cuBLAS, ...), the second one is to add C++/SYCL implementations with targeted optimizations (e.g. RISC-V RVV optimized Matmul), and the third one is to add jitting capabilites and jit kernel generators (e.g. x64 support contributed by Intel and SVE support contributed by Fujitsu). 
