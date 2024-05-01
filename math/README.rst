@@ -19,4 +19,6 @@ Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/math
 
+`24th April 2024 <2024-04-24-UXL-Math-SIG.rst>`_
+
 `31st January 2024 <2024-01-31-UXL-Math-SIG.rst>`_
