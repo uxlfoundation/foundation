@@ -15,7 +15,8 @@ Guests
 * Arti Gupta (Intel)
 * Sriram Ramkrishna (Intel)
 
-Not present:
+Not present
+
 * Andrew Wafaa (Arm)
 * Dave Murray (Imagination)
 * Ramesh Radhakrishnan (VMWare)
