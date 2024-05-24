@@ -12,8 +12,8 @@ Attendees
 
 Guests
 
-*Arti Gupta (Intel)
-*Sriram Ramkrishna (Intel)
+* Arti Gupta (Intel)
+* Sriram Ramkrishna (Intel)
 
 Not present:
 * Andrew Wafaa (Arm)
