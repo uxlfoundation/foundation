@@ -39,5 +39,6 @@ There have been nearly 400 views of the UXL Foundation webinar hosted by the Lin
 Sri and Arti joined the meeting to present a proposal to hold two DevSummit events hosted by the UXL Foundation.
 
 The actions from this discussion were as follows:
-- Rod: Follow up with Steering Committee members to reach agreement on proceeding with the DevSummits plan
-- Rod: Follow up with Sri and Arti to gather information for budgets and effort for the additional community plans
+
+* Rod: Follow up with Steering Committee members to reach agreement on proceeding with the DevSummits plan
+* Rod: Follow up with Sri and Arti to gather information for budgets and effort for the additional community plans
