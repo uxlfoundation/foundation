@@ -1,0 +1,48 @@
+========================================================
+UXL Foundation Safety Critital SIG Meeting 29th May 2024
+========================================================
+
+Attendees
+
+* Verena Beckham (Codeplay) Chairperson
+* Melissa Aranzamendez (Linux Foundation)
+* Rod Burns (Codeplay)
+* Ronan Keryell (AMD)
+* Adam Konopa (Intellias)
+* Erik Tomusk (Codeplay)
+* Shravan (Cadence)
+* Michael Wong (Codeplay)
+* Chungfan Yang (Fixstars)
+
+Agenda
+
+* UXL Foundation proccesses update
+* DPC++ upstreaming to LLVM
+* Presentation by Verena: Integration of UXL Projects into SC Systems - Tasks
+
+
+General
+-------
+
+Verena presented a slide deck (in the 'presentations' folder).
+
+Discussion
+----------------------
+
+What could be reasonably be performed by companies internally and what could be made open-source?
+
+* Compiler qualification could well be done open-source (see Ferrocene example).
+* Runtime certification a lot of overhead, so perhaps less likely to be open-sourced.
+* Can still work on integration into SC system, safety argument, testing collaboratively.
+* Libraries could easily be ported to SYCL SC openly and perhaps code improvements be upstreamed as well.
+
+Could we work with an RTOS provider to demo an integration?
+
+* How to provide value to the RTOS provider? A press release?
+* Could work if a SIG member had a requirement to integrate with a chosen RTOS.
+
+Next steps for the SIG
+----------------------
+
+Please contact Verena with any proposals or requests.
+Verena will reach out to related groups to see if someone could present on similar open-source efforts, e.g. ELISA, Ferrocene, Xen hypervisor team.
