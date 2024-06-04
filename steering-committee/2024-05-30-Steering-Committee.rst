@@ -11,7 +11,6 @@ Attendees
 * Ramesh Radhakrishnan (VMWare)
 * Alison Richards (Intel)
 * Priyanka Sharma (Fujitsu)
-* Masahiro Doteguchi (Fujitsu)
 * Vinesh Sukumar (Qualcomm)
 * Andrew Wafaa (Arm)
 * Melissa Aranzamendez (The Linux Foundation)
