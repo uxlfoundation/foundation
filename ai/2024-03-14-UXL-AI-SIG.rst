@@ -7,6 +7,45 @@ AI Special Interest Group Meeting Notes
 
 Attendees 
 
+* Nikolay Petrov (Intel)
+* Darshan Patel (Fujitsu)
+* Daniel Holmes 
+* Abhishek Nair (Fujitsu)
+* Mourad Gouicem (Intel)
+* Shashank Sangu 
+* Giovanni Grandi (Codasip s.r.o.)
+* Jose Fonseca 
+* Deeksha Goplani (Fujitsu)
+* Rumpf Mr
+* Mehdi Goli (Codeplay)
+* John Melonakos 
+* Alison Richards (Intel)
+* Balas, DorotheeX Marie Clotilde
+* Chandan Sharma  (Fujitsu)
+* Vineelabhinav Gottala (Fujitsu)
+* Ragesh Hajela (Fujitsu)
+* Keeran Rothenfusser (Rivos)
+* David Edelson (International Business Machines)
+* Abhishek Jain (Fujitsu)
+* Peter Robertson (Codasip s.r.o.)
+* Ronan Keryell (AMD)
+* Ruyman Reyes Castro (Codeplay)
+* Sasank Chilamkurthy 
+* Dave Murray (Imagination Technologies)
+* Jianhui Li (Intel)
+* Kevan Ahmadi 
+* Roman Zhukov (Intel)
+* Rod Burns (Codeplay)
+* Chao Chen (Intel)
+* Nishant Prabhu (Fujitsu)
+* Stephen Porter 
+* Robert Cohn (Intel)
+* Divya Kota (Accenture)
+* Charles Tuke (Imagination Technologies)
+* Priyanka Sharma (Fujitsu)
+* Md. Abdullah Shahneous Bari (Intel)
+* Masahiro Doteguchi (Fujitsu)
+* Penporn Koanantakool (Google)
 Agenda - 
  
 * Enabling oneDAL on ARM target    Chandan Sharma (`slides <presentations/20240314-UXL-oneDAL-ARM-SVE-Enablement_ChandanSharma.pdf>`__)
