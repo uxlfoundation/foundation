@@ -1,0 +1,55 @@
+=========================================
+AI Special Interest Group Meeting Notes
+=========================================
+
+2023-10-25
+==========
+Attendees
+
+* Anita Zhang	(Intel)
+* Jianhui Li	(Intel)
+* Penporn Koanantakool (Google LLC)
+* Charles Tuke	
+* Aruna K	
+* Jaan Li	(One Fact Foundation)
+* Dave Murray	(Imagination Technologies)
+* Deeksha Kasture	
+* vineel	
+* Rod Burns (Codeplay Software)	
+* Jose Fonseca	
+* MAAJID KHAN NIMMANAPALLE	(FUJITSU RESEARCH)
+* Kevan Ahmadi	
+* Mourad Gouicem (Intel)
+* Tao Lv  (Intel)
+* Abhishek Jain	(Fujitsu) Limited
+* Alison Richards (Intel)
+* Peter Robertson	(Codasip s.r.o.)
+* Ronan Keryell	
+* xiaoyu	
+* David Edelsohn	(International Business Machines)
+* Jonathan Deakin	 (ARM)
+* Ivan Litov		
+* Melissa Aranzamendez (The Linux Foundation)
+
+Agenda
+
+Accelerating oneDNN on AArch64      Jonathan Deakin   ARM  (`slides <presentations/20240606-UXL-Accelerating-oneDNN-on-AArch64_JonathanDeakin.pdf>`__)
+ 
+oneDNN Micro Kernel API             Mourad Gouicem  Intel  (`slides <presentations/20240606-UXL-oneDNN-ukernel-API_MouradGouicem.pdf>`__)
+
+ 
+Question: Where can I find more informaiton about KlediAI? 
+
+Answer: KleidiAI is an open-source library that provides optimized performance-critical routines, also known as micro-kernels, for artificial intelligence (AI) workloads tailored for Arm® CPUs. You can find the source code (`here <https://newsroom.arm.com/blog/arm-kleidi>`__)
+
+Question: Is oneDNN microkerne interface general, and how it works with KleidiAI? 
+
+Answer: oneDNN microkernel interface for CPU was used as internal interface for a few years, so it is quite mature. Recently we make the interface more general so it could be used to support other CPUs, and you are welcome to give comment to the RFC (`link <https://github.com/oneapi-src/oneDNN/pull/1852>`__). As KleidiAI is recently introduced, it is certainly interesting to see whether KleidiAI could be a backend implmentation of oneDNN micro-kernel interface. 
+
+Question: How oneDNN integration to Torchinductor works? 
+
+Answer: There are two potential ways of integrating oneDNN to TorchInductor. one is to use Graph API, which can directly offload a subgraph of TorchInductor IR if the graph operation match oneDNN op semantics. The other is to implementing a custom kernel using the microkernel API and then use the custom kernel inside TorchInductor.   
+
+Question: What is the vision of oneDNN? Is it serves as a unified interface, or a shared reusable component as performance library for AI? 
+
+Answer: We may elaborate it in the future session (both use cases exist as of today).
