@@ -40,16 +40,13 @@ Working Groups
 Working Groups meet regularly to organize community proposals and
 contributions to the specification and open source projects. These 
 groups will define work packages for areas of development and 
-collaboration.
+collaboration. Each group has a GitHub repository linked below.
 
-* `Specification` - This group focuses on development of the 
+* [Specification](https://github.com/uxlfoundation/spec-working-group) - This group focuses on development of the 
   specification.
   
-* `Open Source` - This group focuses on development of the open 
+* [Open Source](https://github.com/uxlfoundation/open-source-working-group) - This group focuses on development of the open 
   source projects that form part of the foundation.
-
-Meeting minutes can be found in the relevant folder in this 
-repository.
 
 Special Interest Groups (SIGs)
 ------------------------------
@@ -60,20 +57,20 @@ between the community and developers working on implementations of
 the oneAPI specification. Meeting minutes can be found in the 
 relevant folder in this repository.
 
-* `Language` - This group covers topics related to
+* [Language](/language) - This group covers topics related to
   language implementations that integrate with the oneAPI
   specification.
   
-* `Math` - This groups covers topics related to math
+* [Math](/math) - This groups covers topics related to math
   operations.
 
-* `AI` - This group covers topics related to AI operations.
+* [AI](/ai) - This group covers topics related to AI operations.
 
-* `Hardware` - This group covers topics related to the
+* [Hardware](/hardware) - This group covers topics related to the
   integration of hardware and how this is defined in the oneAPI
   specification.
 
-* `Safety Critical` - This group covers topics related to the
+* [Safety Critical](/safety-critical) - This group covers topics related to the
   use of UXL Foundation projects in safety critical systems.
 
 The SIGS were previously running under the oneAPI Community 
@@ -88,14 +85,17 @@ The public calendar of UXL Foundation meetings is available using
 
 | Date | Meeting Type | Location |
 |------|--------------|----------|
-| 24 Apr 2024, 9am-10am US Central Time | Math SIG | Virtual |
-| 30 Apr 2024, 9am-10am US Central Time | UXL Foundation Community Webinar | Virtual |
-| 9 May 2024, 9am-10am US Central Time | Hardware SIG | Virtual |
-| 14 May 2024, 9am-10am US Central Time | Language SIG | Virtual |
-| 28 May 2024, 9am-10am US Central Time | Open Source Working Group | Virtual |
-| 29 May 2024, 9am-10am US Central Time | Safety Critical SIG | Virtual |
 | 6 Jun 2024, 9am-10am US Central Time | AI SIG | Virtual |
 | 12 Jun 2024, 9am-10am US Central Time | Marketing Committee | Virtual |
+| 25 Jun 2024, 9am-10am US Central Time | Open Source Working Group | Virtual |
+| 10 Jul 2024, 9am-10am US Central Time | Marketing Committee | Virtual |
+| 23 Jul 2024, 9am-10am US Central Time | Open Source Working Group | Virtual |
+| 31 Jul 2024, 9am-10am US Central Time | Math SIG | Virtual |
+| 6 Aug 2024, 9am-10am US Central Time | Language SIG | Virtual |
+| 15 Aug 2024, 9am-10am US Central Time | Hardware SIG | Virtual |
+| 27 Aug 2024, 9am-10am US Central Time | Open Source Working Group | Virtual |
+| 28 Aug 2024, 9am-10am US Central Time | Safety Critical SIG | Virtual |
+
 
 [Join the relevant mailing list to receive an invite for the Working Groups and SIGs](https://lists.uxlfoundation.org/g/main)
 
