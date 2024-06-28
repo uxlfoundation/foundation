@@ -12,6 +12,66 @@ Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/hardware
 
+2024-06-03 Imagination Technologies Enabling Compute Hardware
+=============================================================
+
+Alex Pim from Imagination Technologies presented their view on the customer's journey through compute, and how they are designing their hardware with a software first approach.
+
+Imagination’s view of the customer’s journey through compute.
+ 
+HW Accel using oneAPI slide: Direct support of SYCL on OpenCL vs oneAPI on OpenCL.
+A: 
+ 
+Q Colin: Reaction from customers so far?
+A: Positive, like being able to use existing code for algorithms rather than porting, want to understand how this fits into what their currently doing and are investigating SYCL.
+ 
+Q: Looked at anything other than OpenCL for implementing SYCL?
+A: Already had mature OpenCL driver which made that attractive, looking at what to use in the future but no conclusion.
+ 
+Q: Why continue looking at other options?
+A: In Imagination Technology office, part of brief is to look at upcoming technologies, never assume that today’s tech will still be tomorrow’s tech.
+A: What speed is OpenCL moving in relation to AI, is it moving in the right direction.
+A: OpenCL works, no issue.
+ 
+Q Ronan: Do you have a modern LLVM for your GPU? Often problem supporting UXL is technical debt in LLVM backend.
+A: Have LLVM, has enabled us to move quickly and get tests working etc.
+ 
+Q Ronan: Support USM extension in OpenCL?
+A: Yes, have initial support for that.  Had SVM support so adapted that.  Initial block for using SYCLomatic was it used USM a lot.
+ 
+Q Colin: What extensions do you support?  It feels like it’s not well documented.
+A: Initially the only thing that didn’t work was USM, could execute simple SYCL immediately.
+A: Sometimes an error will pop up when building something saying some extension isn’t supported.
+ 
+Q Ben: Do you support USM today?  Did you implement the Intel USM extension?
+A: I have access to an internal beta version, not in public support yet.
+
+Attendees:
+
+* Alastair Murray (Codeplay)
+* Alex Pim (Imagination Technologies)
+* Atharva Dubey (Codeplay)
+* Ben Ashbaugh (Intel)
+* Brice Goglin (Inria)
+* Brice Videau (Argonne)
+* ChungFan Yang (Fixstars)
+* Colin Davidson (Codeplay)
+* David Edelsohn (IBM)
+* Erik Tomusk (Codeplay)
+* Giovanni Grandi (Codasip)
+* Gordon Brown (Codeplay)
+* Ivan Litov
+* Jose Fonseca (VMWare/Broadcom)
+* Kasper Mecklenburg (Arm)
+* Neil Spruit (Intel)
+* Nicolo Scipione (Codeplay)
+* Romain Biessy (Codeplay)
+* Ronan Keryell (AMD)
+* Ruyman Reyes (Codeplay)
+* Verena Beckham (Codeplay)
+* Victor Lomuller (Codeplay)
+* Victor Lu 
+
 2024-02-15 oneAPI Construction Kit and Level Zero 1.9
 =====================================================
 
