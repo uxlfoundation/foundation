@@ -17,7 +17,7 @@ Community Forum can be found `here`_
 
 Alex Pim from Imagination Technologies presented their view on the customer's journey through compute, and how they are designing their hardware with a software first approach.
 
-Imagination’s view of the customer’s journey through compute.
+Imagination’s view of the customer’s journey through compute - `[slides] <presentations/Imagination_Technologies_Enabling_Compute_Hardware.pdf>`__.
  
 HW Accel using oneAPI slide: Direct support of SYCL on OpenCL vs oneAPI on OpenCL.
 A: 
