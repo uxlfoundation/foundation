@@ -15,6 +15,8 @@ Community Forum can be found `here`_
 2024-06-03 Imagination Technologies Enabling Compute Hardware
 =============================================================
 
+[`Meeting Recording]<https://zoom.us/rec/play/uMI5QwzoNrBcPNw5RK_5LFnY1Lf7jbR2KYT47HjDNhkdhBaEJmuTPSJKv64NR4H9V54t0EedJHkxL8CW.NrCOkb0QFM4_Q3yi?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2FOKtcRsrHLiyWT2jmrtHenIxC12gLAdHeh0401RgrpUdfV38KtM8T352X6jQiAHxV.bBEV-mBEqWE5AxAt>`__
+
 Alex Pim from Imagination Technologies presented their view on the customer's journey through compute, and how they are designing their hardware with a software first approach.
 
 Imagination’s view of the customer’s journey through compute - `[slides] <presentations/Imagination_Technologies_Enabling_Compute_Hardware.pdf>`__.
