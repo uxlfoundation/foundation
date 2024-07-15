@@ -39,5 +39,3 @@ Strategy
 ========
 
 Rod mentioned that he had shared the strategy presentation and is looking for feedback. He will share the document again.
-
-https://docs.google.com/presentation/d/1mgcZg8l0yKcQQ6UuVVKx7pcMYe_NzkUk/edit#slide=id.p10
