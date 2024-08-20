@@ -28,7 +28,7 @@ The emergence of heterogeneous architectures poses two main challenges for
 software developers:
 
 1. Easily developing software that can be used with different architectures 
-  and vendors of accelerators such as GPUs and AI processors
+   and vendors of accelerators such as GPUs and AI processors
 2. Achieving good levels of performance across architectures and vendors
 
 The UXL Foundation
@@ -61,20 +61,21 @@ the UXL Foundation, and these form fundamental building blocks that cover
 accelerated operations needed by the majority of software applications and 
 frameworks.
 
-- For GPU acceleration, the projects use the SYCL open standard, a programming 
+- For GPU acceleration, the projects use the `SYCL open standard<https://www.khronos.org/sycl/>`, a programming 
   model defined by the Khronos Group. SYCL makes it possible to write kernels 
   that can be run in parallel using standard C++ code and compiled for a range 
-  of processors. For CPU acceleration most of the projects use oneTBB, an open 
+  of processors. 
+- For CPU acceleration most of the projects use `oneTBB<https://github.com/oneapi-src/oneTBB>`, an open 
   source framework that brings multi-threading capabilities.
 - The oneAPI specification defines the APIs for the UXL Foundation projects.
 
 A list of specific areas where the community can contribute to projects is 
 being added to the project issue trackers under the “Help Wanted” label.
 Proposals for large changes or additions to the projects can be made through 
-the Open Source Working Group, and discussions can be had on the Slack channel.
+the Open Source Working Group, and discussions can be had on the `Slack channel<http://slack-invite.uxlfoundation.org/>`.
 
-The current work packages are tracked on the Open Source Working Group GitHub 
-repository[[[[[link]]]]].
+The current work packages are tracked on the `Open Source Working Group GitHub 
+repository<https://github.com/uxlfoundation/open-source-working-group>`.
 
 Math Domains - The oneMKL project
 =================================
@@ -96,8 +97,11 @@ integrates with multiple back ends to enable deployment to different processors:
 A matrix of targets available and domains is available in the project README.
 
 Contributions to the oneMKL Project
+-----------------------------------
 
 Broadening support for processors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 New back ends to target different processors (including new host CPUs such as 
 RISC-V) can be added to the project. There is public documentation on how to do 
 this. Pull Requests can be made with additions for integrations with vendor 
@@ -106,12 +110,16 @@ resources for existing processor targets is needed to ensure these can be
 treated as supported targets. 
 
 Public Build and CI
+^^^^^^^^^^^^^^^^^^^
+
 During 2024, a work package to set up initial public build infrastructure for 
 the project is in progress. This will document how new community managed build 
 machines can be added. Please contact the Open Source Working Group to 
 contribute build resources for the oneMKL project.
 
 Open Source Contributions
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Some open source implementations of the math domains are available for CPU and 
 GPU but there are gaps that exist and the open source implementations could be 
 further optimized for specific processors. 
@@ -215,6 +223,8 @@ This section outlines the main areas where contributors can help the foundation
 and projects to achieve its goals.
 
 Hardware Support
+----------------
+
 The UXL projects aim to support a broad range of processors from different 
 vendors. This table shows the current status for each project. Contributions 
 can be made to the projects to bring new target processors and/or to provide 
@@ -226,6 +236,8 @@ or mailing lists to talk to the project maintainers about helping with this
 work.
 
 Distribution
+------------
+
 Broad distribution of the UXL projects across Linux distributions and through 
 commercial releases such as the Intel oneAPI Base Toolkit relies on robust 
 testing across hardware, operating systems and driver level software. This 
@@ -236,9 +248,11 @@ this effort. Contact the Open Source Working Group through the Slack Channel or
 mailing list.
 
 Open Source
+-----------
+
 The UXL Foundation is based on the principles of open source software and as 
-such all projects should use open source components where possible. For some 
-projects, such as oneMKL, open source code should be contributed to ensure 
+such all projects try to use open source components where possible. For some 
+projects, such as oneMKL, open source code can be contributed to ensure 
 there is an open source implementation alongside any closed source vendor 
 libraries. This ensures that developers can use the functionality they need 
 across targets and have access to fully open source versions of the projects. 
@@ -246,6 +260,8 @@ Use the Slack channel to talk about what open source contributions could be
 made to different projects.
 
 Software Integration
+--------------------
+
 The UXL Foundation projects sit low in the software stack providing building 
 blocks for many other applications, libraries and frameworks. It is important 
 that there is a level of compatibility and integration for the UXL Foundation 
