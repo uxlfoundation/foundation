@@ -19,4 +19,9 @@ It is possible for GitHub Actions to post messages in Slack. This can be useful 
 * add ``SLACK_BOT_TOKEN`` to the GitHub secrets for the repo. Get the value
   from Robert Cohn
 
+Getting the Token
+=================
+
+The token is connected with a slack app. You need to be signed in to uxlfoundation workspace to see it, otherwise you will not see the app.
+
 .. _`Slack Action`: https://github.com/uxlfoundation/spec-working-group/blob/main/.github/workflows/slack-pr.yaml
