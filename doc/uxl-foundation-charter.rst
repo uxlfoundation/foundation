@@ -90,6 +90,13 @@ the Open Source Working Group, and discussions can be had on the `Slack`_ channe
 The current work packages are tracked on the `Open Source Working Group GitHub 
 repository`_.
 
+Accelerated Building Blocks
+===========================
+.. figure:: images/uxl-foundation-projects.png
+   :scale: 50 %
+   :alt: uxl-projects
+
+
 Math Domains - The `oneMKL`_ project
 ====================================
 
