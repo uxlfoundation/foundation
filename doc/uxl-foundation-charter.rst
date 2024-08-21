@@ -21,6 +21,17 @@ of software, in particular for AI.
 Large data centres and clusters are increasingly using large numbers of GPUs 
 to accelerate data intensive workloads including those used in AI.
 
++----------------------------------------+---------------------------------------+
+| .. figure:: images/cpu-gpu-npu-ai.png  | .. figure:: images/cpu-gpu.png        |
+|    :scale: 50 %                        |    :scale: 50 %                       |
+|    :alt: cpu-npu-gpu-ai                |    :alt: cpu-gpu                      |
++========================================+=======================================+
+| Multiple types of processors are used  | Large data centres and clusters are   |
+| to bring acceleration to different     | increasingly using large numbers of   |
+| types of software, in particular for   | GPUs to accelerate data intensive     |
+| AI.                                    | workloads including those used in AI. |
++----------------------------------------+---------------------------------------+
+
 The Challenge
 =============
   
