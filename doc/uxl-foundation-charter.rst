@@ -96,6 +96,15 @@ Accelerated Building Blocks
    :scale: 50 %
    :alt: uxl-projects
 
+Open Source Development
+=======================
+
+Making open source code available is not enough to build a sustainable open 
+source project with many contributors, maintainers and users. There are a set 
+of fundamentals that an open source needs, such as open decision making and 
+build infrastructure in order to be successfully adopted across the community.
+There is an ongoing work package to implement consistent best practices across 
+the UXL Foundation projects, this is tracked in this `GitHub project board`_.
 
 Math Domains - The `oneMKL`_ project
 ====================================
@@ -127,7 +136,10 @@ RISC-V) can be added to the project. There is public documentation on how to do
 this. Pull Requests can be made with additions for integrations with vendor 
 libraries or open source code. In addition to new backend work, testing 
 resources for existing processor targets is needed to ensure these can be 
-treated as supported targets. 
+treated as supported targets. Alongside this, the community can contribute to 
+helping make the project easy to install as well as showing what level of 
+support is available for different processors based on the different math 
+domains.
 
 Public Build and CI
 ^^^^^^^^^^^^^^^^^^^
@@ -142,7 +154,9 @@ Open Source Contributions
 
 Some open source implementations of the math domains are available for CPU and 
 GPU but there are gaps that exist and the open source implementations could be 
-further optimized for specific processors. 
+further optimized for specific processors. Alongside this a documented 
+approach for how to consistently add new hardware targets for the library would 
+help adoption.
 
 AI Acceleration for DNN Applications and Frameworks - `oneDNN`_
 ===============================================================
@@ -216,7 +230,7 @@ systems that consist of multiple nodes where work is distributed and effective
 data transfer can help to accelerate the software. The project is integrated 
 with PyTorch and Horovod
 Currently the project only lists Intel CPUs and GPU processors as targets, but 
-there is potential for the project to be used with Arm and RISC-V targets.
+there is potential for the project to be used with other targets.
 Contributions to bring more processor targets to oneCCL and resources for 
 public build and CI infrastructure are required.
 
@@ -310,3 +324,4 @@ touch via the `Slack`_ channels or `mailing list`_.
 .. _`Open Source Working Group GitHub repository`: https://github.com/uxlfoundation/open-source-working-group
 .. _`oneAPI specification`: https://oneapi-spec.uxlfoundation.org/specifications/oneapi/latest/
 .. _`mailing list`: https://lists.uxlfoundation.org
+.. _`GitHub project board`: https://github.com/orgs/uxlfoundation/projects/5?pane=info
