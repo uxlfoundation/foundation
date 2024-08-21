@@ -233,9 +233,9 @@ can be made to the projects to bring new target processors and/or to provide
 build and testing resources for targets to improve support for these.
 Project
 
-Potential contributors can contact the project team through the Slack channel 
-or mailing lists to talk to the project maintainers about helping with this 
-work.
+Potential contributors can contact the project team through the `Slack`_ channel 
+or `mailing list`_ to talk to the project maintainers and the community about 
+helping with this work.
 
 Distribution
 ------------
@@ -258,8 +258,16 @@ projects, such as oneMKL, open source code can be contributed to ensure
 there is an open source implementation alongside any closed source vendor 
 libraries. This ensures that developers can use the functionality they need 
 across targets and have access to fully open source versions of the projects. 
-Use the Slack channel to talk about what open source contributions could be 
-made to different projects.
+Use the `Slack`_ channel or `mailing list`_ to talk about what open source 
+contributions could be made to different projects.
+
+Optimisation
+------------
+
+The UXL Foundation projects have been optimised for some targets but there is 
+always work to do to optimise the code more for different targets. The 
+projects may have issues for these items, but if not please talk to the 
+project teams through the `Slack`_ channels or `mailing list`_.
 
 Software Integration
 --------------------
@@ -270,7 +278,7 @@ that there is a level of compatibility and integration for the UXL Foundation
 projects. Collaboration with key open source projects is important. If your 
 project is working with UXL Foundation projects please bring your feedback, 
 issues and ideas to the projects through GitHub or the SIG meetings. Get in 
-touch via the Slack channels to talk to the project maintainers.
+touch via the `Slack`_ channels or `mailing list`_.
 
 .. _`UXL Foundation`: https://www.uxlfoundation.org
 .. _`sycl`: https://www.khronos.org/sycl/
