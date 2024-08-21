@@ -34,7 +34,7 @@ software developers:
 The UXL Foundation
 ==================
   
-The goals of the UXL Foundation aim to address these challenges by:
+The goals of the `UXL Foundation`_ aim to address these challenges by:
 
 - Building a multi-architecture multi-vendor software ecosystem for all 
   accelerators.
@@ -43,8 +43,8 @@ The goals of the UXL Foundation aim to address these challenges by:
 
 We want to make it possible for developers to write source code once and 
 deploy it across accelerators, regardless of vendor, and this requires the 
-collaboration of organisationsorganizations designing the latest processors 
-and software developers building the latest innovations.
+collaboration of organisations designing the latest processors and software 
+developers building the latest innovations.
 We intend to create the environment required for cross industry participation 
 on the specification and open source projects that are governed by the UXL 
 Foundation. This is achieved through adopting best practices for open source 
@@ -61,28 +61,30 @@ the UXL Foundation, and these form fundamental building blocks that cover
 accelerated operations needed by the majority of software applications and 
 frameworks.
 
-- For GPU acceleration, the projects use the `SYCL open standard<https://www.khronos.org/sycl/>`, a programming 
+- For GPU acceleration, the projects use the `SYCL`_ open standard, a programming 
   model defined by the Khronos Group. SYCL makes it possible to write kernels 
   that can be run in parallel using standard C++ code and compiled for a range 
   of processors. 
-- For CPU acceleration most of the projects use `oneTBB<https://github.com/oneapi-src/oneTBB>`, an open 
+- For CPU acceleration most of the projects use `oneTBB`_, an open 
   source framework that brings multi-threading capabilities.
 - The oneAPI specification defines the APIs for the UXL Foundation projects.
+
+The `oneAPI specification`_ defines the interfaces for these projects.
 
 A list of specific areas where the community can contribute to projects is 
 being added to the project issue trackers under the “Help Wanted” label.
 Proposals for large changes or additions to the projects can be made through 
-the Open Source Working Group, and discussions can be had on the `Slack channel<http://slack-invite.uxlfoundation.org/>`.
+the Open Source Working Group, and discussions can be had on the `Slack`_ channel.
 
 The current work packages are tracked on the `Open Source Working Group GitHub 
-repository<https://github.com/uxlfoundation/open-source-working-group>`.
+repository`_.
 
-Math Domains - The oneMKL project
-=================================
+Math Domains - The `oneMKL`_ project
+====================================
 
 The oneAPI specification defines the oneMKL API covering BLAS, LAPACK, RNG, 
 DFT and SPARSE math domains.
-The open source oneMKL project implements the specification, providing a 
+The open source `oneMKL`_ project implements the specification, providing a 
 standard API for these math domains. The project uses industry standards where 
 available, such as for BLAS, to define the API arguments. The project 
 integrates with multiple back ends to enable deployment to different processors:
@@ -124,14 +126,14 @@ Some open source implementations of the math domains are available for CPU and
 GPU but there are gaps that exist and the open source implementations could be 
 further optimized for specific processors. 
 
-AI Acceleration for DNN Applications and Frameworks - oneDNN
-============================================================
+AI Acceleration for DNN Applications and Frameworks - `oneDNN`_
+===============================================================
 
 The oneAPI specification defines the oneDNN API covering convolution, matrix 
 multiplication, pooling, batch normalization, activation functions, RNN and 
 LSTM. These are currently the most commonly used operators for AI software, 
 used by frameworks such as TensorFlow and PyTorch.
-The open source oneDNN project implements the specification and provides a 
+The open source `oneDNN`_ project implements the specification and provides a 
 standard API for commonly used operators on:
 
 - Intel GPU
@@ -150,14 +152,14 @@ the testing of existing target processors and to help bring target processors
 out of experimental status (in particular Nvidia and AMD). Join the Slack 
 channel to discuss contributions.
 
-Parallel ISO C++ - oneDPL
-=========================
+Parallel ISO C++ - `oneDPL`_
+============================
 
 Based on the ISO C++ standard definition for parallel routines and algorithms, 
 the oneAPI specification defines the oneDPL interfaces and execution model to 
 integrate the SYCL programming model. Developers use a SYCL queue and memory 
 management alongside the ISO C++ parallel routines and algorithms.
-The open source oneDPL project implements the specification and uses SYCL code 
+The open source `oneDPL`_ project implements the specification and uses SYCL code 
 to bring portability for the project across architectures and vendor processors 
 including GPUs, FPGAs and CPUs.
 Currently the project only lists Intel processors as targets, but since the 
@@ -168,15 +170,15 @@ targets are welcome. Resources for build and CI infrastructure to cover testing
 and building on more target processors are required. Join the Slack channel to 
 discuss contributions.
 
-Accelerated AI Data Analysis – oneDAL
-=====================================
+Accelerated AI Data Analysis – `oneDAL`_
+========================================
 
 The oneAPI specification defines interfaces for oneDAL, used in big data 
 analysis through optimized data ingestion alongside algorithms. 
-The open source implementation provides accelerated algorithms used by machine 
-learning packages such as SciKit Learn. These can be used on CPUs and GPUs 
-through a range of backends, and the project has some dependencies on oneTBB 
-for CPU multi-threading and oneMKL.
+The open source `oneDAL`_ implementation provides accelerated algorithms used 
+by machine learning packages such as SciKit Learn. These can be used on CPUs 
+and GPUs through a range of backends, and the project has some dependencies on 
+oneTBB for CPU multi-threading and oneMKL.
 The project lists Intel CPUs and GPUs as supported targets but the project can 
 be used with Arm CPUs and work is under way for RISC-V CPUs. The project team 
 is implementing SYCL kernel code for the algorithms and once available brings 
@@ -185,12 +187,12 @@ Contributions to extend the project or optimize it for more processor targets
 are welcome. There is also an opportunity to bring more infrastructure for 
 build and testing on more Arm processor targets.
 
-Multi-node deep learning – oneCCL
-=================================
+Multi-node deep learning – `oneCCL`_
+====================================
 
 The oneAPI specification defines interfaces for oneCCL, used to define concepts 
 and objects that operate on data. This includes operations
-The open source oneCCL project implements the specification and provides 
+The open source `oneCCL`_ project implements the specification and provides 
 efficient communication patterns for deep learning. This is designed for use on 
 systems that consist of multiple nodes where work is distributed and effective 
 data transfer can help to accelerate the software. The project is integrated 
@@ -200,12 +202,12 @@ there is potential for the project to be used with Arm and RISC-V targets.
 Contributions to bring more processor targets to oneCCL and resources for 
 public build and CI infrastructure are required.
 
-CPU Multi-threading – oneTBB
-============================
+CPU Multi-threading – `oneTBB`_
+===============================
 
 The oneAPI specification defines the interfaces for oneTBB used for 
 multi-threading on CPUs.
-The open source oneTBB project implements the specification and broadly 
+The open source `oneTBB`_ project implements the specification and broadly 
 speaking can be used with any x86 and aarch64 processor, but specific support 
 is provided for Intel CPUs listed on this page, and community supported 
 processors are also listed.
@@ -220,7 +222,7 @@ The UXL Foundation Work Areas
 =============================
 
 This section outlines the main areas where contributors can help the foundation 
-and projects to achieve its goals.
+and projects to achieve their goals.
 
 Hardware Support
 ----------------
@@ -244,8 +246,8 @@ testing across hardware, operating systems and driver level software. This
 requires infrastructure hosted by the foundation and community members 
 including processor vendors and Linux distributions. A work package for public 
 build infrastructure is ongoing and community contributions are welcomed to 
-this effort. Contact the Open Source Working Group through the Slack Channel or 
-mailing list.
+this effort. Contact the Open Source Working Group through the `Slack`_ 
+Channel or `mailing list`_.
 
 Open Source
 -----------
@@ -269,3 +271,16 @@ projects. Collaboration with key open source projects is important. If your
 project is working with UXL Foundation projects please bring your feedback, 
 issues and ideas to the projects through GitHub or the SIG meetings. Get in 
 touch via the Slack channels to talk to the project maintainers.
+
+.. _`UXL Foundation`: https://www.uxlfoundation.org
+.. _`sycl`: https://www.khronos.org/sycl/
+.. _`oneTBB`: https://github.com/oneapi-src/oneTBB
+.. _`oneMKL`: https://github.com/oneapi-src/oneMKL
+.. _`oneDNN`: https://github.com/oneapi-src/oneDNN
+.. _`oneDAL`: https://github.com/oneapi-src/oneDAL
+.. _`oneCCL`: https://github.com/oneapi-src/oneCCL
+.. _`oneDPL`: https://github.com/oneapi-src/oneDPL
+.. _`Slack`: http://slack-invite.uxlfoundation.org/
+.. _`Open Source Working Group GitHub repository`: https://github.com/uxlfoundation/open-source-working-group
+.. _`oneAPI specification`: https://oneapi-spec.uxlfoundation.org/specifications/oneapi/latest/
+.. _`mailing list`: https://lists.uxlfoundation.org
