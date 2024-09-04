@@ -1,5 +1,5 @@
- Unified Acceleration (UXL) Foundation
-======================================
+Unified Acceleration (UXL) Foundation
+=====================================
 
 The Unified Acceleration (UXL) Foundation exists to define a 
 standards-based, cross-architecture open specification for 
@@ -7,6 +7,9 @@ accelerated computing and to foster the open-source implementations
 of the specification.
 
 More information can be found at http://www.uxlfoundation.org.
+
+You can also find out more about our mission, projects and how to 
+contribute in the [UXL Foundation Charter](/doc/uxl-foundation-charter.rst).
 
 The community is invited to join the meetings, review the [oneAPI
 Specification](https://spec.oneapi.io), and read the information 
