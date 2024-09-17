@@ -1,0 +1,22 @@
+=========================================
+AI Special Interest Group Meeting Notes
+=========================================
+
+2024-09-12
+==========
+Attendees
+
+
+Agenda 
+
+“SYCL backend for llama.cpp”                        Hengyu Meng,   Intel  (`slides <presentations/20240912-UXL-SYCL-Backend-for-LlamaCPP-HengyuMeng.pdf>`__)
+“oneDNN for Generic GPU”                            Denis Samoylov,  Intel   (`slides <presentations/20240912-UXL-oneDNN-Generic-GPU-vendor-DenisSamoylov.pdf>`__)
+
+Question: Llama.cpp uses low-level assembly code like WMMA to write flash attention kernels. Can SYCL support that?  
+
+Answer: Yes. Joint-matrix API support the same level of abstraction as WMMA, would be good to know what specific feature is missing. 
+If you refer to mma instructions, you may have to use inline assembly, and SYCL also supports that. 
+
+Question: In case a vendor has a performance library for AI hardware and likes to use oneDNN API, what would be the best way to contribute?    
+
+Answer: oneDNN is an open-source project that has contribution guidelines and defines an RFC process. Please refer to slide 6 for the detailed contribution process. 
