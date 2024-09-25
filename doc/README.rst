@@ -12,8 +12,11 @@ Documentation related to infrastructure for UXL.
     Managing Slack channels
 `Web Hosting`_
     Hosting project web sites
+`Get Started`_
+    How to get started with the UXL Foundation projects
 
 .. _`UXL Foundation Charter` : uxl-foundation-charter.rst
 .. _`UXL GitHub`: uxl-github.rst
 .. _`UXL Slack`: uxl-slack.rst
 .. _`Web Hosting`: web-hosting.rst
+.. _`Get Started`: get-started.rst

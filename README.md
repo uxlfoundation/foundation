@@ -11,6 +11,9 @@ More information can be found at http://www.uxlfoundation.org.
 You can also find out more about our mission, projects and how to 
 contribute in the [UXL Foundation Charter](/doc/uxl-foundation-charter.rst).
 
+Find out how to [get started](doc/get-started.rst) with the UXL 
+Foundation projects that implement the oneAPI Specification.
+
 The community is invited to join the meetings, review the [oneAPI
 Specification](https://spec.oneapi.io), and read the information 
 in this repo. Contributions can be made by joining the Working Groups, 
@@ -91,10 +94,10 @@ The public calendar of UXL Foundation meetings is available using
 | 27 Aug 2024, 9am-10am US Central Time | Open Source Working Group | Virtual |
 | 11 Sep 2024, 9am-10am US Central Time | Marketing Committee | Virtual |
 | 12 Sep 2024, 9am-10am US Central Time | AI SIG | Virtual |
-| 24 Sep 2024, 9am-10am US Central Time | Open Source Working Group | Virtual |
+| 24 Sep 2024, 10am-11am US Central Time | Open Source Working Group | Virtual |
 | 3 Oct 2024, 9am-10am US Central Time | Hardware SIG | Virtual |
 | 9 Oct 2024, 9am-10am US Central Time | Marketing Committee | Virtual |
-| 22 Oct 2024, 9am-10am US Central Time | Open Source Working Group | Virtual |
+| 22 Oct 2024, 10am-11am US Central Time | Open Source Working Group | Virtual |
 
 
 [Join the relevant mailing list to receive an invite for the Working Groups and SIGs](https://lists.uxlfoundation.org/g/main)
