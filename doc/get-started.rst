@@ -46,6 +46,8 @@ High performance math routines for science, engineering, and financial applicati
 
 Library for adding thread-based parallelism to complex applications on multiprocessors. oneAPI Thread Building Blocks is a flexible C++ library that simplifies the work of adding parallelism to complex applications on CPUs, even if you are not a threading expert. 
 
+`oneTBB Documentation`_
+
 .. _`oneAPI spec GitHub repository`: https://github.com/uxlfoundation/oneAPI-spec
 .. _`oneAPI specification`: https://oneapi-spec.uxlfoundation.org/
 .. _`oneCCL`: https://github.com/oneapi-src/oneCCL
