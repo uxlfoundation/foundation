@@ -11,6 +11,9 @@ More information can be found at http://www.uxlfoundation.org.
 You can also find out more about our mission, projects and how to 
 contribute in the [UXL Foundation Charter](/doc/uxl-foundation-charter.rst).
 
+Find out how to [get started](doc/get-started.rst) with the UXL 
+Foundation projects that implement the oneAPI Specification.
+
 The community is invited to join the meetings, review the [oneAPI
 Specification](https://spec.oneapi.io), and read the information 
 in this repo. Contributions can be made by joining the Working Groups, 
