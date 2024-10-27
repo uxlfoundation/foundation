@@ -1,0 +1,84 @@
+=========================================
+AI Special Interest Group Meeting Notes
+=========================================
+
+2024-10-24
+==========
+Attendees
+
+* Kevan Ahmadi	
+* Rakshith G B	
+* Deeksha Kasture	
+* David Edelsohn (IBM)
+* Keeran Rothenfusser (Rivos Inc)	Rivos Inc
+* Ed Tuke	(Imagination Technologies)
+* Abhishek Pandit
+* Akhil Goel
+* Nikolay Petrov (Intel)
+* Mourad Gouicem (Intel)
+* jiangang duan (Intel)
+* Milos Puzovic (Arm)	
+* Gilberto Rodriguez	(OpenChip)
+* Abhishek Jain    (Fujitsu)
+* Penporn Koanantakool (Google LLC)	
+* Peter Robertson (Codasip s.r.o.)
+* Victor Lu	
+* Melissa Aranzamendez	(Linux Foundation)
+* Tao Lv	(Intel)
+* Chao Chen	(Intel)
+* John Melonakos (Intel)
+* Jianhui Li (Intel)
+* Rod Burns (Codeplay)
+
+Agenda 
+
+“oneDNN vision”  Mourad Gouicem, Intel (`slides <ai/presentations/2024-10-24-UXL-AI-SIG-oneDNN-API-strategy-MouradGouicem.pdf>`__)
+
+“Adding Scikit-learn Intel extension to UXL”   Nikolay Petrov, Intel  (`slides <ai/presentations/2024-10-24-UXL-AI-SIG-scikit-learn-intelex-migration-to-UXL-NikolayPetrov.pdf>`__)
+
+
+Question: As the uKernel API has specific block sizes, how should we write kernel for matrices that don’t fit these block dimensions, especially with fringe areas? Do we need new primitives for these cases?
+
+Answer:
+It’s up to the user. There are multiple strategies for handling fringe areas:
+1. Create separate BRGEMM objects for main blocks and tails along each dimension.
+2. Use temporary memory to copy tails, pad with zeros, and reuse the same kernel, avoiding hardware context changes.
+Each approach has trade-offs. For general use, this logic can be complex to implement within the API, but for specific applications or models, users can customize and optimize without exploring the full range of heuristics.
+
+Question: Can the microkernel API be the abstraction layer to retarget oneDNN library for new hardware? Say once it is enabled, the oneDNN implementation can be reused for the new hardware. 
+
+Answer: Eventually we would like to achieve this goal as the oneDNN internal implementation is based on microkernel API. However, currently it is unfeasible due to hardware-specific dependencies that need cleanup first. 
+
+Question: Is there a way to query BRGEMM for the optimal block size for different hardware (e.g., AMX or AVX-512) to avoid inefficiencies and fringe areas?
+
+Answer:
+Currently, no such query exists, as we aim to avoid misleading users since the optimal block size also depends on matrix sizes. However, we would like to explore this kind of query API in the future, especially as architectures diversify (e.g., ARM, GPUs).
+
+Question:
+Does oneDNN expect each vendor to contribute to a central implementation for API code, or should vendors use their own libraries to implement the API?
+
+Answer:
+Vendors have flexibility. oneDNN provides a base, vendor-agnostic implementation, but it may not offer optimal performance. Vendors can choose to:
+1. Link to an external library (e.g., ARM uses ACL) 
+2. Create a custom C++ implementation with intrinsics (e.g., RISC-V).
+3. Develop their own optimized code generator (e.g. ARM SVE). Vendors can use or bypass oneDNN’s internal microkernel API.
+
+Question: 
+Does the Sickit-Learn extension support all hardware backends that oneDAAL supports?
+
+Answer:
+Yes, Sickit-Learn passes execution to oneDAAL, enabling compatibility with all oneDAAL-supported hardware, including CPUs (Intel CPU and ARM) and GPUs support. 
+
+Question:
+Is there a place for ongoing discussions that the community can join?
+Comments:
+The community appreciates Intel’s open collaboration on oneDAAL and looks forward to similar openness with the Sickit-Learn extensions.
+
+Answer:
+Discussions began in a Slack channel, but due to issues with Slack, they’ll be moving to GitHub discussions.
+
+Question:
+Has there been any effort to work with scikit-learn developers to simplify plugin usage, perhaps by automatically loading plugins similar to TensorFlow’s approach?
+
+Answer:
+Yes, discussions are ongoing with scikit-learn maintainers to explore backend integration for estimator acceleration. Though not yet implemented, there’s interest in creating a plugin API that could automatically load extensions. 
