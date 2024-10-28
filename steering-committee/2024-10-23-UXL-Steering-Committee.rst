@@ -13,12 +13,12 @@ Attendees
 
 Notes:
 
-Rod provided he following updates:
+Rod provided the following updates:
 
 * The UXL Foundation Member Meeting is scheduled on Wednesday December 4th. The event will provide an opportunity for a retrospective, as well as presentation of the budget and goals for 2025. It will likely coincide with the annual report publication. A Save the Date will be sent to the UXL Foundation membership next month.
 * The oneAPI Construction Kit project has moved to the UXL GitHhub.
-* All DevSummit presentation recordings are now available ononeapi.io
-* The UXL Foundation is hosting a breakfast event at SC’24 with short presentations and a social afterwards. If you are planning to be at SC'24, make sure to register.
+* All DevSummit presentation recordings are now available on oneapi.io
+* The UXL Foundation is hosting a breakfast event at SC’24 with short presentations and a social afterwards. If you are planning to be at SC'24, make sure to register. https://linuxfoundation.regfox.com/uxl-foundation-at-sc-24
 
 DevSummits review and retrospective
 
@@ -31,3 +31,4 @@ DevSummits review and retrospective
 * Over 400 logged in to sessions live - one of the highest attendance rates for the previous DevSummits.
 * The NPS score is 73% (very good).
 * Rod thanked all who participated and expressed appreciation for the SC's attendance and engagement.
+* The feedback from the committee was noted and a set of actions for future events will be shared
