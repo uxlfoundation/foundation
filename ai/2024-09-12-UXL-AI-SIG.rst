@@ -6,6 +6,30 @@ AI Special Interest Group Meeting Notes
 ==========
 Attendees
 
+* Victor Lu	
+* Dave Murray	         (Imagination Technologies)
+* En Shao	             (Institute of Computing Technology)
+* Chao Chen	           (Intel)
+* Tao Lv               (Intel)	
+* Leping Wang	
+* Ruyman Reyes Castro  (Codeplay)
+* Keeran Rothenfusser  (Rivos)
+* Hengyu Meng          (Intel)	
+* Denis Samoilov	     (Intel)
+* Penporn Koanantakool (Google)
+* Rod Burns            (Codeplay)	
+* Chris Reed	         (GE HealthCare)
+* Ed Tuke
+* Jose Fonseca
+* Lixian Ma
+* jiangang duan	       (Intel)
+* Mehdi Goli	         (Codeplay)
+* Jianhui Li	         (Intel)
+* Gilberto Rodriguez   (OpenChip)
+* Mourad Gouicem       (Intel)
+* Alison Richards      (Intel)
+* Melissa Aranzamendez (Linux Foundation)
+* Yong Li	             (Intel)
 
 Agenda 
 
