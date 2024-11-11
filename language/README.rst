@@ -35,38 +35,16 @@ Community Forum can be found `here`_
 * Rod Burns (Codeplay Software) - Codeplay Software
 * Gordon Brown - Codeplay Software
 * Alex Pim - Imagination
-* Vasudha Badri-Paul -
+* Vasudha Badri-Paul - Intel
 * Mehdi Goli - Codeplay Software
 * Alexey Kukanov (Intel) - Intel Corporation
-* Victor Lu -
+* Victor Lu - 
 * Gergana Slavova - Intel
 * Melissa Aranzamendez - The Linux Foundation
 * David Edelsohn (International Business Machines Corporation) - IBM
-* Ronan Keryell -
-* Max Aigner -
-* Brice Videau -
-* Andrew Richards - Intel Corporation
-* Balas, DorotheeX Marie Clotilde - Individual
-* Daniel Holmes - Intel Corporation
-* Daniel Keller - N/A
-* Greg Lueck - Intel Corporation
-* Ivan Litov - Individual
-* JaeYung Jun - SK hynix Inc
-* Joel FALCOU - CODE RECKONS
-* Jory Burson - The Linux Foundation
-* Jun (Victor) Lu - Individual
-* Kfir Alfandary
-* Kshitij Jain -
-* Mueller-Albrecht, Rob - Intel
-* Nevin ":-)" Liber -
-* Parsa Majidi - Individual
-* Robert Cohn - Intel Corporation
-* Ruyman Reyes Castro - Codeplay Software
-* Seiji Nishimura - DENSO CORPORATION
-* Suraj - Individual
-* Tiejun Chen - VMware Inc
-* Tim Besard - Individual
-* Vasudha Paul - Individual
+* Ronan Keryell - AMD
+* Max Aigner - Akhetonics
+* Brice Videau - Argonne
 
 * RR: First discuss charter document, driven by Michael Wong.
 * RR: Michael Wong is no longer in Codeplay, we wish him the best on his next 
