@@ -21,11 +21,11 @@ Community Forum can be found `here`_
 2024-11-05 SPIR-V extensions used by DPC++
 ============================================
 
-`Slides <presentations/2024-11-05-spirv-extensions.pdf>`
+`Slides <presentations/2024-11-05-spirv-extensions.pdf>`_
 
-`Tracking spreadsheet <https://docs.google.com/spreadsheets/d/1pgPno--m-MiQIjN1kKkgzi1KEr4o_0cF/edit?gid=1151130440#gid=1151130440`
+`Tracking spreadsheet <https://docs.google.com/spreadsheets/d/1pgPno--m-MiQIjN1kKkgzi1KEr4o_0cF/edit?gid=1151130440#gid=1151130440`_
 
-`Recording <https://zoom.us/rec/share/hfZJJBRwrACUxfZH8iu4EFfRBehce7GtaWrXPsXlnD36KSh4RqFQuYQgmJvC1qG6.EQB4yIBUdigvbtAZ>`
+`Recording <https://zoom.us/rec/share/hfZJJBRwrACUxfZH8iu4EFfRBehce7GtaWrXPsXlnD36KSh4RqFQuYQgmJvC1qG6.EQB4yIBUdigvbtAZ>`_
 
 
 * Andrey Alekseenko (KTH Royal Institute of Technology) - KTH Royal Institute of 
