@@ -23,7 +23,7 @@ Community Forum can be found `here`_
 
 `Slides <presentations/2024-11-05-spirv-extensions.pdf>`_
 
-`Tracking spreadsheet <https://docs.google.com/spreadsheets/d/1pgPno--m-MiQIjN1kKkgzi1KEr4o_0cF/edit?gid=1151130440#gid=1151130440`_
+`Tracking spreadsheet <https://docs.google.com/spreadsheets/d/1pgPno--m-MiQIjN1kKkgzi1KEr4o_0cF/edit?gid=1151130440#gid=1151130440>`_
 
 `Recording <https://zoom.us/rec/share/hfZJJBRwrACUxfZH8iu4EFfRBehce7GtaWrXPsXlnD36KSh4RqFQuYQgmJvC1qG6.EQB4yIBUdigvbtAZ>`_
 
