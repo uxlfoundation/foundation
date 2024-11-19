@@ -11,7 +11,7 @@ specifications managed by ISO and Khronos respectively.
 
 The SIG does not discuss the design of SYCL APIs, just general feedback.
 
-The language SIG is led by Ruyman Reyes Castro <ruyman@codeplay.com>
+The language SIG is led by Ruyman Reyes Castro <ruyman  AT codeplay DOT com>
 
 Archived meeting notes from meetings held under the oneAPI 
 Community Forum can be found `here`_
