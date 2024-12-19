@@ -16,7 +16,7 @@ Attendees
 * Melissa Aranzamendez (Linux Foundation)
 * Alison Richards (Intel)
 
-* The budget has been sent out and still awaiting approvals for some organisations
+* The budget has been sent out to the committee members and still awaiting approvals for some organisations
 * Rod will send a poll to ascertain what event is suitable for a face to face meeting
 * The UXL Foundation Annual Report will be released before the end of the year
 * Alison presented the draft planning for events and outreach activities in 2025
