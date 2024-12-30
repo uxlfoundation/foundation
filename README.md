@@ -91,14 +91,13 @@ The public calendar of UXL Foundation meetings is available using
 
 | Date | Meeting Type | Location |
 |------|--------------|----------|
-| 9 Oct 2024, 9am-10am US Central Time | Marketing Committee | Virtual |
-| 22 Oct 2024, 10am-11am US Central Time | Open Source Working Group | Virtual |
-| 24 Oct 2024, 10am-11am US Central Time | AI SIG | Virtual |
-| 5 Nov 2024, 10am-11am US Central Time | Language SIG | Virtual |
-| 7 Nov 2024, 10am-11am US Central Time | Hardware SIG | Virtual |
-| 13 Nov 2024, 10am-11am US Central Time | Marketing Meeting | Virtual |
-| 26 Nov 2024, 10am-11am US Central Time | Open Source Working Group | Virtual |
-| 27 Nov 2024, 10am-11am US Central Time | Safety Critical SIG | Virtual |
+| 28 Jan 2025, 10am-11am US Central Time | Open Source Working Group | Virtual |
+| 29 Jan 2025, 10am-11am US Central Time | Math SIG | Virtual |
+| 4 Feb 2025, 10am-11am US Central Time | Language SIG | Virtual |
+| 20 Feb 2025, 10am-11am US Central Time | Hardware SIG | Virtual |
+| 25 Feb 2025, 10am-11am US Central Time | Open Source Working Group | Virtual |
+| 6 Mar 2025, 10am-11am US Central Time | AI SIG | Virtual |
+| 12 Mar 2025, 10am-11am US Central Time | Marketing Committee | Virtual |
 
 [Join the relevant mailing list to receive an invite for the Working Groups and SIGs](https://lists.uxlfoundation.org/g/main)
 
