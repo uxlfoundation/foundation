@@ -28,9 +28,9 @@ Notes:
 * 2025 WG and SIG mtg dates are on the calendar, invitations have been sent
 * There were no concerns from the Steering Committee wrt the 2025 budget
 * Members discussed potential F2F meetings in conjunction with: 
- * embedded world - Mar 11-13, Nuremberg
- * Open Source Summit North America 2025 - Jun 23-Jun 25, Denver
- * PyTorch Conference 2025 - Oct 22-23, San Francisco
- * SC '25 - Nov 16-21, St. Louis 
+   * embedded world - Mar 11-13, Nuremberg
+   * Open Source Summit North America 2025 - Jun 23-Jun 25, Denver
+   * PyTorch Conference 2025 - Oct 22-23, San Francisco
+   * SC '25 - Nov 16-21, St. Louis 
 * SC members agreed to continue with the existing meeting cadence, i.e., every other week
 * The Annual Report has been published and members were asked to distribute it within their organizations
