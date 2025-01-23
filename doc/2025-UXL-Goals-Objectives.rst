@@ -11,8 +11,8 @@ This page records the objectives and targets set.
 +-------------------------+----------------------------------------+-------------------------------------------+
 | Objective               | Activities                             | Targets                                   |
 +=========================+========================================+===========================================+
-| Grow the UXL membership | * Improved web properties and content    | New Steering Members                      |
-|                         | * Event presence and sponsorship         | New General and Contributor Members       |
+| Grow the UXL membership | Improved web properties and content    | New Steering Members                      |
+|                         | Event presence and sponsorship         | New General and Contributor Members       |
 |                         |                                        | New Academic and other Alliances          |
 |                         |                                        | Relevant articles published by members    |
 +-------------------------+----------------------------------------+-------------------------------------------+
