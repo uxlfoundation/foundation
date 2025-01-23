@@ -8,11 +8,9 @@ Introduction
 The UXL Foundation Steering Committee has set objectives for 2025. 
 This page records the objectives and targets set.
 
-+--------------------------------------------------------------------------------------------------------------+
-| UXL Foundation Objectives for 2025                                                                           |
 +-------------------------+----------------------------------------+-------------------------------------------+
 | Objective               | Activities                             | Targets                                   |
-+-------------------------+----------------------------------------+-------------------------------------------+
++=========================+========================================+===========================================+
 | Grow the UXL membership | Improved web properties and content    | New Steering Members                      |
 |                         | Event presence and sponsorship         | New General and Contributor Members       |
 |                         |                                        | New Academic and other Alliances          |
