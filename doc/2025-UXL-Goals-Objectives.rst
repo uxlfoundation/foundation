@@ -11,7 +11,7 @@ This page records the objectives and targets set.
 +--------------------------------------------------------------------------------------------------------------+
 | UXL Foundation Objectives for 2025                                                                           |
 +-------------------------+----------------------------------------+-------------------------------------------+
-| Onjective               | Activities                             | Targets                                   |
+| Objective               | Activities                             | Targets                                   |
 +-------------------------+----------------------------------------+-------------------------------------------+
 | Grow the UXL membership | Improved web properties and content    | New Steering Members                      |
 |                         | Event presence and sponsorship         | New General and Contributor Members       |
