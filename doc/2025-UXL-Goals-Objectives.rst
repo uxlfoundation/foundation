@@ -30,7 +30,7 @@ This page records the objectives and targets set.
 | A Healthy UXL           | * Improved communication for meetings  | * Number attendees at meetings growth     |
 | Foundation Community    | * Increased visibility for work        | * Number work packages increasing         |
 |                         | * More member contributions            | * Number of unique organisations          |
-|                         | * Increased outreach to members        |   contributing to projects                  |
+|                         | * Increased outreach to members        |   contributing to projects                |
 +-------------------------+----------------------------------------+-------------------------------------------+
 
 
