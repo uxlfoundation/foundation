@@ -23,8 +23,8 @@ This page records the objectives and targets set.
 +-------------------------+----------------------------------------+-------------------------------------------+
 | Grow Open Source and    | * More public CI/build infrastructure  | * New project contributions               |
 | Specification           | * Member project contributions         | * Unique organisations contribute         |
-| contributions           | * Improved communication for RFCs and  | to projects                               |
-|                         | help wanted                            | * Unique organisations RFC feedback       |
+| contributions           | * Improved communication for RFCs and  |   to projects                             |
+|                         |   help wanted                          | * Unique organisations RFC feedback       |
 |                         | * Improved documentation               | * Public project infrastructure available |
 +-------------------------+----------------------------------------+-------------------------------------------+
 | A Healthy UXL           | * Improved communication for meetings  | * Number attendees at meetings growth     |
