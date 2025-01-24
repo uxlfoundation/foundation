@@ -5,8 +5,8 @@ UXL Foundation Goals and Objectives for 2025
 Introduction
 ============
 
-The UXL Foundation Steering Committee has set objectives for 2025. 
-This page records the objectives and targets set.
+The UXL Foundation Steering Committee has agreed some objectives for 2025. 
+This page records the objectives and targets, these will be monitored and measured through the year.
 
 +-------------------------+----------------------------------------+-------------------------------------------+
 | Objective               | Activities                             | Targets                                   |
