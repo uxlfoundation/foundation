@@ -9,7 +9,9 @@ of the specification.
 More information can be found at http://www.uxlfoundation.org.
 
 You can also find out more about our mission, projects and how to 
-contribute in the [UXL Foundation Charter](/doc/uxl-foundation-charter.rst).
+contribute in the [UXL Foundation Charter](/doc/uxl-foundation-charter.rst) 
+and the [UXL Foundation 2025 goals](/doc/2025-UXL-Goals-Objectives.rst) 
+are also published.
 
 Find out how to [get started](doc/get-started.rst) with the UXL 
 Foundation projects that implement the oneAPI Specification.
