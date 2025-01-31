@@ -9,7 +9,9 @@ of the specification.
 More information can be found at http://www.uxlfoundation.org.
 
 You can also find out more about our mission, projects and how to 
-contribute in the [UXL Foundation Charter](/doc/uxl-foundation-charter.rst).
+contribute in the [UXL Foundation Charter](/doc/uxl-foundation-charter.rst) 
+and the [UXL Foundation 2025 goals](/doc/2025-UXL-Goals-Objectives.rst) 
+are also published.
 
 Find out how to [get started](doc/get-started.rst) with the UXL 
 Foundation projects that implement the oneAPI Specification.
@@ -92,10 +94,10 @@ The public calendar of UXL Foundation meetings is available using
 | Date | Meeting Type | Location |
 |------|--------------|----------|
 | 28 Jan 2025, 10am-11am US Central Time | Open Source Working Group | Virtual |
-| 29 Jan 2025, 10am-11am US Central Time | Math SIG | Virtual |
 | 4 Feb 2025, 10am-11am US Central Time | Language SIG | Virtual |
 | 20 Feb 2025, 10am-11am US Central Time | Hardware SIG | Virtual |
 | 25 Feb 2025, 10am-11am US Central Time | Open Source Working Group | Virtual |
+| 26 Feb 2025, 10am-11am US Central Time | Math SIG | Virtual |
 | 6 Mar 2025, 10am-11am US Central Time | AI SIG | Virtual |
 | 12 Mar 2025, 10am-11am US Central Time | Marketing Committee | Virtual |
 

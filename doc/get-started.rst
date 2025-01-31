@@ -48,17 +48,26 @@ Library for adding thread-based parallelism to complex applications on multiproc
 
 `oneTBB Documentation`_
 
+`oneAPI Construction Kit`_
+==========================
+
+The oneAPI Construction Kit can be used to bring SYCL and oneAPI to new and specialist accelerators. The oneAPI Construction Kit works by enabling the CPU to offload compute-intensive kernels to the custom accelerator. The project includes a reference implementation using RISC-V. 
+
+`oneAPI Construction Kit Documentation`_
+
 .. _`oneAPI spec GitHub repository`: https://github.com/uxlfoundation/oneAPI-spec
 .. _`oneAPI specification`: https://oneapi-spec.uxlfoundation.org/
-.. _`oneCCL`: https://github.com/oneapi-src/oneCCL
+.. _`oneCCL`: https://github.com/uxlfoundation/oneCCL
 .. _`oneCCL Documentation`: https://oneapi-src.github.io/oneCCL/
-.. _`oneDAL`: https://github.com/oneapi-src/oneDAL
+.. _`oneDAL`: https://github.com/uxlfoundation/oneDAL
 .. _`oneDAL Documentation`: https://oneapi-src.github.io/oneDAL/quick-start.html
 .. _`oneDNN`: https://github.com/oneapi-src/oneDNN
 .. _`oneDNN Documentation`: https://oneapi-src.github.io/oneDNN/
-.. _`oneDPL`: https://github.com/oneapi-src/oneDPL
+.. _`oneDPL`: https://github.com/uxlfoundation/oneDPL
 .. _`oneDPL Documentation`: https://oneapi-src.github.io/oneDPL/
-.. _`oneMKL`: https://github.com/oneapi-src/oneMKL/
-.. _`oneMKL Documentation`: https://oneapi-src.github.io/oneMKL/
-.. _`oneTBB`: https://github.com/oneapi-src/oneTBB
+.. _`oneMKL`: https://github.com/uxlfoundation/oneMath/
+.. _`oneMKL Documentation`: https://oneapi-src.github.io/oneMath/
+.. _`oneTBB`: https://github.com/uxlfoundation/oneTBB
 .. _`oneTBB Documentation`: https://oneapi-src.github.io/oneTBB/
+.. _`oneAPI Construction Kit`: https://github.com/uxlfoundation/oneapi-construction-kit
+.. _`oneAPI Construction Kit Documentation`: https://github.com/uxlfoundation/oneapi-construction-kit/blob/main/doc/developer-guide.md
