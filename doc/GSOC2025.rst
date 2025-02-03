@@ -66,7 +66,7 @@ clusters.
 
 **Code Readibility Improvements**
 
-..`oneMath`: https://github.com/uxlfoundation/oneMath
-..`oneDNN`: https://github.com/oneapi-src/oneDNN
-..`oneDAL`: https://github.com/uxlfoundation/oneDAL
-..`oneCCL`: https://github.com/uxlfoundation/oneCCL
+.._`oneMath`: https://github.com/uxlfoundation/oneMath
+.._`oneDNN`: https://github.com/oneapi-src/oneDNN
+.._`oneDAL`: https://github.com/uxlfoundation/oneDAL
+.._`oneCCL`: https://github.com/uxlfoundation/oneCCL
