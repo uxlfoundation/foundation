@@ -1,64 +1,68 @@
-List of Suggested Projects for the UXL Foundation in GSOC 2025
-==============================================================
+==============================================================================
+UXL Foundation: List of Suggested Projects for the UXL Foundation in GSOC 2025
+==============================================================================
 
-The UXL Foundation governs a set of projects that aim to bring vendor neutrality to HPC and AI software development using CPUs, GPUs and other accelerators.
-These projects are based on a defined specification and open source software and cover a range of domains from AI, Math, ISO Parallel C++ and multi-node GPU systems.
+The UXL Foundation governs a set of predominantly C++ projects that aim to bring vendor neutrality to HPC and AI software development using CPUs, GPUs and other accelerators.
+These projects are based on the oneAPI specification and open source software and cover a range of domains from AI, Math, ISO Parallel C++ and multi-node GPU systems.
 
-Our overall goal is to 
+Our overall goal is to build a multi-architecture multi-vendor software ecosystem for all accelerators, 
+unify the heterogeneous compute ecosystem around open standards and build on and expand open-source projects for accelerated computing.
 
-The following projects for GSOC 2025 have been provided.
+This page contains proposed projects for GSOC 2025 have been provided by different UXL Foundation projects.
 You can join our Slack workspace and channels to discuss any of these ideas, or your own ideas if you have other projects you would like to submit.
+Each project under the UXL Foundation has their own Slack channel.
 
 oneMath
--------
+=======
 
-The oneMKL project is a library that aims to deliver a standards based API for a range of math operators so that developers can call the 
-same API and target multiple GPUs from different vendors. There are opportunities to implement new functionality for the oneMKL project 
+The oneMath project is a library that aims to deliver a standards based API for a range of math operators so that developers can call the 
+same API and target multiple GPUs from different vendors. There are opportunities to implement new functionality for the oneMath project 
 to enable the library to support new operators.
 
-The following are projects that have been proposed by the oneMath project.
+The following are projects that have been proposed by oneMath.
 
 Implement New Math Operators for different CPU and GPU targets
+--------------------------------------------------------------
 
-Random Number Generation (RNG)
+**Random Number Generation (RNG)**
 
-LAPACK
+**LAPACK**
 Add an open-source CPU backend to the LAPACK domain for the oneMKL project, Netlib LAPACK is a good candidate for this. 
 There is existing https://github.com/oneapi-src/oneMKL/commit/82b9cdc3e88de42515a20829047e718faa451339 BLAS integration with Netlib that can be used for reference.
 
-DFT
+**DFT**
 Add an open-source CPU backend to the DFT domain for oneMKL, FFTW https://www.fftw.org/ is a good candidate for this.
 
 oneDNN
-------
+======
 
 The following are projects that have been proposed by the oneDNN project.
 
 oneDAL
-------
+======
 
 oneAPI Data Analytics Library (oneDAL) is a powerful machine learning library that helps you accelerate 
 big data analysis at all stages: preprocessing, transformation, analysis, modeling, validation, and decision making.
 The following are projects that have been proposed by the oneDAL project.
 
-RISC-V Implementation and Validation
+**RISC-V Implementation and Validation**
 
-Accelerate NGBoost
+**Accelerate NGBoost**
 
-Code Quality Improvements
+**Code Quality Improvements**
 
 
 oneCCL
-------
+======
 
 The following are projects that have been proposed by the oneCCL project.
 oneAPI Collective Communications Library (oneCCL) provides an efficient implementation 
 of communication patterns used in deep learning on multi-node archtiectures such as research 
 clusters.
 
-Arm Architecture
+**Arm Architecture**
 
-Nvidia and/or AMD GPU Architecture
+**Nvidia and/or AMD GPU Architecture**
 
-Code Readibility Improvements
+**Code Readibility Improvements**
 
