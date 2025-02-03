@@ -12,8 +12,8 @@ This page contains proposed projects for GSOC 2025 have been provided by differe
 You can join our Slack workspace and channels to discuss any of these ideas, or your own ideas if you have other projects you would like to submit.
 Each project under the UXL Foundation has their own Slack channel.
 
-oneMath
-=======
+`oneMath<https://github.com/uxlfoundation/oneMath>`_
+====================================================
 
 The oneMath project is a library that aims to deliver a standards based API for a range of math operators so that developers can call the 
 same API and target multiple GPUs from different vendors. There are opportunities to implement new functionality for the oneMath project 
@@ -33,13 +33,13 @@ There is existing https://github.com/oneapi-src/oneMKL/commit/82b9cdc3e88de42515
 **DFT**
 Add an open-source CPU backend to the DFT domain for oneMKL, FFTW https://www.fftw.org/ is a good candidate for this.
 
-oneDNN
-======
+`oneDNN<https://github.com/oneapi-src/oneDNN>`_
+===============================================
 
 The following are projects that have been proposed by the oneDNN project.
 
-oneDAL
-======
+`oneDAL<https://github.com/uxlfoundation/oneDAL>`_
+==================================================
 
 oneAPI Data Analytics Library (oneDAL) is a powerful machine learning library that helps you accelerate 
 big data analysis at all stages: preprocessing, transformation, analysis, modeling, validation, and decision making.
@@ -52,8 +52,8 @@ The following are projects that have been proposed by the oneDAL project.
 **Code Quality Improvements**
 
 
-oneCCL
-======
+`oneCCL<https://github.com/uxlfoundation/oneCCL>`_
+==================================================
 
 The following are projects that have been proposed by the oneCCL project.
 oneAPI Collective Communications Library (oneCCL) provides an efficient implementation 
