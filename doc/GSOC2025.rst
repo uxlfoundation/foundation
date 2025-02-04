@@ -45,13 +45,13 @@ Add open source backends for LAPACK and DFT
 
 **LAPACK**
 oneMath has been adding open source implementations for the different math domains it supports and we would like to see another added for LAPACK for x86 and aarch CPUs.
-The project would be to add an open-source CPU backend to the LAPACK domain for the oneMKL project, the Netlib LAPACK project is a good candidate for this.
+The project would be to add an open-source CPU backend to the LAPACK domain for the oneMath project, the Netlib LAPACK project is a good candidate for this.
 There is existing `BLAS integration with Netlib`_ that can be used for reference, this shows the integration and bindings implemented for BLAS.
 This project is expected to take 60-90 hours, and requires tests to also be implemented for this new target and backend.
 
 **DFT**
 oneMath has been adding open source implementations for the different math domains it supports and we would like to see another added for DFT for x86 and aarch CPUs.
-The project would be to add an open-source CPU backend to the DFT domain for oneMKL, and the `FFTW`_ project is a good candidate for this.
+The project would be to add an open-source CPU backend to the DFT domain for oneMath, and the `FFTW`_ project is a good candidate for this.
 This project is expected to take 60-90 hours, and requires tests to also be implemented for this new target and backend.
 
 `oneDNN`_
