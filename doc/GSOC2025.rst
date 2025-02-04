@@ -30,14 +30,13 @@ Implement New Math Operators for different CPU and GPU targets
 The oneMath specification defines some math operators that are not yet implemented in the open source project.
 These are all variations on random number generation using different algorithms and techniques.
 
-- The RNG SOBOL implementation, defined as oneapi::mkl::rng::sobol in the oneAPI specification
-- The RNG mt19937 implementation, defined as oneapi::mkl::rng::mt19937 in the oneAPI specification
-- The RNG mcg59 implementation, defined as oneapi::mkl::rng::mcg59 in the oneAPI specification
-- The RNG mt2203 implementation, defined as oneapi::mkl::rng::mt2203 in the oneAPI specification
-- The RNG uniform bits implementation, defined as oneapi::mkl::rng::uniform_bits in the oneAPI specification
-- The RNG bernoull implementation, defined as oneapi::mkl::rng::bernoull in the oneAPI specification
+- The RNG SOBOL implementation, defined as oneapi::math::rng::sobol in the oneAPI specification
+- The RNG mt19937 implementation, defined as oneapi::math::rng::mt19937 in the oneAPI specification
+- The RNG mcg59 implementation, defined as oneapi::math::rng::mcg59 in the oneAPI specification
+- The RNG mt2203 implementation, defined as oneapi::math::rng::mt2203 in the oneAPI specification
+- The RNG uniform bits implementation, defined as oneapi::math::rng::uniform_bits in the oneAPI specification
 
-All of these can be implemented as part of the Google Summer of Code for Intel, Nvidia and AMD processors.
+These can be implemented as part of the Google Summer of Code for Intel, Nvidia and AMD processors using the relevant library, from Intel oneMKL and cuRAND.
 The development work will require implementing the bindings for these RNG routines for the chosen target(s) and implementing tests that can be used for the new implementations.
 We expect each implementation might take 30-60 hours but this depends since the learnings from integrating the first operator can be taken into the others.
 
@@ -51,7 +50,7 @@ There is existing `BLAS integration with Netlib`_ that can be used for reference
 This project is expected to take 60-90 hours, and requires tests to also be implemented for this new target and backend.
 
 **DFT**
-The project has been adding open source implementations for the different math domains it supports and we would like to see another added for DFT for x86 and aarch CPUs.
+oneMath has been adding open source implementations for the different math domains it supports and we would like to see another added for DFT for x86 and aarch CPUs.
 The project would be to add an open-source CPU backend to the DFT domain for oneMKL, and the `FFTW`_ project is a good candidate for this.
 This project is expected to take 60-90 hours, and requires tests to also be implemented for this new target and backend.
 
