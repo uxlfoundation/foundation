@@ -1,0 +1,89 @@
+==============================================================================
+UXL Foundation: List of Suggested Projects for the UXL Foundation in GSOC 2025
+==============================================================================
+
+The UXL Foundation governs a set of predominantly C++ projects that aim to bring vendor neutrality to HPC and AI software development using CPUs, GPUs and other accelerators.
+These projects are based on the oneAPI specification and open source software and cover a range of domains from AI, Math, ISO Parallel C++ and multi-node GPU systems.
+
+Our overall goal is to build a multi-architecture multi-vendor software ecosystem for all accelerators, 
+unify the heterogeneous compute ecosystem around open standards and build on and expand open-source projects for accelerated computing.
+
+This page contains proposed projects for GSOC 2025 have been provided by different UXL Foundation projects.
+Note that all the projects are likely to require a good working knowledge of C++, including features like templates and lamdas.
+You can join our Slack workspace and channels to discuss any of these ideas, or your own ideas if you have other projects you would like to submit.
+Each project under the UXL Foundation has their own Slack channel.
+
+`oneMath`_
+==========
+
+The oneMath project is a library that develops a standards based API for a range of math operators so that developers can call the 
+same API and target multiple CPUs and GPUs from different vendors. For GSOC there are opportunities to implement new functionality for the oneMath project 
+to enable the library to support new operators and backends for different processor architectures.
+
+The following are projects that have been proposed by oneMath.
+
+Implement New Math Operators for different CPU and GPU targets
+--------------------------------------------------------------
+
+**Random Number Generation (RNG)**
+
+The oneMath specification defines some math operators that are not yet implemented in the open source project.
+These are all variations on random number generation using different algorithms and techniques.
+
+- The RNG SOBOL implementation, defined as oneapi::math::rng::sobol in the oneAPI specification
+- The RNG mt19937 implementation, defined as oneapi::math::rng::mt19937 in the oneAPI specification
+- The RNG mcg59 implementation, defined as oneapi::math::rng::mcg59 in the oneAPI specification
+- The RNG mt2203 implementation, defined as oneapi::math::rng::mt2203 in the oneAPI specification
+- The RNG uniform bits implementation, defined as oneapi::math::rng::uniform_bits in the oneAPI specification
+
+These can be implemented as part of the Google Summer of Code for Intel, Nvidia and AMD processors using the relevant library, from Intel oneMKL and cuRAND.
+The development work will require implementing the bindings for these RNG routines for the chosen target(s) and implementing tests that can be used for the new implementations.
+We expect each implementation might take 90-175 hours but this depends since the learnings from integrating the first operator can be taken into the others.
+
+Add open source backends for LAPACK and DFT
+-------------------------------------------
+
+**LAPACK**
+oneMath has been adding open source implementations for the different math domains it supports and we would like to see another added for LAPACK for x86 and aarch CPUs.
+The project would be to add an open-source CPU backend to the LAPACK domain for the oneMath project, the Netlib LAPACK project is a good candidate for this.
+There is existing `BLAS integration with Netlib`_ that can be used for reference, this shows the integration and bindings implemented for BLAS.
+This project is expected to take 90 hours, and requires tests to also be implemented for this new target and backend.
+
+**DFT**
+oneMath has been adding open source implementations for the different math domains it supports and we would like to see another added for DFT for x86 and aarch CPUs.
+The project would be to add an open-source CPU backend to the DFT domain for oneMath, and the `FFTW`_ project is a good candidate for this.
+This project is expected to take 90 hours, and requires tests to also be implemented for this new target and backend.
+
+`oneDAL`_
+=========
+
+oneAPI Data Analytics Library (oneDAL) is a powerful machine learning library that helps you accelerate 
+big data analysis at all stages: preprocessing, transformation, analysis, modeling, validation, and decision making.
+
+The project has produced their own list of ideas on `the oneDAL GitHub`_.
+
+`oneCCL`_
+=========
+
+The following project is being proposed by the oneCCL project.
+oneAPI Collective Communications Library (oneCCL) provides an efficient implementation 
+of communication patterns used in deep learning on multi-node archtiectures such as research 
+clusters.
+
+**Arm, Nvidia and AMD Architectures**
+
+oneCCL can currently be used with x86 based architectures with Intel GPUS to load balance work across multiple nodes and is used with the Argonne Aurora supercomputer.
+For example, it can be used to optimize `execution of PyTorch`_.
+The project would like to support AMD, Arm and Nvidia processors. These targets could be individual projects.
+The APIs provided by oneCCL and defined in the oneAPI specification are generic and could be mapped to the relevant calls for the target architecture.
+We would expect each individual additional architecture to take 90 hours of work.
+
+.. _`oneMath`: https://github.com/uxlfoundation/oneMath
+.. _`oneDNN`: https://github.com/oneapi-src/oneDNN
+.. _`oneDAL`: https://github.com/uxlfoundation/oneDAL
+.. _`oneCCL`: https://github.com/uxlfoundation/oneCCL
+.. _`BLAS integration with Netlib`: https://github.com/oneapi-src/oneMKL/commit/82b9cdc3e88de42515a20829047e718faa451339
+.. _`FFTW`: https://www.fftw.org/
+.. _`oneDAL RISC-V Issue`: https://github.com/uxlfoundation/oneDAL/issues/2257
+.. _`the oneDAL GitHub`: https://github.com/uxlfoundation/oneDAL/blob/main/docs/source/contribution/ideas.rst
+.. _`execution of PyTorch`: https://pytorch.medium.com/optimizing-dlrm-by-using-pytorch-with-oneccl-backend-9f85b8ef6929

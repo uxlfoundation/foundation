@@ -255,6 +255,14 @@ Contributions to test a broad range of processor targets with oneTBB are
 welcome in the form of CI or build infrastructure. The project does not 
 currently test RISC-V CPUs and some functionality is missing.
 
+Hardware Enablement - `oneAPI Construction Kit`_
+================================================
+
+The oneAPI Construction Kit can be used to bring SYCL and oneAPI to new and 
+specialist accelerators. The oneAPI Construction Kit works by enabling the 
+CPU to offload compute-intensive kernels to the custom accelerator. The project 
+includes a reference implementation using RISC-V.
+
 The UXL Foundation Work Areas
 =============================
 
@@ -325,6 +333,7 @@ touch via the `Slack`_ channels or `mailing list`_.
 .. _`oneDAL`: https://github.com/oneapi-src/oneDAL
 .. _`oneCCL`: https://github.com/oneapi-src/oneCCL
 .. _`oneDPL`: https://github.com/oneapi-src/oneDPL
+.. _`oneAPI Construction Kit`: https://github.com/uxlfoundation/oneapi-construction-kit
 .. _`Slack`: http://slack-invite.uxlfoundation.org/
 .. _`Open Source Working Group GitHub repository`: https://github.com/uxlfoundation/open-source-working-group
 .. _`oneAPI specification`: https://oneapi-spec.uxlfoundation.org/specifications/oneapi/latest/
