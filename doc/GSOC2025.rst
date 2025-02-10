@@ -62,31 +62,20 @@ big data analysis at all stages: preprocessing, transformation, analysis, modeli
 
 The project has produced their own list of ideas on `the oneDAL GitHub`_.
 
-**RISC-V Implementation and Validation**
-The RISC-V instruction set and architecture has grown in popularity over the past 5 years. Rivos has has done some implementation work on oneDAL 
-for this architecture but the work requires further effort to be complete and act as a supported target for the project.
-The work is being tracked on this `oneDAL RISC-V Issue`_
-
-**Accelerate NGBoost**
-https://github.com/uxlfoundation/oneDAL/issues/2132
-
-**Code Quality Improvements**
-https://github.com/uxlfoundation/oneDAL/issues/1912
-
 `oneCCL`_
 =========
 
-The following are projects that have been proposed by the oneCCL project.
+The following project is being proposed by the oneCCL project.
 oneAPI Collective Communications Library (oneCCL) provides an efficient implementation 
 of communication patterns used in deep learning on multi-node archtiectures such as research 
 clusters.
 
-**Arm Architecture**
-oneCCL can currently be used with x86 based architectures and would like to expand this to include aarch as well.
-https://github.com/uxlfoundation/oneCCL/issues/154
-
-**Code Readibility Improvements**
-https://github.com/uxlfoundation/oneCCL/issues/152
+**Arm, Nvidia and AMD Architectures**
+oneCCL can currently be used with x86 based architectures with Intel GPUS to load balance work across multiple nodes and is used with the Argonne Aurora supercomputer.
+For example, it can be used to optimize `execution of PyTorch`_.
+The project would like to support AMD, Arm and Nvidia processors. These targets could be individual projects.
+The APIs provided by oneCCL and defined in the oneAPI specification are generic and could be mapped to the relevant calls for the target architecture.
+We would expect each individual additional architecture to take 90 hours of work.
 
 .. _`oneMath`: https://github.com/uxlfoundation/oneMath
 .. _`oneDNN`: https://github.com/oneapi-src/oneDNN
@@ -96,3 +85,4 @@ https://github.com/uxlfoundation/oneCCL/issues/152
 .. _`FFTW`: https://www.fftw.org/
 .. _`oneDAL RISC-V Issue`: https://github.com/uxlfoundation/oneDAL/issues/2257
 .. _`the oneDAL GitHub`: https://github.com/uxlfoundation/oneDAL/blob/main/docs/source/contribution/ideas.rst
+.. _`execution of PyTorch`: https://pytorch.medium.com/optimizing-dlrm-by-using-pytorch-with-oneccl-backend-9f85b8ef6929
