@@ -38,7 +38,7 @@ These are all variations on random number generation using different algorithms 
 
 These can be implemented as part of the Google Summer of Code for Intel, Nvidia and AMD processors using the relevant library, from Intel oneMKL and cuRAND.
 The development work will require implementing the bindings for these RNG routines for the chosen target(s) and implementing tests that can be used for the new implementations.
-We expect each implementation might take 30-60 hours but this depends since the learnings from integrating the first operator can be taken into the others.
+We expect each implementation might take 90-175 hours but this depends since the learnings from integrating the first operator can be taken into the others.
 
 Add open source backends for LAPACK and DFT
 -------------------------------------------
@@ -47,12 +47,12 @@ Add open source backends for LAPACK and DFT
 oneMath has been adding open source implementations for the different math domains it supports and we would like to see another added for LAPACK for x86 and aarch CPUs.
 The project would be to add an open-source CPU backend to the LAPACK domain for the oneMath project, the Netlib LAPACK project is a good candidate for this.
 There is existing `BLAS integration with Netlib`_ that can be used for reference, this shows the integration and bindings implemented for BLAS.
-This project is expected to take 60-90 hours, and requires tests to also be implemented for this new target and backend.
+This project is expected to take 90 hours, and requires tests to also be implemented for this new target and backend.
 
 **DFT**
 oneMath has been adding open source implementations for the different math domains it supports and we would like to see another added for DFT for x86 and aarch CPUs.
 The project would be to add an open-source CPU backend to the DFT domain for oneMath, and the `FFTW`_ project is a good candidate for this.
-This project is expected to take 60-90 hours, and requires tests to also be implemented for this new target and backend.
+This project is expected to take 90 hours, and requires tests to also be implemented for this new target and backend.
 
 `oneDAL`_
 =========
