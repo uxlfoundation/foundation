@@ -71,6 +71,7 @@ of communication patterns used in deep learning on multi-node archtiectures such
 clusters.
 
 **Arm, Nvidia and AMD Architectures**
+
 oneCCL can currently be used with x86 based architectures with Intel GPUS to load balance work across multiple nodes and is used with the Argonne Aurora supercomputer.
 For example, it can be used to optimize `execution of PyTorch`_.
 The project would like to support AMD, Arm and Nvidia processors. These targets could be individual projects.
