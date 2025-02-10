@@ -54,17 +54,13 @@ oneMath has been adding open source implementations for the different math domai
 The project would be to add an open-source CPU backend to the DFT domain for oneMath, and the `FFTW`_ project is a good candidate for this.
 This project is expected to take 60-90 hours, and requires tests to also be implemented for this new target and backend.
 
-`oneDNN`_
-=========
-
-The following are projects that have been proposed by the oneDNN project.
-
 `oneDAL`_
 =========
 
 oneAPI Data Analytics Library (oneDAL) is a powerful machine learning library that helps you accelerate 
 big data analysis at all stages: preprocessing, transformation, analysis, modeling, validation, and decision making.
-The following are projects that have been proposed by the oneDAL project.
+
+The project has produced their own list of ideas on `the oneDAL GitHub`_.
 
 **RISC-V Implementation and Validation**
 The RISC-V instruction set and architecture has grown in popularity over the past 5 years. Rivos has has done some implementation work on oneDAL 
@@ -99,3 +95,4 @@ https://github.com/uxlfoundation/oneCCL/issues/152
 .. _`BLAS integration with Netlib`: https://github.com/oneapi-src/oneMKL/commit/82b9cdc3e88de42515a20829047e718faa451339
 .. _`FFTW`: https://www.fftw.org/
 .. _`oneDAL RISC-V Issue`: https://github.com/uxlfoundation/oneDAL/issues/2257
+.. _`the oneDAL GitHub`: https://github.com/uxlfoundation/oneDAL/blob/main/docs/source/contribution/ideas.rst
