@@ -20,6 +20,8 @@ The oneMath project is a library that develops a standards based API for a range
 same API and target multiple CPUs and GPUs from different vendors. For GSOC there are opportunities to implement new functionality for the oneMath project 
 to enable the library to support new operators and backends for different processor architectures.
 
+Potential mentors for the projects are maintainers of the oneMath project including Romain Biessy and Maria Kraynyuk.
+
 The following are projects that have been proposed by oneMath.
 
 Implement New Math Operators for different CPU and GPU targets
@@ -60,6 +62,8 @@ This project is expected to take 90 hours, and requires tests to also be impleme
 oneAPI Data Analytics Library (oneDAL) is a powerful machine learning library that helps you accelerate 
 big data analysis at all stages: preprocessing, transformation, analysis, modeling, validation, and decision making.
 
+Potential mentors for the projects include oneDAL maintainers Ian Faust and Sergey Yakovlev.
+
 The project has produced their own list of ideas on `the oneDAL GitHub`_.
 
 `oneCCL`_
@@ -69,6 +73,8 @@ The following project is being proposed by the oneCCL project.
 oneAPI Collective Communications Library (oneCCL) provides an efficient implementation 
 of communication patterns used in deep learning on multi-node archtiectures such as research 
 clusters.
+
+Potential mentor for the projects is oneCCL maintainer Maria Garzaran and other engineers from the project will be available.
 
 **Arm, Nvidia and AMD Architectures**
 
