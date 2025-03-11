@@ -34,12 +34,12 @@ A companion to the DPC++ Compiler for programming oneAPI devices with APIs from 
 
 `oneDPL Documentation`_
 
-`oneMKL`_
+`oneMath`_
 =========
 
-High performance math routines for science, engineering, and financial applications. one Math Kernel Library implements optimized parallel implementations for BLAS, LAPACK, DFT, RNG and SPARSE math domains.
+High performance math routines for science, engineering, and financial applications. one Math Library implements optimized parallel implementations for BLAS, LAPACK, DFT, RNG and SPARSE math domains.
 
-`oneMKL Documentation`_
+`oneMath Documentation`_
 
 `oneTBB`_
 =========
@@ -58,16 +58,16 @@ The oneAPI Construction Kit can be used to bring SYCL and oneAPI to new and spec
 .. _`oneAPI spec GitHub repository`: https://github.com/uxlfoundation/oneAPI-spec
 .. _`oneAPI specification`: https://oneapi-spec.uxlfoundation.org/
 .. _`oneCCL`: https://github.com/uxlfoundation/oneCCL
-.. _`oneCCL Documentation`: https://oneapi-src.github.io/oneCCL/
+.. _`oneCCL Documentation`: https://uxlfoundation.github.io/oneCCL
 .. _`oneDAL`: https://github.com/uxlfoundation/oneDAL
-.. _`oneDAL Documentation`: https://oneapi-src.github.io/oneDAL/quick-start.html
+.. _`oneDAL Documentation`: https://uxlfoundation.github.io/oneDAL
 .. _`oneDNN`: https://github.com/oneapi-src/oneDNN
 .. _`oneDNN Documentation`: https://oneapi-src.github.io/oneDNN/
 .. _`oneDPL`: https://github.com/uxlfoundation/oneDPL
 .. _`oneDPL Documentation`: https://oneapi-src.github.io/oneDPL/
-.. _`oneMKL`: https://github.com/uxlfoundation/oneMath/
-.. _`oneMKL Documentation`: https://oneapi-src.github.io/oneMath/
-.. _`oneTBB`: https://github.com/uxlfoundation/oneTBB
-.. _`oneTBB Documentation`: https://oneapi-src.github.io/oneTBB/
+.. _`oneMath`: https://github.com/uxlfoundation/oneMath/
+.. _`oneMath Documentation`: https://uxlfoundation.github.io/oneMath/
+.. _`oneTBB`: https://uxlfoundation.github.io/oneTBB
+.. _`oneTBB Documentation`: https://uxlfoundation.github.io/oneTBB
 .. _`oneAPI Construction Kit`: https://github.com/uxlfoundation/oneapi-construction-kit
 .. _`oneAPI Construction Kit Documentation`: https://github.com/uxlfoundation/oneapi-construction-kit/blob/main/doc/developer-guide.md
