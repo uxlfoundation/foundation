@@ -34,12 +34,12 @@ A companion to the DPC++ Compiler for programming oneAPI devices with APIs from 
 
 `oneDPL Documentation`_
 
-`oneMKL`_
+`oneMath`_
 =========
 
-High performance math routines for science, engineering, and financial applications. one Math Kernel Library implements optimized parallel implementations for BLAS, LAPACK, DFT, RNG and SPARSE math domains.
+High performance math routines for science, engineering, and financial applications. one Math Library implements optimized parallel implementations for BLAS, LAPACK, DFT, RNG and SPARSE math domains.
 
-`oneMKL Documentation`_
+`oneMath Documentation`_
 
 `oneTBB`_
 =========
@@ -65,8 +65,8 @@ The oneAPI Construction Kit can be used to bring SYCL and oneAPI to new and spec
 .. _`oneDNN Documentation`: https://oneapi-src.github.io/oneDNN/
 .. _`oneDPL`: https://github.com/uxlfoundation/oneDPL
 .. _`oneDPL Documentation`: https://oneapi-src.github.io/oneDPL/
-.. _`oneMKL`: https://github.com/uxlfoundation/oneMath/
-.. _`oneMKL Documentation`: https://oneapi-src.github.io/oneMath/
+.. _`oneMath`: https://github.com/uxlfoundation/oneMath/
+.. _`oneMath Documentation`: https://oneapi-src.github.io/oneMath/
 .. _`oneTBB`: https://github.com/uxlfoundation/oneTBB
 .. _`oneTBB Documentation`: https://oneapi-src.github.io/oneTBB/
 .. _`oneAPI Construction Kit`: https://github.com/uxlfoundation/oneapi-construction-kit
