@@ -66,7 +66,7 @@ The oneAPI Construction Kit can be used to bring SYCL and oneAPI to new and spec
 .. _`oneDPL`: https://github.com/uxlfoundation/oneDPL
 .. _`oneDPL Documentation`: https://oneapi-src.github.io/oneDPL/
 .. _`oneMath`: https://github.com/uxlfoundation/oneMath/
-.. _`oneMath Documentation`: https://oneapi-src.github.io/oneMath/
+.. _`oneMath Documentation`: https://uxlfoundation.github.io/oneMath/
 .. _`oneTBB`: https://github.com/uxlfoundation/oneTBB
 .. _`oneTBB Documentation`: https://oneapi-src.github.io/oneTBB/
 .. _`oneAPI Construction Kit`: https://github.com/uxlfoundation/oneapi-construction-kit
