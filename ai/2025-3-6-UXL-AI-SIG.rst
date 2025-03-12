@@ -2,7 +2,7 @@
 AI Special Interest Group Meeting Notes
 =========================================
 
-2026-03-06
+2025-03-06
 ==========
 Attendees
 
