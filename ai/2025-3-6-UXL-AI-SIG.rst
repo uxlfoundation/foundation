@@ -35,8 +35,6 @@ Extend OneDNN Operators/APIs for AI Chips   Leping Wang, En Saho,  (`slides <pre
 
 AI use cases with oneDNN on Arm             Ashok Bhat,  (`slides <presentations/2025-03-06-AI_use_cases_with_oneDNN_on_ARM_ARM_AshokBhat.pdf>`__)
 
-The meeting recording can be found (`here <https://zoom.us/rec/share/0dOySys6ruX57Hwi2WMvkJB3Zn0IEs6aVeZHXBMWpwzFy-1x37-cdGIrO-Yrs0Xa.nhKlXIlTEcv0lx3B>`__).
-
 ======
 Notes
 ======
