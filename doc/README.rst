@@ -9,7 +9,7 @@ Documentation related to infrastructure for UXL.
 `UXL Goals 2025`_
     The goals set for the UXL Foundation in 2025
 `UXL GitHub`_
-    Managing GitHub repositories and organizations
+    GitHub Actions, repositories and organizations
 `UXL Slack`_
     Managing Slack channels
 `Web Hosting`_
