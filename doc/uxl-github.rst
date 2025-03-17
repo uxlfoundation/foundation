@@ -44,28 +44,31 @@ These systems are provided by Intel and maintained by Codeplay Software Ltd.
 
 The following labels are usable:
 
-- uxl-xlarge
-    - 4 vCPU, 16Gi, No GPU
-- uxl-gpu-xlarge
-    - 4 vCPU, 16Gi, 1x 1550 GPU
-- uxl-gpu-2xlarge
-    - 8 vCPU, 32Gi, 2x 1550 GPU
-- uxl-gpu-4xlarge
-    - 16 vCPU, 64Gi, 1x 1550 GPU
-- uxl-gpu-6xlarge
-    - 24 vCPU, 96Gi, 2x 1550 GPU
-- uxl-gpu-8xlarge
-    - 32 vCPU, 128Gi, 1x 1550 GPU
-- uxl-gpu-10xlarge
-    - 40 vCPU, 160Gi, 2x 1550 GPU
-- uxl-gpu-12xlarge
-    - 48 vCPU, 192Gi, 4x 1550 GPU
-- uxl-gpu-16xlarge
-    - 64 vCPU, 256Gi, 1x 1550 GPU
-- uxl-gpu-24xlarge
-    - 96 vCPU, 384Gi, 4x 1550 GPU
-- uxl-gpu-48xlarge
-    - 170 vCPU, 769Gi, 8x 1550 GPU
++------------------+------------+-----------+-------------+
+| Label            | vCPU       | Memory    | GPU         |
++==================+============+===========+=============+
+| uxl-xlarge       | 4          | 16Gi      | -           |
++------------------+------------+-----------+-------------+
+| uxl-gpu-xlarge   | 4          | 16Gi      | 1x 1550 GPU |
++------------------+------------+-----------+-------------+
+| uxl-gpu-2xlarge  | 8          | 32Gi      | 2x 1550 GPU |
++------------------+------------+-----------+-------------+
+| uxl-gpu-4xlarge  | 16         | 64Gi      | 1x 1550 GPU |
++------------------+------------+-----------+-------------+
+| uxl-gpu-6xlarge  | 24         | 96Gi      | 2x 1550 GPU |
++------------------+------------+-----------+-------------+
+| uxl-gpu-8xlarge  | 32         | 128Gi     | 1x 1550 GPU |
++------------------+------------+-----------+-------------+
+| uxl-gpu-10xlarge | 40         | 160Gi     | 2x 1550 GPU |
++------------------+------------+-----------+-------------+
+| uxl-gpu-12xlarge | 48         | 192Gi     | 4x 1550 GPU |
++------------------+------------+-----------+-------------+
+| uxl-gpu-16xlarge | 64         | 256Gi     | 1x 1550 GPU |
++------------------+------------+-----------+-------------+
+| uxl-gpu-24xlarge | 96         | 384Gi     | 4x 1550 GPU |
++------------------+------------+-----------+-------------+
+| uxl-gpu-48xlarge | 170        | 769Gi     | 8x 1550 GPU |
++------------------+------------+-----------+-------------+
 
 .. _`uxlfoundation`: https://github.com/uxlfoundation
 .. _`UXL Members`: https://github.com/orgs/uxlfoundation/teams/uxl-members
