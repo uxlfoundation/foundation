@@ -45,27 +45,27 @@ These systems are provided by Intel and maintained by Codeplay Software Ltd.
 The following labels are usable:
 
 - label: uxl-xlarge
-  - specs: 4 vCPU, 16Gi, No GPU
+    - specs: 4 vCPU, 16Gi, No GPU
 - label: uxl-gpu-xlarge
-  - specs: 4 vCPU, 16Gi, 1x 1550 GPU
+    - specs: 4 vCPU, 16Gi, 1x 1550 GPU
 - label: uxl-gpu-2xlarge
-  - specs: 8 vCPU, 32Gi, 2x 1550 GPU
+    - specs: 8 vCPU, 32Gi, 2x 1550 GPU
 - label: uxl-gpu-4xlarge
-  - specs: 16 vCPU, 64Gi, 1x 1550 GPU
+    - specs: 16 vCPU, 64Gi, 1x 1550 GPU
 - label: uxl-gpu-6xlarge
-  - specs: 24 vCPU, 96Gi, 2x 1550 GPU
+    - specs: 24 vCPU, 96Gi, 2x 1550 GPU
 - label: uxl-gpu-8xlarge
-  - specs: 32 vCPU, 128Gi, 1x 1550 GPU
+    - specs: 32 vCPU, 128Gi, 1x 1550 GPU
 - label: uxl-gpu-10xlarge
-  - specs: 40 vCPU, 160Gi, 2x 1550 GPU
+    - specs: 40 vCPU, 160Gi, 2x 1550 GPU
 - label: uxl-gpu-12xlarge
-  - specs: 48 vCPU, 192Gi, 4x 1550 GPU
+    - specs: 48 vCPU, 192Gi, 4x 1550 GPU
 - label: uxl-gpu-16xlarge
-  - specs: 64 vCPU, 256Gi, 1x 1550 GPU
+    - specs: 64 vCPU, 256Gi, 1x 1550 GPU
 - label: uxl-gpu-24xlarge
-  - specs: 96 vCPU, 384Gi, 4x 1550 GPU
+    - specs: 96 vCPU, 384Gi, 4x 1550 GPU
 - label: uxl-gpu-48xlarge
-  - specs: 170 vCPU, 769Gi, 8x 1550 GPU
+    - specs: 170 vCPU, 769Gi, 8x 1550 GPU
 
 
 .. _`uxlfoundation`: https://github.com/uxlfoundation
