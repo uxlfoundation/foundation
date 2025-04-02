@@ -12,6 +12,15 @@ Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/hardware
 
+2025-02-20 Embecosm and University of Southampton Porting to AI Hardware
+========================================================================
+
+Agenda:
+
+* Introduction.  Alastair Murray, Codeplay Software. `[Slides] <presentations/2025-02-20 - UXL HW SIG Intro.pdf>`__
+* Porting AI to New Hardware: A Case Study. Jeremy Bennett and William Jones, Embecosm. `[Slides] <presentations/2025-02-20 - Porting AI to New Hardware Case Study.pdf>`__
+* Hardware acceleration for PyTorch – a demonstrator.  James Betson and Lorinc Boer.  University of Southampton, with Embecosm. `[Slides] <presentations/2025-02-20 - Hardware Acceleration for PyTorch.pdf>`__
+
 2024-06-03 Imagination Technologies Enabling Compute Hardware
 =============================================================
 
