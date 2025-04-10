@@ -18,6 +18,79 @@ Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/language
 
+2025-02-04 SYCL upstreaming strategy
+====================================
+
+`Slides <presentations/2025-02-04-UXL-SIG-SYCL-upstream-strategy.pdf>`_
+
+`Recording <https://zoom.us/rec/share/GX3Dzh4E_Q4Jo02AyWnVpFi5rADBYpOaFKQkjn5LFNRpv3QmkwbRf-vHXwcA7yDz.agGwSHzGoX9mI06M>`_
+
+* (VL goes through presentation)
+
+* VL: The upstreaming process started in 2019/2020, more or less when DPC++ started to appear.
+* VL: At this time basic clang changes were like the device and host mode, few attributes and address space changes.
+* VL: Upstreaming was put on hold after some change in priorities and lengthy discussion that happened at the time.
+* VL: The process started again with a series of RFCs: the clang frontend, clang driver which orchestrate the clang invocations, LLVM pass and tooling and the runtime.
+* RR: The upstreaming process is very important for UXL. It allow an independent implementation of SYCL in place that allow contributions from many members.
+
+* AA: Which parts of UR are getting upstreamed ?
+* VL: The Intel part of UR will be upstreaming liboffload. But liboffload doesn't have the required functionalities to support SYCL, so we are working with the community to have the required functionalities added to the liboffload API.
+
+* RK: Does that mean Unified Runtime will be merged with liboffload ?
+* VL/RR: That's the plan, merged may not be the right term, but the plan is to have a unique runtime layer.
+
+* (TH goes through presentation)
+
+* TH: Frontend responsibilities are to recognize SYCL kernel invocations, generate and emit SYCL entry point functions, identify all functions reachable from a SYCL kernel, 
+* TH: Coordination information to the runtime. And new diagnostics, such as name requirements,  kernel parameters requirement and language restrictions.
+* TH: Frontend uses a multipass approach, one for the host, one the device. DPC++ uses integration header and footers to transmit information between device and host. The advantage is can work with C++ compiler. 
+* TH: Clang community didn't want the integration header/footer as it create restrictions unneeded if the host compiler is SYCL aware.
+* TH: There were some opposition to a multi-pass compiler, and some wanted a one pass compiler. Compromise was reached to use a multi-pass compiler as long as it didn't limit the set of features a one pass compiler would allow.
+
+* (TH goes through presentation on the new attribute design)
+
+* TH: Introducing a new `sycl_kernel_entry_point` attribute to mark where a SYCL kernel starts to replace the old `sycl_kernel`.
+* TH: It takes the kernel as a parameter, allowing more flexibility on it usage as it no long constraint on which function the attribute can appear.
+
+* (TH goes through presentation on the AST changes)
+
+* TH: Introduce 2 new AST node to represent the SYCL kernel caller function and special call statement to represent the call to the SYCL kernel.
+* RK: Is this implemented in a full SYCL compiler like DPC++ already or developed aside ?
+* TH: We did a PoC in DPC++ before pushing to upstream. We developed the AST support and very minimal codegne support.
+* TH: Communication is done through builtin functions. Manage to get a simple hello world so far.
+* JF: Inside the kernel, the memory is device memory and could be shared ?
+* TH: Whatever you have is going to be copied to the device and that's shared.
+* TH: You can use pointer directly if your device supports USM or you can use the buffer / accessors otherwise.
+* RR: That's right, dm1 and dm2 would be parameters to the kernel so in opencl terms that would be private memory.
+* JB: No changes in the memory model.
+* JF: What do you mean priavte memory ?
+* GL: It is underterminate as you can't observe it. The functor is const so you can't modify them anyway.
+* TH: Is the SYCL kernel required to be const ?
+* GL: yes
+* JF: Can nest, a struct within a struct within a struct and you decompose ?
+* TH: Yes, that's the typical use case.
+
+* TH: Naming is changing relative to DPC++.
+* TH: Current naming misuse the typeinfo special name which can cause issues.
+* TH: Will use a function template specialization with a reserved named instead, which will play better without the demangler.
+* TH: The stable name builtin used to handle lambda is no longer needed and therefore will be deprecated and removed.
+
+* (TH goes through presentation on the new builtin functions)
+
+* TH: Builtin functions are to coordinate between the host and device functions.
+* TH: Will allow the flow of information between them, providing kernel name, number of paramters, their kind (type), the kernel size
+* RK: what do you mean by kernel size ?
+* TH: The size of the object itself. Today it is used to unsure the size on the host matches the size on the device. If this don't match, we have an undeined behaviour where the representation of the host deosn't match the representation on the device.
+* TH: I don't think we are going to need this in the end, we currently provide it because the runtime expects it.
+
+* : AMD is working on SPIR-V support for their ROCM runtime. Would it make sense to work on AMDGCN support ?
+* TH: I would think so, but because their runtime is hip based so make sense to target directly the GPU.
+* RK: AMDGPU works directly ?
+* TH: Yes
+* RK: We don't need for SPIR-V work with ROCM ?
+* RR: No, no today. But if they switch and really commit to this path, then we will reevaluate.
+
+
 2024-11-05 SPIR-V extensions used by DPC++
 ============================================
 
