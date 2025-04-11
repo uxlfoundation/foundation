@@ -19,7 +19,7 @@ General Updates
 
 * The IWOCL conference is this week and the hackathon featured a project working with oneMath
    * Presentations will be available later
-*	Preparation for the ISC conference UXL Birds of a Feather session has begun
+* Preparation for the ISC conference UXL Birds of a Feather session has begun
    * Members are requested to let us know if they are attending and can participate
 * The oneDAL project now has an active Arm based GitHub runner for CI
 * The Working Group is gathering public CI requirements for the projects
