@@ -4,14 +4,14 @@ UXL Foundation Steering Committee Meeting 10 April 2025
 
 Attendees
 
-*	Rod Burns, Chair (Codeplay Software)
-*	Evgeny Drapkin (GE HealthCare)
-*	Chris Reed (GE HealthCare)
-*	Manuj Sabharwal (Qualcomm)
+* Rod Burns, Chair (Codeplay Software)
+* Evgeny Drapkin (GE HealthCare)
+* Chris Reed (GE HealthCare)
+* Manuj Sabharwal (Qualcomm)
 * Dave Murray (Imagination)
 * Megan Knight (Arm)
 * Andrew Wafaa (Arm)
-*	Priyanka Sharma (Fujitsu Limited)
+* Priyanka Sharma (Fujitsu Limited)
 * Melissa Aranzamendez (The Linux Foundation)
 	
 General Updates
