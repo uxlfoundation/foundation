@@ -18,6 +18,150 @@ Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/language
 
+2025-05-06 Write Once, Deploy Many 
+========================================================
+
+Presenter: Stefan Werner
+
+Note: The presentation is based on the IWOCL 2025 presentation titled 
+**Write Once, Deploy Many – 3D Rendering With SYCL Cross-Vendor Support and
+ Performance Using Blender Cycles**,
+a recording of it is available in https://www.youtube.com/watch?v=bjLZwZ_vN58. 
+
+## Blender Overview
+
+- Blender is a very popular open source rendering toolkit.
+- It has two renderers; the focus on this presentation is on **Cycles**.
+
+## Cycles Implementation
+
+- The initial implementation used a single large kernel.
+- Cycles was refactored to a wavefront/microkernel approach called 
+  **"Cycles X"** for performance improvements.
+- Kernels are still quite large.
+- OpenCL and CUDA code were too different, so in 2022, **SYCL** was added to
+  support **Intel Arc**.
+- OpenCL support was dropped
+- Code is written in C++ headers; there are 36 different kernels with almost
+  no difference across targets.
+- Backend-specific code is limited to interfacing and kernel launching.
+- Volume and lighting are the bottlenecks; the code is quite complex.
+
+## SYCL Support and Limitations
+
+- Some extensions that are not part of plain SYCL are used to 
+  facilitate compatibility.
+- Macros are required to generate the launching code.
+- The SYCL model is difficult for existing applications that need
+   to pass pointers around.
+- Kernels have up to **180,000 instructions**, which leads to very 
+  high register pressure and long compilation times due to large binaries.
+
+## Important Extensions
+
+- Bindless textures (experimental)
+- Device globals
+- Free memory information
+- Vulkan interoperability
+- Other in-kernel functions
+
+## Bindless Textures and Device Globals
+
+- Bindless textures are critical for this effort.
+- Device globals were not efficient initially because constant 
+  memory couldn't be used.
+- Using external device globals makes the implementation much 
+  simpler and more efficient on **NVIDIA GPUs**.
+- External device globals enable compiler and hardware optimizations that
+  are not otherwise possible.
+
+## Blender SYCL Deployment Challenges
+
+- Maintaining and shipping Blender with SYCL is complicated.
+- Binaries must run in all cases and meet many requirements:
+  - GPLv3 compatibility
+  - No runtime dependencies
+  - Open-source builds
+  - Easy to download and set up
+  - Forward compatibility with future drivers and hardware releases
+- **Ahead-of-time (AOT)** compilation is required.
+- To reduce overall binary sizes, **device binary compilation** is enabled.
+
+## Toolchain and Performance
+
+- SYCL does not support hardware ray tracing, which limits performance compared
+  to vendor-native APIs.
+- CMake integration is convenient for users
+- In this case, CMake integration was added before native CMake support
+  existed for SYCL
+- Different backends and tools from NVIDIA and AMD can be used to work
+  on SYCL code.
+- Multiple tools from different vendors can be used for performance tuning.
+- Performance is currently at **96%** of the native NVIDIA backend, which is 
+  quite good with room for improvement.
+- Achieving CUDA-level performance was quick.
+
+## CUDA vs. OptiX and Ray Tracing
+
+- Hardware ray tracing improves performance dramatically.
+- SYCL backends for NVIDIA and AMD will not match native performance because 
+  they can't access hardware ray tracing capabilities.
+- There are no plans to support OptiX or AMD equivalent in the near future as 
+  they are fundamentally a different API and workflow.
+
+---
+
+## Q&A
+
+- **Q: How does kernel launch work in CUDA? \
+  Is it also a pointer of arguments?**  
+  - Device abstraction from Cycles is given a void pointer
+    of arguments.  
+  - The kernel has no visibility into the arguments and must match 
+    them manually.
+
+- **Q: How much of the learning from running SYCL on NVIDIA 
+    can be extrapolated to Intel GPUs?**  
+  - Not specifically for double precision, but other backends can benefit.  
+  - On the AMD side, not much work has been done.  
+  - There is no PTX support; only binaries are provided, which is a nightmare.
+
+- **Q: Are ray tracing APIs available from different vendors?**  
+  - **NVIDIA:** Not supported in CUDA directly. Requires Vulkan or DirectX. 
+    It's a very different approach; you can't call ray tracing arbitrarily.  
+  - **AMD:** No ray tracing built-ins. A separate toolchain is required. 
+    Nothing equivalent to PTX; also AMD forces the use of a specific toolchain.
+
+### Biagio Cosenza
+
+- **Reordering for ray tracing/locality?**  
+  - No investigation has been done for SYCL.  
+  - Needs to work across all backends.  
+  - Could help, but overhead may outweigh benefits; further 
+    investigation needed.
+
+- **Can you use specialization constants for shaders to improve performance, 
+    especially on Intel GPUs?**  
+  - Specialization constants have not been optimized yet.  
+  - Intel hardware supports triangles natively.  
+  - Specialization constants are used depending on the scene.  
+  - JIT time is small enough to justify their use.  
+  - Be careful—changing parameters triggers recompilation and may cause 
+    app hangs.
+
+- **You could only use specialization constants for things that don’t change
+   during the scene.**  
+  - Yes, recompilation may make them ineffective due to JIT overhead.
+
+### Victor Lomuller
+
+- **Why use double precision? Was that on purpose?**  
+  - Not intentional. Depending on header order, a software implementation of a 
+    builtin might be used over the hardware one.  
+  - The compiler may choose precision versus speed; for graphics, the speed-optimized 
+    implementation is acceptable even if it is less accurate.
+
+
 2025-02-04 SYCL upstreaming strategy
 ====================================
 
