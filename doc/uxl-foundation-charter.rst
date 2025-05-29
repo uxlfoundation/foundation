@@ -27,7 +27,7 @@ architectures including CPUs, GPUs or accelerators*.
 
 +----------------------------------------+---------------------------------------+
 | .. figure:: images/cpu-gpu-npu-ai.png  | .. figure:: images/cpu-gpu.png        |
-|    :scale: 50 %                        |    :scale: 50 %                       |
+|    :scale: 25 %                        |    :scale: 25 %                       |
 |    :alt: cpu-npu-gpu-ai                |    :alt: cpu-gpu                      |
 +========================================+=======================================+
 | Multiple types of processors are used  | Large data centres and clusters are   |
