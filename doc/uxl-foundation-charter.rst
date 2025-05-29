@@ -349,4 +349,4 @@ channels or `mailing list`_.
 .. _`oneDNN Maintainers`: https://github.com/oneapi-src/oneDNN/blob/main/MAINTAINERS.md
 .. _`oneDNN Contributing`: https://github.com/oneapi-src/oneDNN/blob/main/CONTRIBUTING.md
 .. _`GitHub repository`: https://github.com/uxlfoundation/foundation
-.. _Evans Data Article on Multiarchitecture Programming`: https://evansdata.com/press/viewRelease.php?pressID=364
+.. _`Evans Data Article on Multiarchitecture Programming`: https://evansdata.com/press/viewRelease.php?pressID=364
