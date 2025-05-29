@@ -21,6 +21,10 @@ in particular for AI. Large data centres and clusters are increasingly using
 large numbers of GPUs to accelerate data intensive workloads including those used 
 in AI.
 
+A survey done by Evans Data in 2024 found that more than half of developers are 
+now designing software to account for processor specifics across multiple hardware 
+architectures including CPUs, GPUs or accelerators*. 
+
 +----------------------------------------+---------------------------------------+
 | .. figure:: images/cpu-gpu-npu-ai.png  | .. figure:: images/cpu-gpu.png        |
 |    :scale: 50 %                        |    :scale: 50 %                       |
@@ -326,6 +330,8 @@ working with UXL Foundation projects please share your feedback, issues and
 ideas through GitHub or the SIG meetings. Get in touch via the `Slack`_ 
 channels or `mailing list`_.
 
+* `Evans Data Article on Multiarchitecture Programming`_
+
 .. _`UXL Foundation`: https://www.uxlfoundation.org
 .. _`sycl`: https://www.khronos.org/sycl/
 .. _`oneTBB`: https://github.com/oneapi-src/oneTBB
@@ -340,6 +346,7 @@ channels or `mailing list`_.
 .. _`oneAPI specification`: https://oneapi-spec.uxlfoundation.org/specifications/oneapi/latest/
 .. _`mailing list`: https://lists.uxlfoundation.org
 .. _`GitHub project board`: https://github.com/orgs/uxlfoundation/projects/5?pane=info
-.. _`oneDNN Maintainers` : https://github.com/oneapi-src/oneDNN/blob/main/MAINTAINERS.md
-.. _`oneDNN Contributing` : https://github.com/oneapi-src/oneDNN/blob/main/CONTRIBUTING.md
-.. _`GitHub repository` : https://github.com/uxlfoundation/foundation
+.. _`oneDNN Maintainers`: https://github.com/oneapi-src/oneDNN/blob/main/MAINTAINERS.md
+.. _`oneDNN Contributing`: https://github.com/oneapi-src/oneDNN/blob/main/CONTRIBUTING.md
+.. _`GitHub repository`: https://github.com/uxlfoundation/foundation
+.. _Evans Data Article on Multiarchitecture Programming`: https://evansdata.com/press/viewRelease.php?pressID=364
