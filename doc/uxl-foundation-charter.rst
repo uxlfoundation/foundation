@@ -330,7 +330,7 @@ working with UXL Foundation projects please share your feedback, issues and
 ideas through GitHub or the SIG meetings. Get in touch via the `Slack`_ 
 channels or `mailing list`_.
 
-* `Evans Data Article on Multiarchitecture Programming`_
+- * `Evans Data Article on Multiarchitecture Programming`_
 
 .. _`UXL Foundation`: https://www.uxlfoundation.org
 .. _`sycl`: https://www.khronos.org/sycl/
