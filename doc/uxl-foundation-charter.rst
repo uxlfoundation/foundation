@@ -279,12 +279,13 @@ Hardware Support
 ----------------
 
 The UXL projects aim to support a broad range of processors from different 
-vendors. This table shows the status for each project. Contributions can be 
-made to the projects to introduce new target processors and/or to provide build 
-and testing resources for these targets to improve support for these projects.
+vendors. Each project shows the currently supported hardware in the project 
+documentation. Contributions can be made to introduce new target processors 
+and/or to provide build and testing resources for these targets to improve 
+support. 
 
 Potential contributors can contact the project team through the `Slack`_ channel 
-or `mailing list`_ to discuss with to the project maintainers and the community 
+or `mailing list`_ to discuss with the project maintainers and the community 
 about how they can assist with this work.
 
 Distribution
