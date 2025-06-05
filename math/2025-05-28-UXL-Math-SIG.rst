@@ -7,7 +7,7 @@ Math Special Interest Group Meeting Notes
 
 Materials:
 
-* `Arm CI <presentations/tbd.pdf>`__
+* `Arm CI Presentation <presentations/tbd.pdf>`__
 * `MLKAPS Presentation <presentations/TBD.pdf>`__
 
 Attendees:
