@@ -39,8 +39,8 @@ Topics from attendees
 
 * Deepika and Ragesh discussed plans to add openBLAS as a backend to oneMath
 
-   * Augustin suggested it would not be difficult due to the similarity with the netlib and ArmPL libraries
-   * Offline discussion will continue about this work
+  * Augustin suggested it would not be difficult due to the similarity with the netlib and ArmPL libraries
+  * Offline discussion will continue about this work
 
 USM Pointers and SYCL Buffers Implementation Challenge
 ------------------------------------------------------
@@ -67,6 +67,7 @@ Presenter: Rafal Bielski
 * Netlib used as reference for correctness checking in BLAS backend
 
 Future Improvements:
+
 * Need ARM CPU DPC++ release binaries to avoid CI builds
 * Dedicated runners for CPU testing would provide better environment control
 
