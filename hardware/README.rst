@@ -17,9 +17,9 @@ Community Forum can be found `here`_
 
 Agenda:
 
-* Introduction.  Alastair Murray, Codeplay Software. `[Slides] <presentations/2025-02-20 - UXL HW SIG Intro.pdf>`__
-* Porting AI to New Hardware: A Case Study. Jeremy Bennett and William Jones, Embecosm. `[Slides] <presentations/2025-02-20 - Porting AI to New Hardware Case Study.pdf>`__
-* Hardware acceleration for PyTorch – a demonstrator.  James Betson and Lorinc Boer.  University of Southampton, with Embecosm. `[Slides] <presentations/2025-02-20 - Hardware Acceleration for PyTorch.pdf>`__
+* Introduction.  Alastair Murray, Codeplay Software. `[Slides] <presentations/2025-02-20_AlastairMurray_SIG_Intro.pdf>`__
+* Porting AI to New Hardware: A Case Study. Jeremy Bennett and William Jones, Embecosm. `[Slides] <presentations/2025-02-20_BennettJones_Porting_AI_to_New_Hardware_Case_Study.pdf>`__
+* Hardware acceleration for PyTorch – a demonstrator.  James Betson and Lorinc Boer.  University of Southampton, with Embecosm. `[Slides] <presentations/2025-02-20_BetsonBoer_Hardware_Acceleration_for_PyTorch.pdf>`__
 
 2024-06-03 Imagination Technologies Enabling Compute Hardware
 =============================================================
