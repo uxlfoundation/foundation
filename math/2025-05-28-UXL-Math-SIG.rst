@@ -7,8 +7,8 @@ Math Special Interest Group Meeting Notes
 
 Materials:
 
-* `Arm CI Presentation <presentations/tbd.pdf>`__
-* `MLKAPS Presentation <presentations/TBD.pdf>`__
+* `Arm CI Presentation <presentations/UXL-Math-SIG-2025-05-28_Rafal_Bielski_Arm_CI.pdf>`__
+* `MLKAPS Presentation <presentations/UXL-Math-SIG-2025-05-28_Eric_Petit_MLKAPS.pdf>`__
 
 Attendees:
 
