@@ -12,6 +12,14 @@ Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/hardware
 
+2025-05-08 Scaling Workloads with a Memory Lake
+===============================================
+
+Agenda:
+
+* Introduction.  Alastair Murray, Codeplay Software. `[Slides] <presentations/2025-05-08_AlastairMurray_SIG_Intro.pdf>`__
+* Scaling Workloads with a Memory Lake.  Dr. Skyler Windh, Micron Scalable Memory Systems Pathfinding. `[Slides] <presentations/2025-05-08_SkylerWindh_Memory_Lakes.pdf>`__
+
 2025-02-20 Embecosm and University of Southampton Porting to AI Hardware
 ========================================================================
 
