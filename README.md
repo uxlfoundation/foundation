@@ -30,7 +30,7 @@ The public calendar of UXL Foundation meetings is available using
 Sign up to the mailing lists for the Working Groups and Special 
 Interest Groups (SIGs) [here](https://lists.uxlfoundation.org/groups).
 
-Join the [Slack workspace](https://slack-invite.uxlfoundation.org/) 
+Join the [Slack workspace](https://join.slack.com/t/uxlfoundation/shared_invite/zt-2b1tm2frp-GZY~JBngtXo5xRrcgFrV6Q) 
 to take part in the discussions and conversations.
 
 Steering Committee
