@@ -17,7 +17,12 @@ Attendees (virtual)
 * Alison Richards (Intel)
 * Melissa Aranzamendez (Linux Foundation)
 * Priyanka Sharma (Fujitsu) partial attendance
-	
+
+Open Source Summit
+==================
+
+This was the first face to face Steering Committee meeting hosted at the Open Source Summit, Denver.
+
 UXL Mini Summit
 ===============
 The team discussed preparations for the upcoming Mini summit at the Open Source Summit event including reviewing the agenda and slides. 
