@@ -41,7 +41,7 @@ measures for the second half of the year.
 
 A summary of the objectives for the first half of the year are as follows:
 
-.. list-table:: Title
+.. list-table:: H1 2025
    :widths: 25 25 50
    :header-rows: 1
 
