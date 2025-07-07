@@ -104,8 +104,8 @@ meantime this is a high level list.
 Some objectives have been altered for the second half of the year based on committee feedback to better reflect 
 the best measures for our high level objectives.
 
-.. list-table:: Title
-   :widths: 25 25 50
+.. list-table:: 2025 H2
+   :widths: 25 25
    :header-rows: 1
 
    * - Objective
