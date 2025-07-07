@@ -85,11 +85,11 @@ A summary of the objectives for the first half of the year are as follows:
      - 5
      - New runners available (Objective to be amended for H2)
    * - Foundation Health : Number attendees at meetings growing
-     - To be updated to attrition and number orgs
-     - Steady attendance across meetings
+     - Attendance growing
+     - Steady attendance : To be updated to attrition and number orgs
    * - Foundation Health : Number work packages growing
-     - To be updated to progress of work packages
-     - Not growing as focused on existing jobs
+     - Number of work packages growing
+     - Not growing as focused on existing jobs (to be updated to progress of work packages)
    * - Foundation Health : Number unique orgs contributing growing
      - To be updated to measure adoption better
      - Growing
