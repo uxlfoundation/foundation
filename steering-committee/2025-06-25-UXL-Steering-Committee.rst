@@ -49,9 +49,45 @@ A summary of the objectives for the first half of the year are as follows:
    * - Grow UXL Membership : New Other Members
      - 12
      - 6
-   * - Grow UXL Memberhip : New Alliances
+   * - Grow UXL Membership : New Alliances
      - 5
      - 2
+   * - Grow Awareness/Usage : UXL presentations at events
+     - 12
+     - 9
+   * - Grow Awareness/Usage : Member exhibitors
+     - 6
+     - 7
+   * - Grow Awareness/Usage : UXL event satisfaction score
+     - 3/5
+     - 4.5/5
+   * - Grow Awareness/Usage : Blogs/Articles Published by UXL
+     - 8
+     - 5
+   * - Grow Awareness/Usage : UXL Articles published by UXL members
+     - 18
+     - 5
+   * - Grow Contributions : New Project Contributions from new orgs
+     - 2
+     - 0 (Objective to be amended for H2)
+   * - Grow Contributions : Unique orgs contributing
+     - 5
+     - 6
+   * - Grow Contributions : Unique orgs RFC feedback
+     - 10
+     - 4
+   * - Grow Contributions : Public CI Machines
+     - 5
+     - New runners available (Objective to be amended for H2)
+   * - Foundation Health : Number attendees at meetings growing
+     - To be updated to attrition and number orgs
+     - Steady attendance across meetings
+   * - Foundation Health : Number work packages growing
+     - To be updated to progress of work packages
+     - Not growing as focused on existing jobs
+   * - Foundation Health : Number unique orgs contributing growing
+     - To be updated to measure adoption better
+     - Growing
 
 Measuring Open-Source Project Adoption
 ======================================
