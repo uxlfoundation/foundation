@@ -33,7 +33,7 @@ The group re-visited the summary of the objectives and progress for the first ha
 
 The results copied from the previous week committee meeting notes is here:
 
-.. list-table:: Title
+.. list-table:: H1 2025
    :widths: 25 25 50
    :header-rows: 1
 
