@@ -19,22 +19,6 @@ UXL DevSummit Organization
 The provisional agenda for the DevSummit is below and will be published on the [website](https://oneapi.io/events/) very soon.
 Registration is open on [RegFox](https://linuxfoundation.regfox.com/2025-uxl-foundation-devsummit).
 
-Time	Duration (min)	Topic	Speaker
-8:00 am - 8:10 am	10	Welcome remarks	Moderators 
-8:10 am - 8:20 am	10	Introduction 	Rod Burns, Chairperson, UXL Foundation Steering Committee 
-8:20 AM - 8:50 AM	30	Keynote: Accelerating Scientific ML with FUJITSU-MONAKA: Towards Energy-Efficient AI for Next-Gen Simulation Workflows	Priyanka Sharma, Fujitsu 
-8:50 AM - 9:15 AM	25	Accelerating DL on ARM through oneDNN	Shreyas Shankar, Fujitsu 
-		10 minute break	
-9:25 AM - 9:50 AM	25	ParaS, a new implementation of the Khronos SYCL standard	Aniket Garade and Deepika HV, CDAC
-9:50 AM -10:15 AM	25	MCPAF-X9—a radically new multi-core architecture	Roy Colca, MercyHurst University
-10:20 AM - 10:25 AM	5	Lightning talk: Accelerating Ocular Disease Diagnosis: Deploying Lightweight AI on the Edge with oneAPI	Akshay Bhuvaneswari Ramakrishnan. Johns Hopkins University
-10:25 AM - 10:50 AM	25	SYgraph: A Portable Heterogeneous Graph Analytics Framework for GPUs (25 minutes)	 Antonio De Caro, University of Salerno 
-10:50 - 11:15 AM	25	SYprox: A SYCL Framework for Enabling Approximate Computing on Heterogeneous Architectures (25 minutes)	Lorenzo Carpentieri, University of Salerno 
-		5 minute break	
-11:20 AM - 11:45 AM	25	Topic: Reinforcement Learning for Dynamic LLM Data Integration: A Scalable Path to Self-Optimizing Pipeline (25 minutes)	Venkata Kiran Chand Vemulapalli, Verizon 
-11:45 AM - 12:10 AM	25	Topic: Accelerating Network Telemetry & Anomaly Detection on the Edge with oneAPI (25 minutes)	Munachimso (Muna) Nwaiwu, Cornell University
-		Closing Remarks
-
 .. list-table:: UXL oneAPI DevSummit 2025
    :widths: 25 50 25
    :header-rows: 1
