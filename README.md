@@ -94,8 +94,8 @@ The public calendar of UXL Foundation meetings is available using
 | 5 Aug 2025, 10am-11am US Central Time | Language SIG | Virtual |
 | 14 Aug 2025, 10am-11am US Central Time | Hardware SIG | Virtual |
 | 26 Aug 2025, 9am-10am US Central Time | Open Source Working Group | Virtual |
-| 27 Aug 2025, 9am-10am US Central Time | Math SIG | Virtual |
 | 23 Sep 2025, 10am-11am US Central Time | Open Source Working Group | Virtual |
+| 12 Nov 2025, 9am-10am US Central Time | Math SIG | Virtual |
 
 [Join the relevant mailing list to receive an invite for the Working Groups and SIGs](https://lists.uxlfoundation.org/g/main)
 
