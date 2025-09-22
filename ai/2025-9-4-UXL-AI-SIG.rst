@@ -37,7 +37,7 @@ Attendees
 Agenda
 ======
 
-OneDNN RISC-V ”V” Primitives,  Alexandre Santana, Marc Casas, Barcelona Supercomputing Center (`slides <presentations/2025-09-04-UXL-AISIG-.pdf>`__)
+OneDNN RISC-V ”V” Primitives,  Alexandre Santana, Marc Casas, Barcelona Supercomputing Center (`slides <presentations/2025-09-04-OneDNN_RISC_V_Integration_BSC_AlexandreSantana.pdf>`__)
 
 ======
 Notes
