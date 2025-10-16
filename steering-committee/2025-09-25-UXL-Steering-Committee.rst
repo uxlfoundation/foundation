@@ -1,4 +1,8 @@
+===========================================================
 UXL Steering Committee Meeting Minutes - September 25, 2025
+===========================================================
+
+Attendees:
 
 * Andrew Wafaa, Co-Chair (Arm Limited)	
 * Manuj Sabharwal, Co-Chair (Qualcomm, Inc.)	
