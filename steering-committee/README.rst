@@ -10,6 +10,12 @@ outputs from the Working Groups.
 
 Minutes from the Steering Committee meetings are made available in this folder.
 
+`23rd October 2025 <2025-10-23-UXL-Steering-Committee.rst>`_
+
+`9th October 2025 <2025-10-09-UXL-Steering-Committee.rst>`_
+
+`25th September 2025 <2025-09-25-UXL-Steering-Committee.rst>`_
+
 `11th September 2025 <2025-09-11-UXL-Steering-Committee.rst>`_
 
 `28th August 2025 <2025-08-28-UXL-Steering-Committee.rst>`_
