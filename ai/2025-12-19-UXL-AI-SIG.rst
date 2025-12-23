@@ -1,0 +1,145 @@
+=========================================
+  AI Special Interest Group Meeting Notes
+=========================================
+
+2025-12-19
+=========
+Attendees
+
+* Biagio COSENZA (University of Salerno)
+* Wang, Leping (Beijing Institute of Open Source Chip, BOSC)
+* Whitney Tsang (Intel)
+* \S. J. Golzar (University of Salerno)
+* Kuldeep Pal (Individual)
+* Abhishek Bagusetty (Individual)
+* Boyuan Bao (Beijing Institute of Open Source Chip, BOSC)
+* Tao Lv (Intel)
+* Aruna K (Fujitsu Limited)
+* Akhil Goel (Individual)
+* Ettore Tiotto (Intel)
+* Penporn Koanantakool (Google LLC)
+* Jianhui Li (Intel)
+* Alison Richards (Intel Corporation)
+* En Shao (University of Chinese Academy of Sciences)
+
+======
+Agenda
+======
+
+**NVIDIA GPU Adaptation for SYCL-MLIR**, **Boyuan Bao**, Beijing Institute of Open Source Chip, (`slides <presentations/2025-12-19-NVIDIA-GPU_ADAPTATION_FOR_SYCL-MLIR_BoYuan.pdf>`__)
+
+
+Background and Motivation
+=========================
+
+- **SYCL-MLIR** is an MLIR-based compiler infrastructure for SYCL and heterogeneous
+  programming, designed to keep host code and device kernels in the same MLIR
+  module to enable cross-boundary analysis and optimization prior to LLVM lowering.
+- The existing open-source implementation supported Intel backends only and did
+  not support NVIDIA or AMD GPUs, preventing end-to-end compilation for
+  CUDA targets.
+- **Ettore Tiotto** explained that the original SYCL-MLIR work was a research project
+  focused on exploring optimization opportunities using MLIR. The project was
+  later shelved internally and is no longer actively maintained.
+
+Technical Contributions
+=======================
+
+NVIDIA Built-in Variable Adaptation
+-----------------------------------
+
+- The generated LLVM IR contained references to SPIR-V built-in variables
+  (e.g., thread and block IDs, execution parameters).
+- On NVIDIA GPUs, these must be expressed using NVVM intrinsics rather than
+  SPIR-V-style built-ins.
+- The team implemented a new MLIR pass, inserted after lowering to the LLVM
+  dialect, to replace SPIR-V built-in references with equivalent NVVM intrinsics,
+  enabling compatibility with the NVIDIA toolchain.
+
+- **Ettore Tiotto** suggested an alternative design in which these operations are
+  represented as higher-level MLIR operations and lowered per backend
+  (NVVM / ROCDL / SPIR-V), noting that the final generated code could be equivalent
+  while providing a cleaner abstraction.
+
+Kernel Entry Point Handling
+---------------------------
+
+- Kernel attributes were added to ensure that backend compilation pipelines
+  correctly identify kernel entry points.
+- Without these attributes, later compilation stages would fail to recognize
+  device kernels.
+
+Pipeline Integration
+--------------------
+
+- The current compilation flow is not yet fully unified:
+  - Front-end: SYCL source is lowered to MLIR/LLVM using existing front-end tooling (e.g., cgeist-based flow).
+  - Back-end: code generation is delegated to the DPCPP toolchain.
+- Additional scripting and command adjustments were introduced to bridge these
+  stages, enabling generation of executable binaries for NVIDIA GPUs.
+
+Results and Validation
+=====================
+
+- Correctness was validated using **SYCLBench** and **PolyBench** test suites.
+- Most benchmarks executed successfully on NVIDIA GPUs.
+- No performance evaluation was conducted in this phase.
+  The focus was on functional correctness and backend enablement.
+
+Q&A and Strategic Discussion
+============================
+
+Performance Evaluation
+----------------------
+
+- **Ettore Tiotto** noted that performance comparison against a baseline
+  (without SYCL-MLIR translation) would be a natural next step.
+- The presenters confirmed that performance analysis has not yet been performed.
+
+Future Backend Support
+----------------------
+
+- The team plans to explore additional backends, including **AMD GPUs**.
+- It was noted that the AMD path should be similar, using ROCDL-based lowering.
+
+Maintenance and Upstreaming Strategy
+------------------------------------
+
+- The team asked whether to contribute the NVIDIA backend through Intel’s existing
+  repository or via UXL processes.
+- **Ettore Tiotto** recommended maintaining an independent fork:
+  - The original Intel repository is no longer actively maintained.
+  - Forking removes reliance on Intel-internal CI infrastructure and enables independent CI coverage across a broader hardware ecosystem.
+
+Front-end Considerations
+------------------------
+
+- **Whitney** asked whether replacing the current front-end (cgeist) with a more
+  standardized MLIR-based front-end such as CIR (Clang IR) was being considered.
+- **Ettore Tiotto** explained that cgeist was used historically due to lack of
+  alternatives at the time, and that the status of CIR-based flows remains unclear.
+- The group noted that front-end choice depends on whether the goal is rapid
+  prototyping or long-term productization.
+
+UXL Foundation Process for Adding a Repository
+----------------------------------------------
+
+- **Penporn Koanantakool (Google)** and **Alison Richards (Intel)** explained that
+  proposals for hosting a repository under the UXL Foundation should be brought
+  to the **UXL Open Source Working Group**
+  (open-source-wg@lists.uxlfoundation.org).
+- Ongoing maintenance, contributor activity, and CI availability are key factors
+  in determining whether a project is suitable to be hosted under UXL.
+
+Announcements
+=============
+
+- **UXL Foundation Members Meeting**
+  - Date: **January 15**
+  - Time: **7:00–9:00 AM Pacific**
+  - Audience: UXL Foundation members (Contributing / Governing / Steering Committee)
+- Agenda items include SIG updates (AI, hardware, language, math),
+  working group updates, a new memory-centric computing SIG chaired by Samsung,
+  and steering committee updates.
+- Members are encouraged to subscribe to the UXL newsletter and mailing lists
+  and to check the foundation calendar for upcoming events.
