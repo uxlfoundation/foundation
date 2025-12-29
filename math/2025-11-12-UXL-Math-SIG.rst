@@ -7,6 +7,7 @@ Math Special Interest Group Meeting Notes
 
 Materials:
 
+* `Harnessing Arm Scalable Vector Extension <presentations/UXL-Math-SIG-2025-11-12_CDAC-OpenBLAS_Numpy_SVE.pdf>`__
 * `Updates <presentations/UXL-Math-SIG-2025-11-12_SarahKnepper_Update.pdf>`__
 
 Attendees:
