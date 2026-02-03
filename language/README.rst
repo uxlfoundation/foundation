@@ -24,10 +24,10 @@ The following are the meeting schedules for 2026:
 ================ ================================================
 Date             Agenda
 ================ ================================================
-Feb 3, 2026      tbd
-May 5, 2026      tbd
-Jul 28, 2026     tbd
-Nov 3, 2026      tbd
+Feb 3, 2026      oneDPL Overview and Update, Alexey Kukanov (Intel)
+May 5, 2026      SYCL (agenda tbd)
+Jul 28, 2026     oneTBB is 20!
+Nov 3, 2026      dpctl  (agenda tbd)
 ================ ================================================
 
 
