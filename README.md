@@ -62,7 +62,7 @@ minutes can be found in the relevant folder in this repository.
 
 * [Math](/math) - This groups covers topics related to math operations.
 
-* [AI](/ai-and-scientific-computing) - This group covers topics related to AI operations.
+* [AI & Scientific Computing](/ai-and-scientific-computing) - This group covers topics related to AI and Scientific Computing.
 
 * [Hardware](/hardware) - This group covers topics related to the integration
   of hardware and how this is defined in the oneAPI specification.

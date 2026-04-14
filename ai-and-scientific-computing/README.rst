@@ -14,7 +14,7 @@ This evolution reflects the growing convergence of AI-driven methods and scienti
 
 👥 The AI & Scientific Computing SIG is led by Chairs Penporn Koanantakool (Google) and Priyanka Sharma (Fujitsu), along with Co-Chairs Jian Hui Li (Intel) and Ragesh Hajela (Fujitsu).
 
-Archived meeting notes from meetings held under the oneAPI 
+Archived meeting notes from oneAPI AI Tab meetings held under the oneAPI 
 Community Forum can be found `here`_
 
-.. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/ai-and-scientific-computing
+.. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/ai
