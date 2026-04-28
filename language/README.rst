@@ -12,6 +12,8 @@ The SIG does not discuss the design of SYCL APIs, just general feedback.
 
 The language SIG is led by Biagio Cosenza <bcosenza AT unisa DOT it>. 
 
+You can sign up for the Language SIG mailing list on this `page <https://lists.uxlfoundation.org/g/Language-SIG>`__ to receive updates and call information.
+
 
 2026 Language SIG Quarterly Meetings
 ------------------------------------
@@ -25,7 +27,7 @@ The following are the meeting schedules for 2026:
 Date             Agenda
 ================ ================================================
 Feb 3, 2026      oneDPL Overview and Update, Alexey Kukanov (Intel)
-May 5, 2026      SYCL (agenda tbd)
+May 5, 2026      SYCL Offloading toolchain upstreaming, Yury Plyakhin (Intel)
 Jul 28, 2026     oneTBB is 20!
 Nov 3, 2026      dpctl  (agenda tbd)
 ================ ================================================
@@ -35,6 +37,11 @@ Previous Language SIG Meetings
 ----------------------------------------
 
 Hereafter, you will find slides, recordings, and additional materials from the meetings that have already been held. 
+
+:2026-02-03:
+    | oneDPL Overview and Update
+    | Alexey Kukanov (Intel)
+    | `slides <presentations/2026-02-03-oneDPL.pdf>`__
 
 :2025-11-04:      
     | dpctl: Portable Data Parallel Extensions for Python
@@ -62,7 +69,6 @@ Hereafter, you will find slides, recordings, and additional materials from the m
     | `slides <presentations/2024-11-05-spirv-extensions.pdf>`__
       `tracking spreadsheet <https://docs.google.com/spreadsheets/d/1pgPno--m-MiQIjN1kKkgzi1KEr4o_0cF/edit?gid=1151130440#gid=1151130440>`__
       `recording <https://zoom.us/rec/share/hfZJJBRwrACUxfZH8iu4EFfRBehce7GtaWrXPsXlnD36KSh4RqFQuYQgmJvC1qG6.EQB4yIBUdigvbtAZ>`__
-
 
 :2024-02-06:
     | Numba-dpex: Towards SYCL-like kernel programming in Python
