@@ -124,7 +124,7 @@ Summary
 Overview
 -----------------
 
-- The Unified Accelerator Foundation (UXL) AI Special Interest Group (SIG) is now evolved into the AI & Scientific Computing SIG, expanding its scope to include scientific frameworks and AI for Science.
+- The Unified Acceleration Foundation (UXL) AI Special Interest Group (SIG) is now evolved into the AI & Scientific Computing SIG, expanding its scope to include scientific frameworks and AI for Science.
 - This was the inaugural meeting of UXL AI and Scientific Computing SIG featuring a presentation by Prof. Makoto Tsubokura on the impact of AI on engineering design.
 - Prof. Tsubokura explained that for AI to be useful, appropriate constraints are necessary. He emphasized the need to build a constrained design space that accounts for the differing perspectives of engineers and designers
 - This design space utilizes three techniques: parameterized geometry, Principal Component Analysis (PCA), and latent space editing. He covered topics on development of AI surface models and multi-objective optimization to controlled shape refinement.
