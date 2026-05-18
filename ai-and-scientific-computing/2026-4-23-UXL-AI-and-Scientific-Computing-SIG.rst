@@ -157,4 +157,4 @@ Discussion Highlights
 -----------------
 
 - Prof. Tsubokura explained on usage of CFD softwares to significantly reduce pre-processing time for vehicle exterior designs, enabling the AI to handle large volumes of data.
-- Participants asked questions regarding evaluation of Tesla Cybertruck, the balance between performance and style, and computational resource requirements, to which Prof. Tsubokura provided detailed responses.
+- Participants asked questions regarding evaluation of Tesla Cybertruck, the balance between performance and style, programming frameworks that were used, and computational resource requirements, to which Prof. Tsubokura provided detailed responses.
