@@ -12,7 +12,8 @@ The SIG does not discuss the design of SYCL APIs, just general feedback.
 
 The language SIG is led by Biagio Cosenza <bcosenza AT unisa DOT it>. 
 
-You can sign up for the Language SIG mailing list on this `page <https://lists.uxlfoundation.org/g/Language-SIG>`__ to receive updates and call information.
+You can sign up for the Language SIG mailing list on this `page <https://lists.uxlfoundation.org/g/Language-SIG>`__ to receive updates and call information. Drop an email to the language SIG Chair if you have trouble subscribing to the list.
+
 
 
 2026 Language SIG Quarterly Meetings
@@ -26,10 +27,13 @@ The following are the meeting schedules for 2026:
 ================ ================================================
 Date             Agenda
 ================ ================================================
-Feb 3, 2026      oneDPL Overview and Update, Alexey Kukanov (Intel)
-May 5, 2026      SYCL Offloading toolchain upstreaming, Yury Plyakhin (Intel)
-Jul 28, 2026     oneTBB is 20!
-Nov 3, 2026      dpctl  (agenda tbd)
+Feb 3, 2026      | oneDPL Overview and Update, Alexey Kukanov (Intel)
+May 5, 2026      | SYCL Offloading toolchain upstreaming, Yury Plyakhin (Intel)
+Jul 28, 2026     | TBB is 20!, Michael Voss (Intel)
+                 | oneTBB meets the community, with two short talks: 
+                 | - oneTBB use in DUNE/Phlex and in High-Energy Physics, Kyle Knoepfel (Fermilab)
+                 | - Scaling Drug Discovery via oneTBB, Federico Ficarelli (CINECA)
+Nov 3, 2026      | tbd
 ================ ================================================
 
 
