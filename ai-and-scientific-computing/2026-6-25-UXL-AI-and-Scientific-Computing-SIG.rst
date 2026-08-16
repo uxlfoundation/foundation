@@ -53,9 +53,9 @@ Recording Link
 Agenda
 ======
 
-**Accelerating Scientific AI for Drug Discovery: OpenFold Optimization with oneDNN (by Rakshith G B, Lead Software Engineer, and Shreyas Shankar, Software Engineer, Fujitsu Research India)**
+**Accelerating Scientific AI for Drug Discovery: OpenFold Optimization with oneDNN (by Rakshith G B, Lead Software Engineer, and Shreyas Shankar, Software Engineer, Fujitsu Research India)** (`slides <presentations/2026-06-25-UXL-AI&SC-SIG-OpenFold-oneDNN-Fujitsu.pdf>`__)
 
-**oneDNN Stack Simplification on AArch64 using KleidiAI (by Jonathan Deakin, Staff Software Engineer, Arm)**,  
+**oneDNN Stack Simplification on AArch64 using KleidiAI (by Jonathan Deakin, Staff Software Engineer, Arm)** (`slides <presentations/2026-06-25-UXL-AI&SC-SIG-oneDNN-Arm-KleidiAI-JonathanDeakin.pdf>`__)  
 
 Summary
 =======
