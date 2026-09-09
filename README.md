@@ -1,85 +1,73 @@
-Unified Acceleration (UXL) Foundation
-=====================================
+# <img src="https://raw.githubusercontent.com/uxlfoundation/artwork/e98f1a7a3d305c582d02c5f532e41487b710d470/foundation/uxl-foundation-icon-color.png" alt="" width="36"> UXL Foundation
 
-The Unified Acceleration (UXL) Foundation exists to define a standards-based,
-cross-architecture open specification for accelerated computing and to foster
-the open-source implementations of the specification.
+**Open standards and open source for accelerated computing.**
 
-More information can be found at https://uxlfoundation.org.
+The Unified Acceleration (UXL) Foundation brings together the projects and people
+building portable software for CPUs, GPUs and other accelerators. This repository
+is the home for foundation governance, Special Interest Group discussions and
+community records.
 
-You can also find out more about our mission, projects and how to contribute
-in the [UXL Foundation Charter](/doc/uxl-foundation-charter.rst).
+[Website](https://uxlfoundation.org/) · [Project directory](PROJECTS.md) · [Join the community](#join-the-community) · [Governance](#governance-and-records)
 
-Find out how to [get started](doc/get-started.rst) with the UXL Foundation
-projects that implement the oneAPI Specification.
+## Start here
 
-The community is invited to join the meetings, review the [oneAPI
-Specification](https://spec.oneapi.io), and read the information in this
-repo. Contributions can be made by joining the Working Group, Special
-Interest Groups (SIGs) or posting comments or questions as GitHub
-issues. General questions can go to this repo, and issues specific to parts of
-the specification can go to the [Specification
-repo](https://github.com/uxlfoundation/oneAPI-spec).
+| I want to… | Where to go |
+| --- | --- |
+| Use a UXL library | [Choose a project and open its documentation](PROJECTS.md) |
+| Contribute code or an example | Start with the relevant [project repository](PROJECTS.md) and its contribution guide |
+| Work across projects | Join the [Working Group](https://github.com/uxlfoundation/open-source-working-group) |
+| Discuss a technical direction | Find a [Special Interest Group](#find-your-group) |
+| Improve foundation documentation | Read [Contributing](CONTRIBUTING.md) or [open an issue](https://github.com/uxlfoundation/foundation/issues/new/choose) |
 
-Sign up to the mailing lists for the Working Group and Special Interest
-Groups (SIGs) [here](https://lists.uxlfoundation.org/groups).
+## From the community
 
-Join the [Slack
-workspace](https://join.slack.com/t/uxlfoundation/shared_invite/zt-2b1tm2frp-GZY~JBngtXo5xRrcgFrV6Q)
-to take part in the discussions and conversations.
+- **August 19, 2026 — Working Group:** project introductions, AI agent skills and
+  evaluation, and learning materials.
+  [Read the minutes](https://github.com/uxlfoundation/open-source-working-group/blob/main/meetings/notes/2026-08-19.rst).
+- **June 25, 2026 — AI & Scientific Computing SIG:** OpenFold optimization with
+  oneDNN and the proposed use of KleidiAI on AArch64.
+  [Read the minutes and view the slides](ai-and-scientific-computing/2026-6-25-UXL-AI-and-Scientific-Computing-SIG.rst).
 
-Steering Committee
-------------------
+See [upcoming meetings](https://zoom-lfx.platform.linuxfoundation.org/meetings/oneapi?view=list)
+or browse the group records below.
 
-Steering Members can be represented at the Steering Committee meetings.  The
-minutes for these meetings are stored [here](/steering-committee).
+## Find your group
 
-When relevant a monthly status update for the foundation is published
-[here](/monthly-status).
+The **[Working Group](https://github.com/uxlfoundation/open-source-working-group)**
+coordinates specifications, open-source projects and shared infrastructure.
+Special Interest Groups connect domain experts, users and project developers.
 
-Working Group
--------------
+| Group | Topics and meeting records |
+| --- | --- |
+| [Language](language/README.rst) | C++ and language implementations used with oneAPI |
+| [Math](math/README.rst) | Math operations, interfaces and applications |
+| [AI & Scientific Computing](ai-and-scientific-computing/README.rst) | AI frameworks, scientific applications and accelerated computing |
+| [Hardware](hardware/README.rst) | Enabling and integrating different hardware architectures |
 
-The Working Group meets regularly to organize community proposals and
-contributions to the specification and open source projects. This group
-defines work packages for areas of development and collaboration. Its repository is linked below.
+Each group page provides its scope and contact information. Additional records
+are available for [Image](image/README.rst) and
+[Safety Critical](safety-critical/README.rst) discussions.
 
-* [Working Group](https://github.com/uxlfoundation/open-source-working-group) - This
-  group coordinates the foundation's specifications and open source projects.
+## Join the community
 
-Special Interest Groups (SIGs)
-------------------------------
+- **Attend:** [join a group mailing list](https://lists.uxlfoundation.org/groups)
+  to receive meeting invitations and discussions.
+- **Connect:** [join UXL Slack](https://slack-invite.uxlfoundation.org/) to talk with
+  project maintainers and community members.
+- **Participate:** use the [contribution guide](CONTRIBUTING.md) to route a question,
+  propose a change or publish meeting notes.
+- **Membership:** contact [membership@uxlfoundation.org](mailto:membership@uxlfoundation.org).
 
-SIGs host regular meetings to organize community proposals and contributions
-to the oneAPI specification. They also act as a bridge between the community
-and developers working on implementations of the oneAPI specification. Meeting
-minutes can be found in the relevant folder in this repository.
+## Governance and records
 
-* [Language](/language) - This group covers topics related to language
-  implementations that integrate with the oneAPI specification.
+| Resource | What you will find |
+| --- | --- |
+| [Foundation charter](doc/uxl-foundation-charter.rst) | Mission, projects and participation |
+| [Steering Committee](steering-committee/README.rst) | Governance and published meeting minutes |
+| [oneAPI specification](https://uxlfoundation.org/specifications/oneapi/technical-overview/) | Dynamic specification and links to current project documentation |
+| [Community operations](doc/README.rst) | Meeting guidance, GitHub, Slack and web hosting |
+| [Status report archive](monthly-status/) | Dated foundation updates |
 
-* [Math](/math) - This groups covers topics related to math operations.
-
-* [AI & Scientific Computing](/ai-and-scientific-computing) - This group focuses on AI compute acceleration, scientific computing frameworks, and the application of AI to scientific domains.
-
-* [Hardware](/hardware) - This group covers topics related to the integration
-  of hardware and how this is defined in the oneAPI specification.
-
-Contributing
-------------
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for issue routing, meeting notes and review expectations.
-
-Upcoming Events
--------------
-
-Upcoming UXL Foundation events are posted to the [Linux Foundation
-Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/oneapi?view=list).
-
-Stay Informed
--------------
-
-[Join the relevant mailing list to receive an invite for the Working Group
-and SIGs](https://lists.uxlfoundation.org/g/main)
-
-[Contact us](mailto:membership@uxlfoundation.org) with any questions about membership.
+For implementation bugs and feature requests, use the relevant
+[project issue tracker](PROJECTS.md). Foundation-wide questions belong
+[in this repository](https://github.com/uxlfoundation/foundation/issues).
