@@ -24,4 +24,4 @@ Getting the Token
 
 The token is connected with a slack app. You need to be signed in to uxlfoundation workspace to see it, otherwise you will not see the app.
 
-.. _`Slack Action`: https://github.com/uxlfoundation/spec-working-group/blob/main/.github/workflows/slack-pr.yaml
+.. _`Slack Action`: https://github.com/uxlfoundation/open-source-working-group/blob/main/.github/workflows/slack-pr.yaml

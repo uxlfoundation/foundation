@@ -31,7 +31,7 @@ Attendees
 Agenda
 ======
 
-Extend OneDNN Operators/APIs for AI Chips   Leping Wang, En Saho,  (`slides <presentations/2025-03-06-UXL-Extend_onednn_Operators_Apis_ For_AI_Chips_RFC_Bosc_LepingWang.pdf>`__)
+Extend OneDNN Operators/APIs for AI Chips   Leping Wang, En Saho,  (`slides <presentations/2025-03-06-UXL-Extend_onednn_Operators_Apis_For_AI_Chips_RFC_Bosc_LepingWang.pdf>`__)
 
 AI use cases with oneDNN on Arm             Ashok Bhat,  (`slides <presentations/2025-03-06-AI_use_cases_with_oneDNN_on_ARM_ARM_AshokBhat.pdf>`__)
 

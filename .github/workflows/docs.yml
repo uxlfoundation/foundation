@@ -1,0 +1,20 @@
+name: Documentation
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  local-links:
+    name: Local documentation links
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Test link checker
+        run: python3 -m unittest discover -s .github/scripts -p 'test_*.py'
+      - name: Check local links
+        run: python3 .github/scripts/check_local_links.py

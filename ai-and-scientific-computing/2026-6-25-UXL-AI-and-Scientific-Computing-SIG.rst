@@ -61,7 +61,7 @@ Summary
 =======
 
 Overview
------------------
+--------
 
 - This meeting featured two technical presentations on oneDNN optimizations and acceleration of scientific computing.
 - First session by Fujitsu team presented their work on AI for drug discovery using protein folding optimization with the oneDNN stack.
@@ -70,40 +70,40 @@ Overview
 - The discussion included questions about integration approaches, performance implications for different architectures, and potential impacts on downstream frameworks like PyTorch and TensorFlow.
 
 Accelerating Scientific AI for Drug Discovery - Talk by Rakshith G B and Shreyas Shankar, Fujitsu
------------------
+-------------------------------------------------------------------------------------------------
 
 Title: Accelerating Scientific AI for Drug Discovery: OpenFold Optimization with oneDNN
 
 Abstract
------------------
+--------
 
 - Protein structure prediction is transforming modern AI-driven drug discovery by enabling rapid understanding of protein folding functions and therapeutic targets.
 
 - This talk introduces OpenFold AI Surrogate Model and presents benchmark results with recent oneDNN-based optimizations, including JIT BRGEMM kernel enhancements. 
 
 Discussion Highlights
------------------
+---------------------
 
 - Rakshith explained how protein folding simulation has been accelerated from days or months to hours using modern AI models like AlphaFold and OpenFold, which predict 3D protein structures from 2D amino acid sequences.
-- Fujitsu team conducted enablement, tuning and benchmark testing on ARM CPU, achieving execution time of 7.3 seconds for a 76-residue protein with 0.24 Å (Angstrom) accuracy, and achieved ~4x performance boost after optimizing OpenFold with nneDNN JIT BRGEMM kernel implementation in PyTorch.
+- Fujitsu team conducted enablement, tuning and benchmark testing on ARM CPU, achieving execution time of 7.3 seconds for a 76-residue protein with 0.24 Å (Angstrom) accuracy, and achieved ~4x performance boost after optimizing OpenFold with oneDNN JIT BRGEMM kernel implementation in PyTorch.
 - Shreyas presented on the JIT BRGEMM kernel, explaining how just-in-time compilation using xbyak_aarch64 provides advantages over ahead-of-time compilation by enabling specialized code generation based on runtime conditions, dead code elimination, and better register allocation.
 - He detailed the BRGEMM (Batch Reduced GEMM) kernel implementation for ARM architecture, which performs batch reduced general matrix multiplication without storing intermediate results, resulting in approximately ~4x speedup for large matrices compared to the default implementation.
 - The work was conducted as part of AI Frameworks OSS Development, and Fujitsu continues to develop these low-level kernels for their upcoming FUJITSU-MONAKA 2nm ARM CPU processor launch in FY2027.
 
 oneDNN Stack Simplification on AArch64 using KleidiAI - Talk by Jonathan Deakin, Arm
------------------
+------------------------------------------------------------------------------------
 
 Title: oneDNN Stack Simplification on AArch64 using KleidiAI
 
 Abstract
------------------
+--------
 
 - We will discuss our active oneDNN RFC (`#5145 <https://github.com/uxlfoundation/oneDNN/pull/5145>`__) which proposes replacing Compute Library (ACL) with Arm® KleidiAI™ for AArch64.
 
 - This change is proposed to simplify stack, bringing development and performance benefits. This session will cover a brief history of oneDNN on AArch64, explain our motivation for the change, and discuss questions and feedback.
 
 Discussion Highlights
------------------
+---------------------
 
 - Jonathan presented on replacing ACL with KleidiAI in oneDNN for AArch64, explaining that this change would simplify the stack ad provide better framework integration.
 - The proposed approach involves integrating KleidiAI kernels directly into oneDNN rather than maintaining them as a separate library, which would eliminate the need for additional build steps and reduce complexity.
