@@ -5,7 +5,7 @@ The Unified Acceleration (UXL) Foundation exists to define a standards-based,
 cross-architecture open specification for accelerated computing and to foster
 the open-source implementations of the specification.
 
-More information can be found at http://www.uxlfoundation.org.
+More information can be found at https://uxlfoundation.org.
 
 You can also find out more about our mission, projects and how to contribute
 in the [UXL Foundation Charter](/doc/uxl-foundation-charter.rst).
@@ -15,13 +15,13 @@ projects that implement the oneAPI Specification.
 
 The community is invited to join the meetings, review the [oneAPI
 Specification](https://spec.oneapi.io), and read the information in this
-repo. Contributions can be made by joining the Working Groups, Special
+repo. Contributions can be made by joining the Working Group, Special
 Interest Groups (SIGs) or posting comments or questions as GitHub
 issues. General questions can go to this repo, and issues specific to parts of
 the specification can go to the [Specification
-repo](https://github.com/oneapi-src/oneapi-spec).
+repo](https://github.com/uxlfoundation/oneAPI-spec).
 
-Sign up to the mailing lists for the Working Groups and Special Interest
+Sign up to the mailing lists for the Working Group and Special Interest
 Groups (SIGs) [here](https://lists.uxlfoundation.org/groups).
 
 Join the [Slack
@@ -42,12 +42,10 @@ Working Group
 
 The Working Group meets regularly to organize community proposals and
 contributions to the specification and open source projects. This group
-defines work packages for areas of development and collaboration. Each group
-has a GitHub repository linked below.
+defines work packages for areas of development and collaboration. Its repository is linked below.
 
 * [Working Group](https://github.com/uxlfoundation/open-source-working-group) - This
-  group focuses on development of the open source projects that form part of
-  the foundation.
+  group coordinates the foundation's specifications and open source projects.
 
 Special Interest Groups (SIGs)
 ------------------------------
@@ -67,6 +65,11 @@ minutes can be found in the relevant folder in this repository.
 * [Hardware](/hardware) - This group covers topics related to the integration
   of hardware and how this is defined in the oneAPI specification.
 
+Contributing
+------------
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for issue routing, meeting notes and review expectations.
+
 Upcoming Events
 -------------
 
@@ -76,7 +79,7 @@ Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/oneapi?view=lis
 Stay Informed
 -------------
 
-[Join the relevant mailing list to receive an invite for the Working Groups
+[Join the relevant mailing list to receive an invite for the Working Group
 and SIGs](https://lists.uxlfoundation.org/g/main)
 
 [Contact us](mailto:membership@uxlfoundation.org) with any questions about membership.

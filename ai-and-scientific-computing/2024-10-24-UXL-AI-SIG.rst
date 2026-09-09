@@ -32,9 +32,9 @@ Attendees
 
 Agenda 
 
-“oneDNN vision”  Mourad Gouicem, Intel (`slides <ai/presentations/2024-10-24-UXL-AI-SIG-oneDNN-API-strategy-MouradGouicem.pdf>`__)
+“oneDNN vision”  Mourad Gouicem, Intel (`slides <presentations/2024-10-24-UXL-AI-SIG-oneDNN-API-strategy-MouradGouicem.pdf>`__)
 
-“Adding Scikit-learn Intel extension to UXL”   Nikolay Petrov, Intel  (`slides <ai/presentations/2024-10-24-UXL-AI-SIG-scikit-learn-intelex-migration-to-UXL-NikolayPetrov.pdf>`__)
+“Adding Scikit-learn Intel extension to UXL”   Nikolay Petrov, Intel  (`slides <presentations/2024-10-24-UXL-AI-SIG-scikit-learn-intelex-migration-to-UXL-NikolayPetrov.pdf>`__)
 
 
 Question: As the uKernel API has specific block sizes, how should we write kernel for matrices that don’t fit these block dimensions, especially with fringe areas? Do we need new primitives for these cases?
@@ -81,4 +81,4 @@ Question:
 Has there been any effort to work with scikit-learn developers to simplify plugin usage, perhaps by automatically loading plugins similar to TensorFlow’s approach?
 
 Answer:
-Yes, discussions are ongoing with scikit-learn maintainers to explore backend integration for estimator acceleration. Though not yet implemented, there’s interest in creating a plugin API that could automatically load extensions. 
+Yes, discussions are ongoing with scikit-learn maintainers to explore backend integration for estimator acceleration. Though not yet implemented, there’s interest in creating a plugin API that could automatically load extensions.

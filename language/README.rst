@@ -82,13 +82,13 @@ Hereafter, you will find slides, recordings, and additional materials from the m
 :2023-11-07: 
     | SYCL-Graphs: A Progress Update
     | Ewan Crawford, Ben Tracy, Maxime France-Pillois (Codeplay Software), Pablo Reble, Julian Miller (Intel)
-    | `slides <presentation/2023-09-19-EC-sycl-graph.pdf>`__
-      `demo video <presentation/2023-09-19-EC-sycl-graph-demo.mp4>`__
+    | `slides <presentations/2023-11-07-EC-sycl-graph.pdf>`__
+      `demo video <presentations/2023-11-07-EC-sycl-graph-demo.mp4>`__
 
 :2023-09-19:
     | SYCL Extension Proposal for PIM/PNM
     | Hyesun Hong (Samsung)
-    | `slides <presentation/2023-09-19-HS-sycl-pim-extensions.pdf>`__
+    | `slides <presentations/2023-09-19-HS-sycl-pim-extensions.pdf>`__
 
 
 Archived meeting notes from meetings held under the oneAPI 

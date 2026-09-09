@@ -1,0 +1,29 @@
+name: Work item or documentation issue
+description: Track a concrete foundation or Working Group task.
+labels: [needs-triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and affected area
+      description: Include the affected project, page or work package.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or reproduction steps
+      description: Link existing work, decisions or affected pages.
+    validations:
+      required: true
+  - type: textarea
+    id: completion
+    attributes:
+      label: Completion criteria
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Agreed owner or team to consult
+      description: Do not assign an owner without their agreement.

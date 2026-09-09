@@ -7,13 +7,15 @@ Documentation related to infrastructure for UXL.
 `UXL Foundation Charter`_
     Outlines the foundation projects and how to contribute
 `UXL Goals 2025`_
-    The goals set for the UXL Foundation in 2025
+    Historical goals for 2025; not a statement of current-year commitments
 `UXL GitHub`_
     GitHub Actions, repositories and organizations
 `UXL Slack`_
     Managing Slack channels
 `Web Hosting`_
     Hosting project web sites
+`Meetings`_
+    Attending, hosting and publishing meeting records
 `Get Started`_
     How to get started with the UXL Foundation projects
 
@@ -23,3 +25,5 @@ Documentation related to infrastructure for UXL.
 .. _`UXL Slack`: uxl-slack.rst
 .. _`Web Hosting`: web-hosting.rst
 .. _`Get Started`: get-started.rst
+
+.. _`Meetings`: Meetings.rst
