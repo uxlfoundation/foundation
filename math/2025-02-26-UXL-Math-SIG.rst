@@ -2,6 +2,14 @@
 Math Special Interest Group Meeting Notes
 =========================================
 
+
+.. note::
+
+   Current guidance: the `dynamic oneAPI specification <https://uxlfoundation.org/specifications/oneapi/technical-overview/>`__
+   links to the concepts and project documentation maintained today. These minutes
+   record the discussion at the meeting date; release plans and API descriptions
+   below are historical. Obsolete destinations have been updated or removed.
+
 2025-02-26
 ==========
 

@@ -1,9 +1,9 @@
-============
+==============
 UXL Meetings
-============
+==============
 
 Attending a Meeting
-===================
+=====================
 
 Meetings are hosted in Zoom.
 
@@ -19,7 +19,7 @@ Group specific pages in lists.uxlfoundation.org
 
 
 Hosting a Meeting
-=================
+===================
 
 Linux foundation infrastructure to support meeting hosts:
 
@@ -29,7 +29,7 @@ Linux foundation infrastructure to support meeting hosts:
 
 
 Sending a Meeting Announcement
-------------------------------
+--------------------------------
 
 Publish an agenda in advance of the meeting. This is a good practice for
 several reasons:
@@ -43,7 +43,7 @@ Include the meeting date, time zone, agenda topics and the calendar link.
 Coordinate calendar or host changes with the group chairs or foundation operations.
 
 Recording a Meeting
--------------------
+---------------------
 
 There are many benefits to recording a meeting
 
@@ -60,28 +60,20 @@ attendees that it is being recorded. Recordings may require membership and an
 openprofile account; do not assume that every recording is publicly accessible.
 Do not include private information in a public meeting record.
 
-There are two ways to record a meeting:
+Before the meeting:
 
-* Automatically record the meeting. This is the simplest way to record a
-  meeting. The recording will be available after the meeting ends in `My
-  Meetings`_.
+* Confirm the host, recording arrangements and backup host.
+* Check recording access settings and tell attendees about recording.
+* Assign a note taker to capture decisions and agreed actions.
 
-* Manually record the meeting. Manual recording will give you more control
-  over the recording. In practice, I have found this very difficult and do not
-  recommend the option.
-
-  * You will forget to record
-  * You need to provide a key to authenticate as meeting host and then turn on
-    recording. It is a distraction.
-  * If the regular host is not present, the person covering will not remember
-    to record, or not have the key, or not know how to use the key to record.
-  * Automatic and manual recordings are available in different places. I have
-    not found the manual recording after the meeting ends.
+After the meeting, confirm that the recording is available to its intended
+audience through `My Meetings`_. If it is missing, ask the host or foundation
+operations to check the recording before publishing an access link.
 
 Publishing Meeting Minutes
---------------------------
+----------------------------
 
-Use the meeting-notes template linked from CONTRIBUTING.md. Save new notes with
+Use the meeting-notes template linked from `Contributing <../CONTRIBUTING.md>`__. Save new notes with
 a YYYY-MM-DD filename in the relevant group directory and add them to its index.
 Include decisions, action owners, presentation links and recording access details.
 Submit a pull request for review by the relevant group chairs before publication.

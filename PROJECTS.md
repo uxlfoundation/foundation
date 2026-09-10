@@ -4,7 +4,7 @@ Six core libraries provide building blocks for accelerated computing. Choose by
 the work you need to do, then use the project's documentation for installation,
 examples and supported platforms.
 
-[Foundation home](README.md) · [Working Group](https://github.com/uxlfoundation/open-source-working-group) · [oneAPI specification](https://uxlfoundation.org/specifications/oneapi/technical-overview/)
+[Foundation home](README.md) · [Working Group](https://github.com/uxlfoundation/open-source-working-group) · [Dynamic oneAPI specification](https://uxlfoundation.org/specifications/oneapi/technical-overview/)
 
 ## Choose a library
 

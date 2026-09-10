@@ -14,7 +14,11 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           persist-credentials: false
-      - name: Test link checker
+      - name: Install documentation parser
+        run: python3 -m pip install docutils==0.19
+      - name: Test documentation checks
         run: python3 -m unittest discover -s .github/scripts -p 'test_*.py'
       - name: Check local links
         run: python3 .github/scripts/check_local_links.py
+      - name: Check document structure
+        run: python3 .github/scripts/check_document_structure.py

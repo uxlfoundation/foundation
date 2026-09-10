@@ -1,27 +1,36 @@
-================
-UXL Use of Slack
-================
-
-This document describes the use of Slack for the UXL project.
-
-Channels
-========
-
-There are channels for each SIG (e.g. ``sig-math``), project (e.g. ``onemkl``), and working group (e.g. ``wg-open-source``). Channels are public unless there is a specific need (e.g. ``steering-committee``, ``security``).
-
-GitHub Integration
+UXL use of Slack
 ==================
 
-It is possible for GitHub Actions to post messages in Slack. This can be useful for notifications of CI failures, new issues, etc. To enable this feature for a channel:
+Slack supports discussion among projects, Special Interest Groups and the
+Working Group. Find participation routes on the `foundation home <../README.md>`__.
+Use the workspace's channel directory to find a project or group; channel names
+may differ from repository names.
 
-* add `@GitHub Messages` to the channel
-* add a GitHub action to your repo. See `Slack Action`_ as an example.
-* add ``SLACK_BOT_TOKEN`` to the GitHub secrets for the repo. Get the value
-  from Robert Cohn
+Channels and access
+---------------------
 
-Getting the Token
-=================
+The Working Group uses ``wg-open-source``. Ask group chairs or workspace
+administrators about other channels and access. Keep membership-restricted
+discussions and credentials in the appropriate private channels.
 
-The token is connected with a slack app. You need to be signed in to uxlfoundation workspace to see it, otherwise you will not see the app.
+GitHub notifications
+----------------------
 
-.. _`Slack Action`: https://github.com/uxlfoundation/open-source-working-group/blob/main/.github/workflows/slack-pr.yaml
+The Working Group's `Slack notification workflow
+<https://github.com/uxlfoundation/open-source-working-group/blob/main/.github/workflows/slack-pr.yaml>`__
+notifies its channel when an RFC label is added and when a pull request labelled
+``meeting notes`` is merged.
+
+To request a similar integration:
+
+* Identify the destination channel and the events that should produce messages.
+* Coordinate app access with workspace administrators and workflow configuration
+  with repository maintainers.
+* Arrange the repository secret through the administrators. The existing workflow
+  uses ``SLACK_BOT_TOKEN``; do not publish its value in issues or documentation.
+* Check delivery with the administrators and document the support role.
+
+The current app owner and access-request contact are not documented here.
+Confirm them with workspace administrators before changing the integration.
+
+`Community operations <README.rst>`__

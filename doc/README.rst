@@ -1,29 +1,33 @@
-================================
-UXL Infrastructure Documentation
-================================
+Foundation documentation
+==========================
 
-Documentation related to infrastructure for UXL.
+Participation
+---------------
 
-`UXL Foundation Charter`_
-    Outlines the foundation projects and how to contribute
-`UXL Goals 2025`_
-    Historical goals for 2025; not a statement of current-year commitments
-`UXL GitHub`_
-    GitHub Actions, repositories and organizations
-`UXL Slack`_
-    Managing Slack channels
-`Web Hosting`_
-    Hosting project web sites
-`Meetings`_
-    Attending, hosting and publishing meeting records
-`Get Started`_
-    How to get started with the UXL Foundation projects
+* `Choose a library <../PROJECTS.md>`__: repositories and documentation.
+* `Contribute <../CONTRIBUTING.md>`__: issues, changes and meeting records.
+* `Meetings <Meetings.rst>`__: attending, hosting and publishing notes.
 
-.. _`UXL Foundation Charter` : uxl-foundation-charter.rst
-.. _`UXL Goals 2025` : 2025-UXL-Goals-Objectives.rst
-.. _`UXL GitHub`: uxl-github.rst
-.. _`UXL Slack`: uxl-slack.rst
-.. _`Web Hosting`: web-hosting.rst
-.. _`Get Started`: get-started.rst
+Governance and records
+------------------------
 
-.. _`Meetings`: Meetings.rst
+* `Foundation charter <uxl-foundation-charter.rst>`__: published foundation context.
+* `Steering Committee <../steering-committee/README.rst>`__: meeting records.
+
+Community operations
+----------------------
+
+* `GitHub <uxl-github.rst>`__: repositories, access and CI references.
+* `Slack <uxl-slack.rst>`__: channels and notifications.
+* `Web hosting <web-hosting.rst>`__: documentation publishing and domain requests.
+
+Historical programs and reports
+---------------------------------
+
+* `2025 objectives <2025-UXL-Goals-Objectives.rst>`__.
+* `GSoC 2025 project ideas <GSOC2025.rst>`__.
+* `Foundation status reports <../monthly-status/README.md>`__.
+
+These archives do not announce current programs or commitments.
+
+`Foundation home <../README.md>`__

@@ -2,6 +2,14 @@
 Math Special Interest Group Meeting Notes
 =========================================
 
+
+.. note::
+
+   Current guidance: the `dynamic oneAPI specification <https://uxlfoundation.org/specifications/oneapi/technical-overview/>`__
+   links to the concepts and project documentation maintained today. These minutes
+   record the discussion at the meeting date; release plans and API descriptions
+   below are historical. Obsolete destinations have been updated or removed.
+
 2024-10-02
 ==========
 
@@ -112,7 +120,7 @@ Q&A:
   * Raphael: Yes.
   * Romain: I don't think this has been a concern for the interface.
 
-* I finalized these changes in a pull request: `#593 <https://github.com/uxlfoundation/oneAPI-spec/pull/593>`__.
+* I finalized these changes in a pull request: #593 (historical reference).
 * For anyone who might be looking at it, I separated the pull request into 2 main components. There are several aspects of the current specification that could be improved (typos, etc.), which are not strictly related to this proposal. Those are all in the first commit (not content-changing). Second commit covers what we covered here. If you'd prefer two separate PRs, we can do that.
 
 * Andrey: Currently these interfaces rely on vectors to pass multiple values around. Are there any plans to add support for std::span from C++20 instead of direct array?

@@ -1,6 +1,6 @@
-=======================
+=========================
 UXL Foundation Math SIG
-=======================
+=========================
 
 The Math SIG hosts discussions and presentations for fundamental
 mathematical routines for use in high-performance computing,
@@ -14,7 +14,11 @@ or error handling.
 
 The Math SIG is led by Sarah Knepper (Intel).
 
-Archived meeting notes from meetings held under the oneAPI 
+For invitations and current meeting information, find the group through the
+`UXL mailing lists <https://lists.uxlfoundation.org/groups>`__.
+See the `project directory <../PROJECTS.md>`__ for current library documentation.
+
+Archived meeting notes from meetings held under the oneAPI
 Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/math

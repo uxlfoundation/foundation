@@ -1,6 +1,6 @@
-===========================
+=============================
 UXL Foundation Language SIG
-===========================
+=============================
 
 The Language SIG hosts discussions and presentations focused on
 how to integrate a broad range of languages to support oneAPI.
@@ -10,18 +10,18 @@ implementations can contribute to the ISO C++ and SYCL
 specifications managed by ISO and Khronos respectively.
 The SIG does not discuss the design of SYCL APIs, just general feedback.
 
-The language SIG is led by Biagio Cosenza <bcosenza AT unisa DOT it>. 
+The language SIG is led by Biagio Cosenza <bcosenza AT unisa DOT it>.
 
 You can sign up for the Language SIG mailing list on this `page <https://lists.uxlfoundation.org/g/Language-SIG>`__ to receive updates and call information. Drop an email to the language SIG Chair if you have trouble subscribing to the list.
 
 
 
 2026 Language SIG Quarterly Meetings
-------------------------------------
+--------------------------------------
 
 The Language SIG currently organizes its activities through quarterly meetings.
 Depending on the needs, additional meetings may be scheduled to discuss specific topics.
-The Language SIG Chair is responsible for organizing the meetings. 
+The Language SIG Chair is responsible for organizing the meetings.
 The following are the meeting schedules for 2026:
 
 ================ ================================================
@@ -30,29 +30,34 @@ Date             Agenda
 Feb 3, 2026      | oneDPL Overview and Update, Alexey Kukanov (Intel)
 May 5, 2026      | SYCL Offloading toolchain upstreaming, Yury Plyakhin (Intel)
 Jul 28, 2026     | TBB is 20!, Michael Voss (Intel)
-                 | oneTBB meets the community, with two short talks: 
+                 | oneTBB meets the community, with two short talks:
                  | - oneTBB use in DUNE/Phlex and in High-Energy Physics, Kyle Knoepfel (Fermilab)
                  | - Scaling Drug Discovery via oneTBB, Federico Ficarelli (CINECA)
 Nov 3, 2026      | tbd
 ================ ================================================
 
 
-Previous Language SIG Meetings 
+Previous Language SIG Meetings
 ----------------------------------------
 
-Hereafter, you will find slides, recordings, and additional materials from the meetings that have already been held. 
+Hereafter, you will find slides, recordings, and additional materials from the meetings that have already been held.
+
+:2026-07-28:
+    | Twenty Years of TBB; oneTBB in high-energy physics and drug discovery
+    | Michael Voss, Kyle Knoepfel and Federico Ficarelli
+    | `Event details and presentation recording <https://uxlfoundation.org/events/uxl-language-sigtwenty-years-of-tbb/>`__
 
 :2026-02-03:
     | oneDPL Overview and Update
     | Alexey Kukanov (Intel)
     | `slides <presentations/2026-02-03-oneDPL.pdf>`__
 
-:2025-11-04:      
+:2025-11-04:
     | dpctl: Portable Data Parallel Extensions for Python
     | Nikita Grigorian (Intel)
     | `slides <presentations/2025-11-04-dpctl.pdf>`__
-    
-:2025-08-05:      
+
+:2025-08-05:
     | ParaS: Unified Programming Ecosystem for Architectural Portability Across Diverse Computing Needs
     | H.V. Deepika and A. Bisht (Centre for Development of Advanced Computing, Bengaluru)
 
@@ -61,13 +66,13 @@ Hereafter, you will find slides, recordings, and additional materials from the m
     | Stefan Werner (Intel)
     | `recording <https://www.youtube.com/watch?v=bjLZwZ_vN58>`__
 
-:2025-02-04: 
+:2025-02-04:
     | SYCL Upstreaming
-    | Tom Honermann (Intel) 
+    | Tom Honermann (Intel)
     | `slides <presentations/2025-02-04-UXL-SIG-SYCL-upstream-strategy.pdf>`__
       `recording <https://zoom.us/rec/share/GX3Dzh4E_Q4Jo02AyWnVpFi5rADBYpOaFKQkjn5LFNRpv3QmkwbRf-vHXwcA7yDz.agGwSHzGoX9mI06M>`__
 
-:2024-11-05: 
+:2024-11-05:
     | SPIR-V extensions used by DPC++
     | Victor Loemuller (Codeplay Software)
     | `slides <presentations/2024-11-05-spirv-extensions.pdf>`__
@@ -79,7 +84,7 @@ Hereafter, you will find slides, recordings, and additional materials from the m
     | Diptorup Deb (Intel)
     | `slides <presentations/2024-02-06-numba.pdf>`__
 
-:2023-11-07: 
+:2023-11-07:
     | SYCL-Graphs: A Progress Update
     | Ewan Crawford, Ben Tracy, Maxime France-Pillois (Codeplay Software), Pablo Reble, Julian Miller (Intel)
     | `slides <presentations/2023-11-07-EC-sycl-graph.pdf>`__
@@ -91,7 +96,7 @@ Hereafter, you will find slides, recordings, and additional materials from the m
     | `slides <presentations/2023-09-19-HS-sycl-pim-extensions.pdf>`__
 
 
-Archived meeting notes from meetings held under the oneAPI 
+Archived meeting notes from meetings held under the oneAPI
 Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/language

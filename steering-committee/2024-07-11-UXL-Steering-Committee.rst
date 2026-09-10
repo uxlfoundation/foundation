@@ -2,6 +2,14 @@
 UXL Foundation Steering Committee Meeting 11 July 2024
 ======================================================
 
+
+.. note::
+
+   Current guidance: the `dynamic oneAPI specification <https://uxlfoundation.org/specifications/oneapi/technical-overview/>`__
+   links to the concepts and project documentation maintained today. These minutes
+   record the discussion at the meeting date; release plans and API descriptions
+   below are historical. Obsolete destinations have been updated or removed.
+
 Attendees
 
 * Rod Burns (Codeplay) Chairperson
@@ -28,14 +36,14 @@ Level Zero
 - It was noted that the spec of Level Zero is part of the oneAPI specification (not UXL). The recommended approach would be that OpenCL would be used. There was no opposition to moving Level Zero out of the spec
 
 - The SC discussed the question of inviting a project to join the UXL Foundation previously presented.
-- Consensus was not previously reached. 
-- Rod mentioned possible options moving forward: 
-  - A formal vote (requires 75% of votes to carry) 
+- Consensus was not previously reached.
+- Rod mentioned possible options moving forward:
+  - A formal vote (requires 75% of votes to carry)
   - The project joins a different open governance organization
 
 It was agreed to have deeper offline discussions on how we see this working and what could be different.
 
-Strategy 
+Strategy
 ========
 
 Rod mentioned that he had shared the strategy presentation and is looking for feedback. He will share the document again.

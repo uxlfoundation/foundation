@@ -3,7 +3,7 @@
 ===================================================================
 
 2026-04-23
-==========
+============
 
 Attendees
 
@@ -110,16 +110,16 @@ Recording Link
 
 **Watch to explore how AI is shaping the future of simulation, modeling, and engineering innovation** (`Recording Link <https://www.youtube.com/watch?v=ta_DZxzLyEc>`__)
 
-======
+========
 Agenda
-======
+========
 
 **About AI & Scientific Computing SIG by Chairs (Penporn and Priyanka)**
 
-**When AI Meets Engineering Design: Constraining Its Creativity for Smarter Vehicle Aerodynamics Design (Prof. Makoto Tsubokura, Kobe University and RIKEN, Japan)**,  
+**When AI Meets Engineering Design: Constraining Its Creativity for Smarter Vehicle Aerodynamics Design (Prof. Makoto Tsubokura, Kobe University and RIKEN, Japan)**,
 
 Summary
-=======
+=========
 
 Overview
 -----------------
@@ -130,7 +130,7 @@ Overview
 - This design space utilizes three techniques: parameterized geometry, Principal Component Analysis (PCA), and latent space editing. He covered topics on development of AI surface models and multi-objective optimization to controlled shape refinement.
 
 About AI & Scientific Computing SIG
------------------
+-------------------------------------
 
 - Priyanka and Penporn hosted the meeting, explaining purpose and vision for AI and Scientific Computing SIG.
 - They welcomed all AI SIG members and new attendees, explaining that while the focus has been on AI topics for the past few years, interest in scientific computing applications is growing.
@@ -138,7 +138,7 @@ About AI & Scientific Computing SIG
 - Guest speaker Prof. Makoto Tsubokura was introduced to discuss the impact of AI on engineering design.
 
 When AI Meets Engineering Design - Talk by Prof. Makoto Tsubokura
------------------
+-------------------------------------------------------------------
 
 Title: When AI Meets Engineering Design: Constraining Its Creativity for Smarter Vehicle Aerodynamics Design
 
@@ -154,7 +154,7 @@ Abstract
 - By projecting these vehicles into the parameter space and applying principal component analysis, we identify a lower dimensional subspace representing stylistically plausible designs. Optimization within this subspace achieves a better balance between aerodynamic performance and design realism.
 
 Discussion Highlights
------------------
+-----------------------
 
 - Prof. Tsubokura explained on usage of CFD softwares to significantly reduce pre-processing time for vehicle exterior designs, enabling the AI to handle large volumes of data.
 - Participants asked questions regarding evaluation of Tesla Cybertruck, the balance between performance and style, programming frameworks that were used, and computational resource requirements, to which Prof. Tsubokura provided detailed responses.

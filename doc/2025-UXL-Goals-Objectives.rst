@@ -1,11 +1,17 @@
-============================================
+==============================================
 UXL Foundation Goals and Objectives for 2025
-============================================
+==============================================
+
+.. note::
+
+   Historical 2025 record. This page does not announce current programs,
+   deadlines or commitments. See the `foundation home <../README.md>`__
+   for current participation routes.
 
 Introduction
-============
+==============
 
-The UXL Foundation Steering Committee has agreed some objectives for 2025. 
+The UXL Foundation Steering Committee has agreed some objectives for 2025.
 This page records the objectives and targets, these will be monitored and measured through the year.
 
 +-------------------------+----------------------------------------+-------------------------------------------+

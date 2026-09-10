@@ -1,19 +1,19 @@
-====================================
+======================================
 Image SIG - a oneAPI Community Forum
-====================================
+======================================
 
 Introduction
-============
+==============
 
 The Image SIG hosts discussions and presentations for fundamental image
 processing routines for high-performance computing, engineering, financial, and
 other applications.
 
-This SIG discusses the oneAPI Image Processing Library (oneIPL). Its goal is 
-to become an extensive library of ready-to-use, highly optimized image 
-processing functions. As part of UXL, oneIPL is designed to allow execution 
-on various computational devices: CPUs, GPUs, and other accelerators. The 
-functionality is subdivided into several domains: filers, geometry 
+This SIG discusses the oneAPI Image Processing Library (oneIPL). Its goal is
+to become an extensive library of ready-to-use, highly optimized image
+processing functions. As part of UXL, oneIPL is designed to allow execution
+on various computational devices: CPUs, GPUs, and other accelerators. The
+functionality is subdivided into several domains: filters, geometry
 transformations, and color and type conversions.
 
 Its royalty-free APIs help developers:
@@ -33,7 +33,7 @@ handling. At times, the open source oneIPL Interfaces project, which implements
 the oneIPL specification may also be discussed.
 
 Purpose of the Group
-====================
+======================
 
 The Image Special Interest Group (Image SIG) is committed to the collaborative
 development, understanding, and promotion of the open standard oneIPL. We aim
@@ -52,7 +52,7 @@ image processing in the oneAPI ecosystem.
    wider oneAPI community.
 
 Strategy for Achieving Goals
-============================
+==============================
 
 To achieve these goals, the following strategic approach will be taken:
 
@@ -88,16 +88,21 @@ library in alignment with the broader goals of the oneAPI ecosystem. We believe
 in the power of collaborative innovation to drive the future of image
 processing and look forward to contributing to this journey.
 
----
+--------
 
 The Image SIG is led by John Melonakos.
 
-Upcoming Meetings
-=================
+Meeting information
+=====================
 
-The next Image SIG will be held on December 14, 2023, from 10am to 11am CST.
+The previously announced meeting was December 14, 2023, 10–11am CST.
+This is a historical announcement, not an upcoming meeting invitation.
+For current participation information, use the
+`UXL mailing lists <https://lists.uxlfoundation.org/groups>`__.
+The scope and plans below describe the group's published remit; a current
+meeting schedule is not recorded on this page.
 
-Archived meeting notes from meetings held under the oneAPI 
+Archived meeting notes from meetings held under the oneAPI
 Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/image

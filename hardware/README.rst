@@ -1,6 +1,6 @@
-===========================
+=============================
 UXL Foundation Hardware SIG
-===========================
+=============================
 
 The Hardware SIG hosts discussions and presentations focused on
 how to enable a broad range of hardware architectures.
@@ -8,13 +8,17 @@ how to enable a broad range of hardware architectures.
 The Hardware SIG is led by `Jeremy Bennett
 <mailto:jeremy.bennett@embecosm.com>`__ (`Embecosm <https://www.embecosm.com>`__).
 
-Archived meeting notes from meetings held under the oneAPI 
+For invitations and current meeting information, find the group through the
+`UXL mailing lists <https://lists.uxlfoundation.org/groups>`__.
+See the `project directory <../PROJECTS.md>`__ for current library documentation.
+
+Archived meeting notes from meetings held under the oneAPI
 Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/hardware
 
 2025-05-08 Scaling Workloads with a Memory Lake
-===============================================
+=================================================
 
 Agenda:
 
@@ -22,7 +26,7 @@ Agenda:
 * Scaling Workloads with a Memory Lake.  Dr. Skyler Windh, Micron Scalable Memory Systems Pathfinding. `[Slides] <presentations/2025-05-08_SkylerWindh_Memory_Lakes.pdf>`__
 
 2025-02-20 Embecosm and University of Southampton Porting to AI Hardware
-========================================================================
+==========================================================================
 
 Agenda:
 
@@ -31,38 +35,38 @@ Agenda:
 * Hardware acceleration for PyTorch – a demonstrator.  James Betson and Lorinc Boer.  University of Southampton, with Embecosm. `[Slides] <presentations/2025-02-20_BetsonBoer_Hardware_Acceleration_for_PyTorch.pdf>`__
 
 2024-06-03 Imagination Technologies Enabling Compute Hardware
-=============================================================
+===============================================================
 
 `[Meeting Recording] <https://zoom.us/rec/play/uMI5QwzoNrBcPNw5RK_5LFnY1Lf7jbR2KYT47HjDNhkdhBaEJmuTPSJKv64NR4H9V54t0EedJHkxL8CW.NrCOkb0QFM4_Q3yi?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2FOKtcRsrHLiyWT2jmrtHenIxC12gLAdHeh0401RgrpUdfV38KtM8T352X6jQiAHxV.bBEV-mBEqWE5AxAt>`__
 
 Alex Pim from Imagination Technologies presented their view on the customer's journey through compute, and how they are designing their hardware with a software first approach.
 
 Imagination’s view of the customer’s journey through compute - `[slides] <presentations/Imagination_Technologies_Enabling_Compute_Hardware.pdf>`__.
- 
+
 HW Accel using oneAPI slide: Direct support of SYCL on OpenCL vs oneAPI on OpenCL.
-A: 
- 
+A:
+
 Q Colin: Reaction from customers so far?
 A: Positive, like being able to use existing code for algorithms rather than porting, want to understand how this fits into what their currently doing and are investigating SYCL.
- 
+
 Q: Looked at anything other than OpenCL for implementing SYCL?
 A: Already had mature OpenCL driver which made that attractive, looking at what to use in the future but no conclusion.
- 
+
 Q: Why continue looking at other options?
 A: In Imagination Technology office, part of brief is to look at upcoming technologies, never assume that today’s tech will still be tomorrow’s tech.
 A: What speed is OpenCL moving in relation to AI, is it moving in the right direction.
 A: OpenCL works, no issue.
- 
+
 Q Ronan: Do you have a modern LLVM for your GPU? Often problem supporting UXL is technical debt in LLVM backend.
 A: Have LLVM, has enabled us to move quickly and get tests working etc.
- 
+
 Q Ronan: Support USM extension in OpenCL?
 A: Yes, have initial support for that.  Had SVM support so adapted that.  Initial block for using SYCLomatic was it used USM a lot.
- 
+
 Q Colin: What extensions do you support?  It feels like it’s not well documented.
 A: Initially the only thing that didn’t work was USM, could execute simple SYCL immediately.
 A: Sometimes an error will pop up when building something saying some extension isn’t supported.
- 
+
 Q Ben: Do you support USM today?  Did you implement the Intel USM extension?
 A: I have access to an internal beta version, not in public support yet.
 
@@ -90,10 +94,10 @@ Attendees:
 * Ruyman Reyes (Codeplay)
 * Verena Beckham (Codeplay)
 * Victor Lomuller (Codeplay)
-* Victor Lu 
+* Victor Lu
 
 2024-02-15 oneAPI Construction Kit and Level Zero 1.9
-=====================================================
+=======================================================
 
 Agenda:
 

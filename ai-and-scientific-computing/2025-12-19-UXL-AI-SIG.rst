@@ -3,7 +3,7 @@
 =========================================
 
 2025-12-19
-=========
+============
 Attendees
 
 * Biagio COSENZA (University of Salerno)
@@ -22,15 +22,15 @@ Attendees
 * Alison Richards (Intel Corporation)
 * En Shao (University of Chinese Academy of Sciences)
 
-======
+========
 Agenda
-======
+========
 
 **NVIDIA GPU Adaptation for SYCL-MLIR**, **Boyuan Bao**, Beijing Institute of Open Source Chip, (`slides <presentations/2025-12-19-NVIDIA-GPU_ADAPTATION_FOR_SYCL-MLIR_BoYuan.pdf>`__)
 
 
 Background and Motivation
-=========================
+===========================
 
 - **SYCL-MLIR** is an MLIR-based compiler infrastructure for SYCL and heterogeneous
   programming, designed to keep host code and device kernels in the same MLIR
@@ -43,10 +43,10 @@ Background and Motivation
   later shelved internally and is no longer actively maintained.
 
 Technical Contributions
-=======================
+=========================
 
 NVIDIA Built-in Variable Adaptation
------------------------------------
+-------------------------------------
 
 - The generated LLVM IR contained references to SPIR-V built-in variables
   (e.g., thread and block IDs, execution parameters).
@@ -62,7 +62,7 @@ NVIDIA Built-in Variable Adaptation
   while providing a cleaner abstraction.
 
 Kernel Entry Point Handling
----------------------------
+-----------------------------
 
 - Kernel attributes were added to ensure that backend compilation pipelines
   correctly identify kernel entry points.
@@ -70,7 +70,7 @@ Kernel Entry Point Handling
   device kernels.
 
 Pipeline Integration
---------------------
+----------------------
 
 - The current compilation flow is not yet fully unified:
   - Front-end: SYCL source is lowered to MLIR/LLVM using existing front-end tooling (e.g., cgeist-based flow).
@@ -79,7 +79,7 @@ Pipeline Integration
   stages, enabling generation of executable binaries for NVIDIA GPUs.
 
 Results and Validation
-=====================
+========================
 
 - Correctness was validated using **SYCLBench** and **PolyBench** test suites.
 - Most benchmarks executed successfully on NVIDIA GPUs.
@@ -87,23 +87,23 @@ Results and Validation
   The focus was on functional correctness and backend enablement.
 
 Q&A and Strategic Discussion
-============================
+==============================
 
 Performance Evaluation
-----------------------
+------------------------
 
 - **Ettore Tiotto** noted that performance comparison against a baseline
   (without SYCL-MLIR translation) would be a natural next step.
 - The presenters confirmed that performance analysis has not yet been performed.
 
 Future Backend Support
-----------------------
+------------------------
 
 - The team plans to explore additional backends, including **AMD GPUs**.
 - It was noted that the AMD path should be similar, using ROCDL-based lowering.
 
 Maintenance and Upstreaming Strategy
-------------------------------------
+--------------------------------------
 
 - The team asked whether to contribute the NVIDIA backend through Intel’s existing
   repository or via UXL processes.
@@ -112,7 +112,7 @@ Maintenance and Upstreaming Strategy
   - Forking removes reliance on Intel-internal CI infrastructure and enables independent CI coverage across a broader hardware ecosystem.
 
 Front-end Considerations
-------------------------
+--------------------------
 
 - **Whitney** asked whether replacing the current front-end (cgeist) with a more
   standardized MLIR-based front-end such as CIR (Clang IR) was being considered.
@@ -122,7 +122,7 @@ Front-end Considerations
   prototyping or long-term productization.
 
 UXL Foundation Process for Adding a Repository
-----------------------------------------------
+------------------------------------------------
 
 - **Penporn Koanantakool (Google)** and **Alison Richards (Intel)** explained that
   proposals for hosting a repository under the UXL Foundation should be brought
@@ -132,7 +132,7 @@ UXL Foundation Process for Adding a Repository
   in determining whether a project is suitable to be hosted under UXL.
 
 Announcements
-=============
+===============
 
 - **UXL Foundation Members Meeting**
   - Date: **January 15**
