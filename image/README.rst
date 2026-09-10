@@ -1,6 +1,19 @@
-======================================
-Image SIG - a oneAPI Community Forum
-======================================
+==================================
+UXL Foundation Image SIG (retired)
+==================================
+
+.. note::
+
+   The Image SIG is retired. John Melonakos confirmed this status on
+   September 10, 2026; this is the confirmation date, not a recorded retirement
+   date. The scope, goals and plans below are retained as historical material
+   and do not describe an active group or current commitments.
+
+For active groups and participation routes, see the
+`foundation group directory <../README.md#find-your-group>`__.
+For current specification concepts and project documentation, use the
+`dynamic oneAPI specification
+<https://uxlfoundation.org/specifications/oneapi/technical-overview/>`__.
 
 Introduction
 ==============
@@ -90,17 +103,15 @@ processing and look forward to contributing to this journey.
 
 --------
 
-The Image SIG is led by John Melonakos.
+The Image SIG was led by John Melonakos.
 
 Meeting information
 =====================
 
 The previously announced meeting was December 14, 2023, 10–11am CST.
 This is a historical announcement, not an upcoming meeting invitation.
-For current participation information, use the
-`UXL mailing lists <https://lists.uxlfoundation.org/groups>`__.
-The scope and plans below describe the group's published remit; a current
-meeting schedule is not recorded on this page.
+The retired group has no current meeting schedule on this page. Use the
+foundation group directory above to find active discussions.
 
 Archived meeting notes from meetings held under the oneAPI
 Community Forum can be found `here`_
