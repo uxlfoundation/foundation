@@ -47,3 +47,9 @@ For rendering and meeting-index checks, install `docutils==0.19` and run
 `python .github/scripts/check_document_structure.py`. The check reports malformed
 reStructuredText and dated records missing from sibling indexes. External URLs
 and cross-document section anchors still require review.
+
+Maintainers can run **External link review** from the Actions tab to obtain an
+advisory report for guidance and indexes. It distinguishes missing pages from
+access restrictions and transient failures, and does not block pull requests.
+PDFs and restricted meeting materials are excluded. To run locally, use
+`python .github/scripts/report_external_links.py`; it writes `external-link-report.md`.
