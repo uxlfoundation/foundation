@@ -64,7 +64,7 @@ are available for [Image](image/README.rst) and
 | --- | --- |
 | [Foundation charter](doc/uxl-foundation-charter.rst) | Mission, projects and participation |
 | [Steering Committee](steering-committee/README.rst) | Governance and published meeting minutes |
-| [oneAPI specification](https://uxlfoundation.org/specifications/oneapi/technical-overview/) | Dynamic specification and links to current project documentation |
+| [Dynamic oneAPI specification](https://uxlfoundation.org/specifications/oneapi/technical-overview/) | Dynamic specification and links to current project documentation |
 | [Community operations](doc/README.rst) | Meeting guidance, GitHub, Slack and web hosting |
 | [Status report archive](monthly-status/) | Dated foundation updates |
 

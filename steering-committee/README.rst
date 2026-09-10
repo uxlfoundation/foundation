@@ -1,11 +1,11 @@
-=================================
+===================================
 UXL Foundation Steering Committee
-=================================
+===================================
 
 The Steering Committee is formed of representatives from Steering Members of the UXL Foundation.
 
-The committee usually meets every two weeks and is responsible for making decisions about the 
-overall organization and governance of the foundation. The groups also approves the plans and 
+The committee usually meets every two weeks and is responsible for making decisions about the
+overall organization and governance of the foundation. The committee also approves the plans and
 outputs from the Working Groups.
 
 Minutes from the Steering Committee meetings are made available in this folder.
@@ -40,6 +40,8 @@ Minutes from the Steering Committee meetings are made available in this folder.
 
 `9th January 2025 <2025-01-09-UXL-Steering-Committee.rst>`_
 
+`12th December 2024 <2024-12-12-UXL-Steering-Committee.rst>`_
+
 `5th December 2024 <2024-12-05-UXL-Steering-Committee.rst>`_
 
 `14th November 2024 <2024-11-14-UXL-Steering-Committee.rst>`_
@@ -50,7 +52,9 @@ Minutes from the Steering Committee meetings are made available in this folder.
 
 `3rd October 2024 <2024-10-03-UXL-Steering-Committee.rst>`_
 
-`19th September 2024 <2024-09-05-UXL-Steering-Committee.rst>`_
+`19th September 2024 <2024-09-14-UXL-Steering-Committee.rst>`_
+
+The September 19 record retains its original September 14 filename.
 
 `5th September 2024 <2024-09-05-UXL-Steering-Committee.rst>`_
 

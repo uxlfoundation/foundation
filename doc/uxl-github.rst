@@ -1,75 +1,38 @@
-=================
 UXL use of GitHub
-=================
+===================
 
-This document describes the use of GitHub for the UXL project.
+The `uxlfoundation organization <https://github.com/uxlfoundation>`__ hosts
+foundation governance, Working Group coordination and individual library projects.
+Use the `project directory <../PROJECTS.md>`__ to find the right repository.
 
-uxlfoundation org
-=================
+Access and ownership
+----------------------
 
-The UXL project is hosted on GitHub under the `uxlfoundation`_ organization. It
-contains repos that are not specific to any one open source project. There will
-be a small set of ``owners`` for the org. ``@thelinuxfoundation`` is an owner
-as backup in case UXL owners are not available.
+Use role-based GitHub teams to manage access and route reviews. The foundation's
+``sig-leaders`` team and the Working Group's ``open-source-wg-maintainers`` team
+are identified in their CODEOWNERS files. Projects retain their own maintainers.
 
-Giving Access to Resources
---------------------------
+Request access through the relevant repository maintainers. Include the repository,
+the work you need to do and the access required. Organization-level changes need
+an organization owner; repository access does not imply organization administration.
+See `Contributing <../CONTRIBUTING.md>`__ for documentation review guidance.
 
-Try to use GitHub Teams that are defined by roles. For example,
-``@oneapi-spec-maintainers`` are the maintainers for the oneapi spec and have
-write access. Using a team-based role instead of directly adding maintainers to
-the repo makes it possible to ``@tag`` the team in issues and PRs.
+GitHub Actions and runners
+----------------------------
 
-If a role specific team is overkill, but you still want to be able to ``@tag``
-someone in a repo in uxlfoundation org, they can be added to the `UXL Members`_
-team. If you have a role in UXL (e.g. SIG leader), you can be added as a
-maintainer of this team.
+The Working Group's `CI requirements and reported infrastructure
+<https://github.com/uxlfoundation/open-source-working-group/blob/main/project-infrastructure/project-ci-documentation.md>`__
+is the shared reference for project requirements and infrastructure evidence.
 
-GitHub Actions
-==============
+Before using a runner, confirm its availability, permitted repositories, labels
+and support contact with its owner. A workflow records intended usage; a recent
+successful run shows that the configuration worked at that time. Neither
+guarantees future capacity.
 
-UXL Foundation projects make use of GitHub Actions for continuous integration
-and testing.
+The former Intel Max 1550 runner catalogue on this page is historical. The
+`August 2025 Working Group record
+<https://github.com/uxlfoundation/open-source-working-group/blob/main/meetings/notes/2025-08-26.rst>`__
+describes changes to hardware access and support. Do not use the old catalogue
+as a current availability guarantee. It remains accessible in this file's history.
 
-Available Runners
------------------
-
-In addition to the `Standard GitHub-hosted runners`_ the UXL Foundation GitHub
-organization has several member-hosted test systems available for use:
-
-Intel Data Center GPU Max 1550
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-These systems are provided by Intel and maintained by Codeplay Software Ltd.
-
-The following labels are usable:
-
-+------------------+------------+-----------+-------------+
-| Label            | vCPU       | Memory    | GPU         |
-+==================+============+===========+=============+
-| uxl-xlarge       | 4          | 16Gi      | -           |
-+------------------+------------+-----------+-------------+
-| uxl-gpu-xlarge   | 4          | 16Gi      | 1x 1550 GPU |
-+------------------+------------+-----------+-------------+
-| uxl-gpu-2xlarge  | 8          | 32Gi      | 2x 1550 GPU |
-+------------------+------------+-----------+-------------+
-| uxl-gpu-4xlarge  | 16         | 64Gi      | 1x 1550 GPU |
-+------------------+------------+-----------+-------------+
-| uxl-gpu-6xlarge  | 24         | 96Gi      | 2x 1550 GPU |
-+------------------+------------+-----------+-------------+
-| uxl-gpu-8xlarge  | 32         | 128Gi     | 1x 1550 GPU |
-+------------------+------------+-----------+-------------+
-| uxl-gpu-10xlarge | 40         | 160Gi     | 2x 1550 GPU |
-+------------------+------------+-----------+-------------+
-| uxl-gpu-12xlarge | 48         | 192Gi     | 4x 1550 GPU |
-+------------------+------------+-----------+-------------+
-| uxl-gpu-16xlarge | 64         | 256Gi     | 1x 1550 GPU |
-+------------------+------------+-----------+-------------+
-| uxl-gpu-24xlarge | 96         | 384Gi     | 4x 1550 GPU |
-+------------------+------------+-----------+-------------+
-| uxl-gpu-48xlarge | 170        | 769Gi     | 8x 1550 GPU |
-+------------------+------------+-----------+-------------+
-
-.. _`uxlfoundation`: https://github.com/uxlfoundation
-.. _`UXL Members`: https://github.com/orgs/uxlfoundation/teams/uxl-members
-.. _`Standard GitHub-hosted runners`: https://docs.github.com/en/enterprise-cloud@latest/actions/writing-workflows/choosing-where-your-workflow-runs/choosing-the-runner-for-a-job#choosing-github-hosted-runners
+`Foundation home <../README.md>`__ | `Community operations <README.rst>`__

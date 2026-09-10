@@ -42,3 +42,8 @@ a new license or change governance or contribution terms. Ask foundation
 operations to confirm applicable terms before importing third-party material.
 Report security vulnerabilities through the affected project's private reporting
 channel or security policy, rather than posting details in a public issue.
+
+For rendering and meeting-index checks, install `docutils==0.19` and run
+`python .github/scripts/check_document_structure.py`. The check reports malformed
+reStructuredText and dated records missing from sibling indexes. External URLs
+and cross-document section anchors still require review.

@@ -1,11 +1,19 @@
-==============================================================================
+================================================================================
 UXL Foundation: List of Suggested Projects for the UXL Foundation in GSOC 2025
-==============================================================================
+================================================================================
+
+.. note::
+
+   Historical 2025 record. For current APIs, see the
+   `dynamic specification <https://uxlfoundation.org/specifications/oneapi/technical-overview/>`__.
+   This page does not announce current programs,
+   deadlines or commitments. See the `foundation home <../README.md>`__
+   for current participation routes.
 
 The UXL Foundation governs a set of predominantly C++ projects that aim to bring vendor neutrality to HPC and AI software development using CPUs, GPUs and other accelerators.
 These projects are based on the oneAPI specification and open source software and cover a range of domains from AI, Math, ISO Parallel C++ and multi-node GPU systems.
 
-Our overall goal is to build a multi-architecture multi-vendor software ecosystem for all accelerators, 
+Our overall goal is to build a multi-architecture multi-vendor software ecosystem for all accelerators,
 unify the heterogeneous compute ecosystem around open standards and build on and expand open-source projects for accelerated computing.
 
 This page contains proposed projects for GSOC 2025 have been provided by different UXL Foundation projects.
@@ -14,10 +22,10 @@ You can join our Slack workspace and channels to discuss any of these ideas, or 
 Each project under the UXL Foundation has their own Slack channel.
 
 `oneMath`_
-==========
+============
 
-The oneMath project is a library that develops a standards based API for a range of math operators so that developers can call the 
-same API and target multiple CPUs and GPUs from different vendors. For GSOC there are opportunities to implement new functionality for the oneMath project 
+The oneMath project is a library that develops a standards based API for a range of math operators so that developers can call the
+same API and target multiple CPUs and GPUs from different vendors. For GSOC there are opportunities to implement new functionality for the oneMath project
 to enable the library to support new operators and backends for different processor architectures.
 
 Potential mentors for the projects are maintainers of the oneMath project including Romain Biessy and Maria Kraynyuk.
@@ -25,7 +33,7 @@ Potential mentors for the projects are maintainers of the oneMath project includ
 The following are projects that have been proposed by oneMath.
 
 Implement New Math Operators for different CPU and GPU targets
---------------------------------------------------------------
+----------------------------------------------------------------
 
 **Random Number Generation (RNG)**
 
@@ -43,7 +51,7 @@ The development work will require implementing the bindings for these RNG routin
 We expect each implementation might take 90-175 hours but this depends since the learnings from integrating the first operator can be taken into the others.
 
 Add open source backends for LAPACK and DFT
--------------------------------------------
+---------------------------------------------
 
 **LAPACK**
 oneMath has been adding open source implementations for the different math domains it supports and we would like to see another added for LAPACK for x86 and aarch CPUs.
@@ -57,9 +65,9 @@ The project would be to add an open-source CPU backend to the DFT domain for one
 This project is expected to take 90 hours, and requires tests to also be implemented for this new target and backend.
 
 `oneDAL`_
-=========
+===========
 
-oneAPI Data Analytics Library (oneDAL) is a powerful machine learning library that helps you accelerate 
+oneAPI Data Analytics Library (oneDAL) is a powerful machine learning library that helps you accelerate
 big data analysis at all stages: preprocessing, transformation, analysis, modeling, validation, and decision making.
 
 Potential mentors for the projects include oneDAL maintainers Ian Faust and Sergey Yakovlev.
@@ -67,11 +75,11 @@ Potential mentors for the projects include oneDAL maintainers Ian Faust and Serg
 The project has produced their own list of ideas on `the oneDAL GitHub`_.
 
 `oneCCL`_
-=========
+===========
 
 The following project is being proposed by the oneCCL project.
-oneAPI Collective Communications Library (oneCCL) provides an efficient implementation 
-of communication patterns used in deep learning on multi-node archtiectures such as research 
+oneAPI Collective Communications Library (oneCCL) provides an efficient implementation
+of communication patterns used in deep learning on multi-node archtiectures such as research
 clusters.
 
 Potential mentor for the projects is oneCCL maintainer Maria Garzaran and other engineers from the project will be available.

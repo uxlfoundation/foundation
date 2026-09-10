@@ -2,6 +2,14 @@
 Math Special Interest Group Meeting Notes
 =========================================
 
+
+.. note::
+
+   Current guidance: the `dynamic oneAPI specification <https://uxlfoundation.org/specifications/oneapi/technical-overview/>`__
+   links to the concepts and project documentation maintained today. These minutes
+   record the discussion at the meeting date; release plans and API descriptions
+   below are historical. Obsolete destinations have been updated or removed.
+
 2024-04-24
 ==========
 
@@ -42,7 +50,7 @@ Agenda:
 
 New oneMKL sparse specification:
 
-* Lots of help from Gajanan Choudhary and Spencer Patty as well. This is a follow up from a previous Math SIG meeting, where I explained some changes. Specification Pull Request `#522 <https://github.com/uxlfoundation/oneAPI-spec/pull/522>`__ is in review. Main motivation for all changes was to better align with all of the backends we want to support, and make it easier to transition from existing applications to oneMKL interfaces.
+* Lots of help from Gajanan Choudhary and Spencer Patty as well. This is a follow up from a previous Math SIG meeting, where I explained some changes. Specification Pull Request #522 (historical reference) is in review. Main motivation for all changes was to better align with all of the backends we want to support, and make it easier to transition from existing applications to oneMKL interfaces.
 * We are renaming some operations.
 * There will be a single function for different types of matrix-vector multiplication; gemv, symv, and trmv will all be replaced by spmv.
 * Similarly, gemm will become spmm, and trsv will be spsv.
@@ -115,7 +123,7 @@ Updates from last meeting:
 * oneMKL interfaces v0.4 was released
 * In addition to the #sig-math channel on Slack, there is also a #onemkl channel for discussions on the oneMKL interfaces open source project.
 * The UXL Open Source Working Group created a checklist to ensure best practices are used in oneMKL interfaces and other open source projects; these tasks will be worked on in the coming months.
-* The oneAPI spec repo was moved from https://github.com/oneapi-src/oneAPI-spec to https://github.com/uxlfoundation/oneAPI-spec.
+* A specification-hosting migration was reported at this meeting. Current guidance is the `dynamic specification <https://uxlfoundation.org/specifications/oneapi/technical-overview/>`__.
 * There are a couple of pull requests that may be of interest (including the one Romain discussed earlier in the meeting), as well as an open issue.
 
 * The spec moved to the uxlfoundation org, but the oneMKL interfaces will be moved to a different org?
