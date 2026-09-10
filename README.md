@@ -45,9 +45,9 @@ Special Interest Groups connect domain experts, users and project developers.
 | [Hardware](hardware/README.rst) | Enabling and integrating different hardware architectures |
 | [Memory Centric Computing](memory-centric-computing/README.rst) | Participation routes and the group announcement |
 
-Each group page provides its scope and contact information. Additional records
-are available for the [retired Image SIG](image/README.rst) and
-[Safety Critical](safety-critical/README.rst) discussions.
+Each group page provides its scope and contact information. Historical material
+is preserved for the retired [Image](image/README.rst) and
+[Safety Critical](safety-critical/README.rst) SIGs.
 
 ## Join the community
 

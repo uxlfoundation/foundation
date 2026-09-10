@@ -1,21 +1,29 @@
-====================================
-UXL Foundation Safety Critical SIG
-====================================
+=============================================
+UXL Foundation Safety Critical SIG (retired)
+=============================================
 
-The Safety Critical SIG hosts discussions and presentations
+.. note::
+
+   The Safety Critical SIG is retired. WG co-chair John Melonakos confirmed
+   this status on September 10, 2026; this is the confirmation date, not a
+   recorded retirement date. The scope and meeting records below are historical.
+
+The Safety Critical SIG hosted discussions and presentations
 on functional safety topics as relating to the UXL specification
-and implementation. The aim of the SIG is to enable or
+and implementation. The aim of the SIG was to enable or
 accelerate integration of UXL elements into safety critical
 systems, targeting markets such as automotive and avionics.
 
-The Safety Critical SIG is led by Verena Beckham (Codeplay).
+The Safety Critical SIG was led by Verena Beckham (Codeplay).
 
 Participation and records
 ---------------------------
 
-For current meeting information, find the group through the
-`UXL mailing lists <https://lists.uxlfoundation.org/groups>`__ and the
-`foundation participation guide <../README.md#join-the-community>`__.
+For active groups and participation routes, see the
+`foundation group directory <../README.md#find-your-group>`__.
+For current specification concepts and project documentation, use the
+`dynamic oneAPI specification
+<https://uxlfoundation.org/specifications/oneapi/technical-overview/>`__.
 
 Published meeting notes:
 
