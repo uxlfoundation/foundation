@@ -23,18 +23,30 @@ Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/math
 
-`13th May 2026 <2026-05-13-UXL-Math-SIG.rst>`_
+Meeting archive
+===============
 
-`12th November 2025 <2025-11-12-UXL-Math-SIG.rst>`_
+Summaries describe the recorded discussion; consult the minutes for decisions and materials.
 
-`28th May 2025 <2025-05-28-UXL-Math-SIG.rst>`_
+.. list-table:: Meeting archive
+   :header-rows: 1
+   :widths: 22 78
 
-`26th February 2025 <2025-02-26-UXL-Math-SIG.rst>`_
-
-`2nd October 2024 <2024-10-02-UXL-Math-SIG.rst>`_
-
-`31st July 2024 <2024-07-31-UXL-Math-SIG.rst>`_
-
-`24th April 2024 <2024-04-24-UXL-Math-SIG.rst>`_
-
-`31st January 2024 <2024-01-31-UXL-Math-SIG.rst>`_
+   * - Date / notes
+     - Discussion topics
+   * - `2026-05-13 <2026-05-13-UXL-Math-SIG.rst>`__
+     - Dynamic specification and project documentation strategy
+   * - `2025-11-12 <2025-11-12-UXL-Math-SIG.rst>`__
+     - Arm SVE optimizations for OpenBLAS and NumPy; project updates
+   * - `2025-05-28 <2025-05-28-UXL-Math-SIG.rst>`__
+     - USM and SYCL buffers; Arm CI; MLKAPS autotuning; OpenBLAS backend discussion
+   * - `2025-02-26 <2025-02-26-UXL-Math-SIG.rst>`__
+     - oneMath on Arm with ArmPL; Docker containers; project updates
+   * - `2024-10-02 <2024-10-02-UXL-Math-SIG.rst>`__
+     - DFT descriptor type safety; project updates
+   * - `2024-07-31 <2024-07-31-UXL-Math-SIG.rst>`__
+     - ArrayFire math functions and higher-level APIs; project updates
+   * - `2024-04-24 <2024-04-24-UXL-Math-SIG.rst>`__
+     - Sparse BLAS APIs and buffer API discussion
+   * - `2024-01-31 <2024-01-31-UXL-Math-SIG.rst>`__
+     - GROMACS case study: discrete Fourier transforms with oneMKL interfaces
