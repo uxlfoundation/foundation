@@ -1,6 +1,10 @@
-"""Check local file targets in Markdown and reStructuredText (not URL/anchors)."""
+"""Check local file targets in Markdown and reStructuredText including document section anchors."""
 
 from pathlib import Path
+import io
+from html import unescape
+import unicodedata
+from docutils.core import publish_doctree
 import posixpath
 import re
 import sys
@@ -14,11 +18,43 @@ TARGETS = re.compile(
 )
 
 
+def anchors(path):
+    content = path.read_text(encoding='utf-8')
+    if path.suffix.lower() == '.rst':
+        tree = publish_doctree(content, settings_overrides={
+            'halt_level': 6, 'report_level': 5, 'warning_stream': io.StringIO(),
+            'raw_enabled': False, 'file_insertion_enabled': False})
+        return set(tree.ids)
+    # GitHub heading IDs: preserve Unicode letters, remove punctuation,
+    # replace spaces with hyphens, and suffix repeated headings.
+    result = set(re.findall(r'<[^>]+(?:id|name)=["\']([^"\']+)', content))
+    content = re.sub(r'(?ms)^(`{3,}|~{3,}).*?^\1[^\n]*$', '', content)
+    lines = content.splitlines()
+    for index, line in enumerate(lines):
+        heading = re.match(r'^ {0,3}#{1,6}\s+(.+?)(?:\s+#+)?\s*$', line)
+        title = heading.group(1) if heading else None
+        if title is None and index + 1 < len(lines) and line.strip():
+            if re.fullmatch(r' {0,3}(?:=+|-+)\s*', lines[index + 1]):
+                title = line.strip()
+        if title is None:
+            continue
+        title = unescape(re.sub(r'<[^>]*>', '', title))
+        title = re.sub(r'!?\[([^\]]*)\]\([^)]*\)', r'\1', title).lower()
+        slug = ''.join(c for c in title if c in ' -_' or unicodedata.category(c)[0] in 'LNM').replace(' ', '-')
+        candidate, suffix = slug, 0
+        while candidate in result:
+            suffix += 1
+            candidate = f'{slug}-{suffix}'
+        result.add(candidate)
+    return result
+
+
 def check(root):
     root = root.resolve()
     entries = [p for p in root.rglob('*') if '.git' not in p.relative_to(root).parts]
     paths = {p.relative_to(root).as_posix() for p in entries}
     errors = []
+    anchor_cache = {}
     for source in entries:
         if source.suffix.lower() not in {'.md', '.rst'} or not source.is_file():
             continue
@@ -29,14 +65,14 @@ def check(root):
                 target = target[1:target.index('>')]
             else:
                 target = re.split(r'\s+[\"\']', target, maxsplit=1)[0]
-            if not target or target.startswith(('#', '//')):
+            if not target or target.startswith('//'):
                 continue
             parsed = urlsplit(target)
             if parsed.scheme:
                 continue
             local = unquote(parsed.path)
             if not local:
-                continue
+                local = source.name
             base = root if local.startswith('/') else source.parent
             candidate = (base / local.lstrip('/')).resolve()
             try:
@@ -49,6 +85,12 @@ def check(root):
             if normalized not in paths and candidate != root:
                 line = content.count('\n', 0, match.start()) + 1
                 errors.append(f'{source.relative_to(root).as_posix()}:{line}: missing local target: {target}')
+            elif parsed.fragment and candidate.is_file() and candidate.suffix.lower() in {'.md', '.rst'}:
+                if candidate not in anchor_cache:
+                    anchor_cache[candidate] = anchors(candidate)
+                if unquote(parsed.fragment) not in anchor_cache[candidate]:
+                    line = content.count('\n', 0, match.start()) + 1
+                    errors.append(f'{source.relative_to(root).as_posix()}:{line}: missing section: {target}')
     return errors
 
 
@@ -56,5 +98,5 @@ if __name__ == '__main__':
     errors = check(Path.cwd())
     for error in errors:
         print(error)
-    print(f'Local documentation links: {len(errors)} error(s). External URLs and anchors are not checked.')
+    print(f'Local documentation links: {len(errors)} error(s). External URLs and non-document fragments are not checked.')
     sys.exit(bool(errors))

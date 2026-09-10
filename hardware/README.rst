@@ -17,6 +17,28 @@ Community Forum can be found `here`_
 
 .. _here: https://github.com/oneapi-src/oneAPI-tab/tree/main/hardware
 
+Meeting archive
+===============
+
+Browse the topics below for notes, slides, and available recordings.
+
+.. list-table:: Meeting archive
+   :header-rows: 1
+   :widths: 22 78
+
+   * - Date / notes
+     - Discussion topics
+   * - `2025-05-08 <#meeting-2025-05-08>`__
+     - Scaling Workloads with a Memory Lake
+   * - `2025-02-20 <#meeting-2025-02-20>`__
+     - Embecosm and University of Southampton Porting to AI Hardware
+   * - `2024-06-03 <#meeting-2024-06-03>`__
+     - Imagination Technologies Enabling Compute Hardware
+   * - `2024-02-15 <#meeting-2024-02-15>`__
+     - oneAPI Construction Kit and Level Zero 1.9
+
+.. _meeting-2025-05-08:
+
 2025-05-08 Scaling Workloads with a Memory Lake
 =================================================
 
@@ -24,6 +46,8 @@ Agenda:
 
 * Introduction.  Alastair Murray, Codeplay Software. `[Slides] <presentations/2025-05-08_AlastairMurray_SIG_Intro.pdf>`__
 * Scaling Workloads with a Memory Lake.  Dr. Skyler Windh, Micron Scalable Memory Systems Pathfinding. `[Slides] <presentations/2025-05-08_SkylerWindh_Memory_Lakes.pdf>`__
+
+.. _meeting-2025-02-20:
 
 2025-02-20 Embecosm and University of Southampton Porting to AI Hardware
 ==========================================================================
@@ -33,6 +57,8 @@ Agenda:
 * Introduction.  Alastair Murray, Codeplay Software. `[Slides] <presentations/2025-02-20_AlastairMurray_SIG_Intro.pdf>`__
 * Porting AI to New Hardware: A Case Study. Jeremy Bennett and William Jones, Embecosm. `[Slides] <presentations/2025-02-20_BennettJones_Porting_AI_to_New_Hardware_Case_Study.pdf>`__
 * Hardware acceleration for PyTorch – a demonstrator.  James Betson and Lorinc Boer.  University of Southampton, with Embecosm. `[Slides] <presentations/2025-02-20_BetsonBoer_Hardware_Acceleration_for_PyTorch.pdf>`__
+
+.. _meeting-2024-06-03:
 
 2024-06-03 Imagination Technologies Enabling Compute Hardware
 ===============================================================
@@ -95,6 +121,8 @@ Attendees:
 * Verena Beckham (Codeplay)
 * Victor Lomuller (Codeplay)
 * Victor Lu
+
+.. _meeting-2024-02-15:
 
 2024-02-15 oneAPI Construction Kit and Level Zero 1.9
 =======================================================

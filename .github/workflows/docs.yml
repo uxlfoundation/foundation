@@ -14,6 +14,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           persist-credentials: false
+          fetch-depth: 0
       - name: Install documentation parser
         run: python3 -m pip install docutils==0.19
       - name: Test documentation checks
@@ -22,3 +23,9 @@ jobs:
         run: python3 .github/scripts/check_local_links.py
       - name: Check document structure
         run: python3 .github/scripts/check_document_structure.py
+      - name: Review new attachments
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: python3 .github/scripts/report_new_attachments.py
