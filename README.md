@@ -46,7 +46,7 @@ Special Interest Groups connect domain experts, users and project developers.
 | [Memory Centric Computing](memory-centric-computing/README.rst) | Participation routes and the group announcement |
 
 Each group page provides its scope and contact information. Additional records
-are available for [Image](image/README.rst) and
+are available for the [retired Image SIG](image/README.rst) and
 [Safety Critical](safety-critical/README.rst) discussions.
 
 ## Join the community
