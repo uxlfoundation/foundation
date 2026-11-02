@@ -33,7 +33,8 @@ Jul 28, 2026     | TBB is 20!, Michael Voss (Intel)
                  | oneTBB meets the community, with two short talks:
                  | - oneTBB use in DUNE/Phlex and in High-Energy Physics, Kyle Knoepfel (Fermilab)
                  | - Scaling Drug Discovery via oneTBB, Federico Ficarelli (CINECA)
-Nov 3, 2026      | tbd
+Nov 3, 2026      | Cross-Architecture Autotuning for SYCL by Hari Abram (Chalmers University of Technology), joint work with Nikela Papadopoulou, Jens Domke, Miquel Pericàs
+                 | Python meet SYCL: News from DPCTL by Nikita Grigorian (Intel)
 ================ ================================================
 
 
