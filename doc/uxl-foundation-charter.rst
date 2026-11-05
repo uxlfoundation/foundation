@@ -68,11 +68,28 @@ deploy it across accelerators, regardless of vendor, by facilitating
 collaboration between organisations designing the latest processors and
 software developers building the latest innovative solutions.
 We create the environment required for cross-industry participation
-on the specification and open source projects that are governed by the UXL
+on the specification and the open source projects hosted by the UXL
 Foundation. This is achieved by adopting best practices for open source
 development and providing the structure for open discussion and decision making.
 The UXL Foundation is part of the Linux Foundation and is founded on the
 principles of open governance, as outlined in the UXL `GitHub repository`_.
+
+Foundation and Projects
+=========================
+
+Each project governs itself. The foundation's Open Source Implementations
+Working Group charter makes source code contributions subject to "any policies
+and governance rules included in the source code's repository."
+
+- The UXL Foundation has one Working Group. It covers the specification and the
+  open source projects, and operates under both of the foundation's Working
+  Group charters.
+- Decisions for a project, including its maintainers, roadmap and APIs, are made
+  in the project, under the governance rules in its own repository.
+- The Working Group sets shared guidelines and templates and coordinates work
+  across projects. It does not govern the projects.
+- The Steering Committee governs the foundation itself: membership, which
+  projects the foundation hosts, and foundation assets.
 
 UXL Foundation Projects
 =========================
@@ -93,11 +110,11 @@ project's documentation, the canonical source for current APIs and requirements.
 
 A list of specific areas where the community can contribute to projects is
 being added to the project issue trackers under the “Help Wanted” label.
-Proposals for significant changes or additions to the projects can be made through
-the RFC process, Open Source Working Group, and discussions can be had on the
-`Slack`_ channel.
+Proposals for significant changes or additions to a project are made through
+that project's own RFC process. Cross-project topics go to the Working Group, and
+discussions can be had on the `Slack`_ channel.
 
-The current work packages are tracked on the `Open Source Working Group GitHub
+The current work packages are tracked on the `Working Group GitHub
 repository`_.
 
 Accelerated Building Blocks
@@ -115,7 +132,7 @@ project requires a set of fundamentals that an open source needs, such as
 open decision robust build infrastructure in order to be successfully
 adopted across the community. The projects have adopted the best practices
 for open source development, such as using the OpenSSF security badge, and
-the project health is monitored regularly and reviewed by the Working Group
+the project health is monitored regularly and shared with the Working Group
 and Steering Committee.
 
 Math Domains - The `oneMath`_ project
@@ -160,7 +177,7 @@ Public Build and CI
 There is an ongoing work package to set up sufficient public CI infrastructure
 for the projects. This will document how new community managed build
 machines can be added and make additional infrastructure available. Please
-contact the Open Source Working Group to contribute CI resources for the
+contact the Working Group to contribute CI resources for the
 oneMath project.
 
 Open Source Contributions
@@ -305,7 +322,7 @@ testing across hardware, operating systems and driver level software. This
 requires infrastructure hosted by the foundation and community members
 including processor vendors and Linux distributions. A work package for public
 build infrastructure is ongoing and community contributions are welcomed to
-this effort. Contact the Open Source Working Group through the `Slack`_
+this effort. Contact the Working Group through the `Slack`_
 Channel or `mailing list`_.
 
 Open Source
@@ -351,7 +368,7 @@ channels or `mailing list`_.
 .. _`oneDPL`: https://github.com/uxlfoundation/oneDPL
 .. _`oneAPI Construction Kit`: https://github.com/uxlfoundation/oneapi-construction-kit
 .. _`Slack`: http://slack-invite.uxlfoundation.org/
-.. _`Open Source Working Group GitHub repository`: https://github.com/uxlfoundation/open-source-working-group
+.. _`Working Group GitHub repository`: https://github.com/uxlfoundation/open-source-working-group
 .. _`dynamic oneAPI specification`: https://uxlfoundation.org/specifications/oneapi/technical-overview/
 .. _`mailing list`: https://lists.uxlfoundation.org
 .. _`GitHub project board`: https://github.com/orgs/uxlfoundation/projects/5?pane=info
