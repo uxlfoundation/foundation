@@ -21,9 +21,9 @@ community records.
 
 ## From the community
 
-- **August 19, 2026 — Working Group:** project introductions, AI agent skills and
-  evaluation, and learning materials.
-  [Read the minutes](https://github.com/uxlfoundation/open-source-working-group/blob/main/meetings/notes/2026-08-19.rst).
+- **October 28, 2026 — Working Group:** AI agent skills roundtable, hosting the
+  oneAPI plugins for NVIDIA and AMD GPUs, and the oneAPI DevSummit.
+  [Read the minutes](https://github.com/uxlfoundation/open-source-working-group/blob/main/meetings/notes/2026-10-28.rst).
 - **June 25, 2026 — AI & Scientific Computing SIG:** OpenFold optimization with
   oneDNN and the proposed use of KleidiAI on AArch64.
   [Read the minutes and view the slides](ai-and-scientific-computing/2026-6-25-UXL-AI-and-Scientific-Computing-SIG.rst).
